@@ -1,0 +1,1006 @@
+---
+MainSourceFile:  '/build/src/common/classes/DbImplementation.cpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuIntel'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1056
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1056
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuUltraSparc'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1128
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1128
+          Length:          13
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuPowerPc'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1170
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1170
+          Length:          10
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuPowerPc64'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1209
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1209
+          Length:          12
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuMipsel'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1250
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1250
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuMips'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1288
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1288
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuArm'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1324
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1324
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuIa64'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1359
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1359
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuS390'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1395
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1395
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuS390x'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1431
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1431
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuSh'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1469
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1469
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuSheb'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1504
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1504
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuHppa'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1541
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1541
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuAlpha'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1578
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1578
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuArm64'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1616
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1616
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuPowerPc64el'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1654
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1654
+          Length:          14
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuM68k'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1698
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1698
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuRiscV64'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1735
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1735
+          Length:          10
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuMips64el'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1775
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1775
+          Length:          11
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CpuLoongArch'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1816
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1816
+          Length:          12
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''OsWindows'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1859
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1859
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''OsDarwin'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1933
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1933
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''OsSolaris'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      1970
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      1970
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''OsHpux'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      2008
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      2008
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''OsAix'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      2043
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      2043
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''OsMms'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      2077
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      2077
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''OsFreeBsd'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      2111
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      2111
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''OsNetBsd'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      2149
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      2149
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CcMsvc'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      2187
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      2187
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CcXlc'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      2256
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      2256
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CcAcc'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      2290
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      2290
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CcSunStudio'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      2324
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      2324
+          Length:          11
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''CcIcc'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      2364
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+          FileOffset:      2364
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-too-small-loop-variable
+    DiagnosticMessage:
+      Message:         'loop variable has narrower type ''UCHAR'' than iteration''s upper bound ''FB_SIZE_T'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      6272
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-too-small-loop-variable
+    DiagnosticMessage:
+      Message:         'loop variable has narrower type ''UCHAR'' than iteration''s upper bound ''FB_SIZE_T'''
+      FilePath:        '/build/src/common/classes/DbImplementation.cpp'
+      FileOffset:      6334
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__alloc_debug'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      1743
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__alloc'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      1917
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__decode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      2080
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__encode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      2396
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__free'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      2697
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__interprete'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3058
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__interprete_a'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3113
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__log'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3189
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3234
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace_raw'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3276
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__log_status'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3340
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_close'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3406
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_format'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3448
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_lookup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3736
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_open'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3828
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_put'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3881
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4007
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix_lock'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4057
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix_msg'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4112
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__get_prefix'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4168
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__print_status'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4229
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__parse_bpb'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4286
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__parse_bpb2'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4361
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__ftof'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4483
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__print_blr'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4665
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__put_error'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4748
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__qtoq'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4794
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__register_cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4842
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__sqlcode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4905
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__sqlcode_s'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4955
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__temp_file'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5018
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__unregister_cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5111
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__validate_lib_path'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5178
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vax_integer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5260
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vtof'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5317
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vtov'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5375
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5758
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__ulstr'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5779
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__default_printer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5997
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace_printer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      6071
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCounted'' is protected and virtual'
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      1052
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+        FileOffset:      1052
+        Replacements:
+          - FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+            Offset:          1410
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''x'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2254
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2907
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2958
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      3024
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      3027
+      Replacements:
+        - FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+          Offset:          3049
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      9774
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      9900
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''hint'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      12786
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''n'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      12928
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-dcl58-cpp
+    DiagnosticMessage:
+      Message:         'modification of ''std'' namespace can result in undefined behavior'
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      13743
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''AtomicCounter&'''
+      FilePath:        '/build/src/include/../common/classes/fb_atomic.h'
+      FileOffset:      3071
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/include/../common/classes/fb_string.h'
+      FileOffset:      6504
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/include/../common/classes/fb_string.h'
+        FileOffset:      6439
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/include/../common/classes/fb_string.h'
+      FileOffset:      6808
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/include/../common/classes/fb_string.h'
+        FileOffset:      6743
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move constructors should be marked noexcept
+      FilePath:        '/build/src/include/../common/classes/fb_string.h'
+      FileOffset:      19816
+      Replacements:
+        - FilePath:        '/build/src/include/../common/classes/fb_string.h'
+          Offset:          19845
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../common/classes/fb_string.h'
+      FileOffset:      21083
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../common/classes/fb_string.h'
+      FileOffset:      21153
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../common/classes/fb_string.h'
+      FileOffset:      21254
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/src/include/../common/classes/fb_string.h'
+      FileOffset:      21841
+      Replacements:
+        - FilePath:        '/build/src/include/../common/classes/fb_string.h'
+          Offset:          21869
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aReason'''
+      FilePath:        '/build/src/include/../common/classes/locks.h'
+      FileOffset:      4051
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aReason'''
+      FilePath:        '/build/src/include/../common/classes/locks.h'
+      FileOffset:      5783
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''bufferSize'''
+      FilePath:        '/build/src/include/../jrd/../common/classes/Uuid.h'
+      FileOffset:      1494
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/include/../jrd/ods.h'
+      FileOffset:      5502
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/ods.h'
+          FileOffset:      5489
+          Length:          20
+        - FilePath:        '/build/src/include/../jrd/ods.h'
+          FileOffset:      5481
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''status'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452913
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''dbName'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452933
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''attStatus'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452956
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      476
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      15361
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      15542
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+...
