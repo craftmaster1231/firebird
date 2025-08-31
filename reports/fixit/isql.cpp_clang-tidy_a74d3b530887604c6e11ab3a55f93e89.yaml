@@ -1,0 +1,3411 @@
+---
+MainSourceFile:  '/build/temp/Release/isql/isql.cpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''f'''
+      FilePath:        '/build/src/include/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2705
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''m'''
+      FilePath:        '/build/src/include/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      3011
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''ex'''
+      FilePath:        '/build/src/include/../common/StatusArg.h'
+      FileOffset:      2045
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''ex'''
+      FilePath:        '/build/src/include/../common/StatusArg.h'
+      FileOffset:      2101
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''StatusHolder&'''
+      FilePath:        '/build/src/include/../common/StatusHolder.h'
+      FileOffset:      5951
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''status'''
+      FilePath:        '/build/src/include/../common/StatusHolder.h'
+      FileOffset:      6594
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-integer-division
+    DiagnosticMessage:
+      Message:         'result of integer division used in a floating point context; possible loss of precision'
+      FilePath:        '/build/src/include/../common/TimeZoneUtil.h'
+      FileOffset:      1874
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion from ''SINT64'' (aka ''long long'') to ''UDate'' (aka ''double'') may lose precision'
+      FilePath:        '/build/src/include/../common/TimeZoneUtil.h'
+      FileOffset:      1991
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/TimeZoneUtil.h'
+          FileOffset:      1874
+          Length:          157
+        - FilePath:        '/build/src/include/../common/TimeZoneUtil.h'
+          FileOffset:      1867
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-integer-division
+    DiagnosticMessage:
+      Message:         'result of integer division used in a floating point context; possible loss of precision'
+      FilePath:        '/build/src/include/../common/TimeZoneUtil.h'
+      FileOffset:      1997
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ISC_TIME_SECONDS_PRECISION'''
+        FilePath:        '/build/src/include/firebird/impl/dsc_pub.h'
+        FileOffset:      2226
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-integer-division
+    DiagnosticMessage:
+      Message:         'result of integer division used in a floating point context; possible loss of precision'
+      FilePath:        '/build/src/include/../common/TimeZoneUtil.h'
+      FileOffset:      2163
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ISC_TIME_SECONDS_PRECISION'''
+        FilePath:        '/build/src/include/firebird/impl/dsc_pub.h'
+        FileOffset:      2226
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion turns floating-point number into integer: ''UDate'' (aka ''double'') to ''SINT64'' (aka ''long long'')'
+      FilePath:        '/build/src/include/../common/TimeZoneUtil.h'
+      FileOffset:      2198
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/TimeZoneUtil.h'
+          FileOffset:      2152
+          Length:          128
+        - FilePath:        '/build/src/include/../common/TimeZoneUtil.h'
+          FileOffset:      2124
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-double-promotion
+    DiagnosticMessage:
+      Message:         'implicit conversion increases floating-point precision: ''float'' to ''double'''
+      FilePath:        '/build/src/include/../common/classes/FpeControl.h'
+      FileOffset:      5098
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/FpeControl.h'
+          FileOffset:      5098
+          Length:          9
+        - FilePath:        '/build/src/include/../common/classes/FpeControl.h'
+          FileOffset:      5095
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCounted'' is protected and virtual'
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      1052
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+        FileOffset:      1052
+        Replacements:
+          - FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+            Offset:          1410
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''x'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2254
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2907
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2958
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      3024
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      3027
+      Replacements:
+        - FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+          Offset:          3049
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      9774
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      9900
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''hint'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      12786
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''n'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      12928
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-dcl58-cpp
+    DiagnosticMessage:
+      Message:         'modification of ''std'' namespace can result in undefined behavior'
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      13743
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      11951
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/array.h'
+          FileOffset:      11951
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      12052
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/array.h'
+          FileOffset:      12052
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''AtomicCounter&'''
+      FilePath:        '/build/src/include/../common/classes/fb_atomic.h'
+      FileOffset:      3071
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''f'''
+      FilePath:        '/build/src/include/../common/classes/init.h'
+      FileOffset:      4055
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aReason'''
+      FilePath:        '/build/src/include/../common/classes/locks.h'
+      FileOffset:      4051
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aReason'''
+      FilePath:        '/build/src/include/../common/classes/locks.h'
+      FileOffset:      5783
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/tree.h'
+      FileOffset:      3704
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/tree.h'
+          FileOffset:      3704
+          Length:          13
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/src/include/../common/classes/tree.h'
+      FileOffset:      11017
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/vector.h'
+      FileOffset:      1995
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/vector.h'
+          FileOffset:      1995
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/vector.h'
+      FileOffset:      2278
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/vector.h'
+          FileOffset:      2278
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/vector.h'
+      FileOffset:      2788
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/vector.h'
+          FileOffset:      2788
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../isql/../common/classes/MetaString.h'
+      FileOffset:      4997
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../isql/../common/classes/MetaString.h'
+      FileOffset:      5076
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../isql/../common/classes/MetaString.h'
+      FileOffset:      5171
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-deprecated-copy-with-user-provided-copy
+    DiagnosticMessage:
+      Message:         'definition of implicit copy assignment operator for ''BaseQualifiedName<Firebird::MetaString>'' is deprecated because it has a user-provided copy constructor'
+      FilePath:        '/build/src/include/../isql/../common/classes/QualifiedMetaString.h'
+      FileOffset:      1817
+      Replacements:    []
+    Notes:
+      - Message:         'in implicit copy assignment operator for ''Firebird::BaseQualifiedName<Firebird::MetaString>'' first required here'
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      88504
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/src/include/../isql/../common/classes/QualifiedMetaString.h'
+      FileOffset:      4164
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/src/include/../isql/../common/classes/QualifiedMetaString.h'
+      FileOffset:      4164
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/include/../isql/InputDevices.h'
+      FileOffset:      3189
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../isql/InputDevices.h'
+          FileOffset:      3189
+          Length:          22
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/include/../isql/InputDevices.h'
+        FileOffset:      3189
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/include/../isql/isql.h'
+      FileOffset:      6807
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../isql/isql.h'
+          FileOffset:      6807
+          Length:          34
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/include/../isql/isql.h'
+        FileOffset:      6807
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/include/../isql/isql.h'
+      FileOffset:      6854
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../isql/isql.h'
+          FileOffset:      6854
+          Length:          30
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/include/../isql/isql.h'
+        FileOffset:      6854
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/include/../isql/isql.h'
+      FileOffset:      6887
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../isql/isql.h'
+          FileOffset:      6887
+          Length:          23
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/include/../isql/isql.h'
+        FileOffset:      6887
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+      FileOffset:      33970
+      Replacements:    []
+    Notes:
+      - Message:         'in instantiation of member function ''ttmath::UInt<2>::Div_StandardTest'' requested here'
+        FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+        FileOffset:      35601
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::UInt<2>::Div1'' requested here'
+        FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+        FileOffset:      33442
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::UInt<2>::Div'' requested here'
+        FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathint.h'
+        FileOffset:      10835
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::Int<2>::Div'' requested here'
+        FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathint.h'
+        FileOffset:      11062
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::Int<2>::Div'' requested here'
+        FilePath:        '/build/src/include/../jrd/../common/../common/Int128.h'
+        FileOffset:      8272
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion from ''uint'' (aka ''unsigned long'') to ''double'' may lose precision'
+      FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+      FileOffset:      62490
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62490
+          Length:          8
+        - FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62488
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion from ''uint'' (aka ''unsigned long'') to ''double'' may lose precision'
+      FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+      FileOffset:      62599
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62593
+          Length:          9
+        - FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62590
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''Decimal128&'''
+      FilePath:        '/build/src/include/../jrd/../common/../common/DecFloat.h'
+      FileOffset:      5110
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''Int128&'''
+      FilePath:        '/build/src/include/../jrd/../common/../common/Int128.h'
+      FileOffset:      6010
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''bufferSize'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/Uuid.h'
+      FileOffset:      1494
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      6504
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+        FileOffset:      6439
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      6808
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+        FileOffset:      6743
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move constructors should be marked noexcept
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      19816
+      Replacements:
+        - FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+          Offset:          19845
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21083
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21153
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21254
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21841
+      Replacements:
+        - FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+          Offset:          21869
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      22249
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+        FileOffset:      22040
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__alloc_debug'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      1743
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__alloc'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      1917
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__decode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      2080
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__encode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      2396
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__free'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      2697
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__interprete'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3058
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__interprete_a'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3113
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__log'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3189
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3234
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace_raw'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3276
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__log_status'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3340
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_close'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3406
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_format'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3448
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_lookup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3736
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_open'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3828
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_put'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3881
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4007
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix_lock'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4057
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix_msg'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4112
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__get_prefix'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4168
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__print_status'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4229
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__parse_bpb'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4286
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__parse_bpb2'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4361
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__ftof'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4483
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__print_blr'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4665
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__put_error'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4748
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__qtoq'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4794
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__register_cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4842
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__sqlcode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4905
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__sqlcode_s'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4955
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__temp_file'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5018
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__unregister_cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5111
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__validate_lib_path'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5178
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vax_integer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5260
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vtof'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5317
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vtov'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5375
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5758
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__ulstr'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5779
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__default_printer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5997
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace_printer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      6071
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/ods.h'
+      FileOffset:      5502
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../common/../jrd/ods.h'
+          FileOffset:      5489
+          Length:          20
+        - FilePath:        '/build/src/include/../jrd/../common/../jrd/ods.h'
+          FileOffset:      5481
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+      FileOffset:      3251
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+          FileOffset:      3241
+          Length:          32
+        - FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+          FileOffset:      3234
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+      FileOffset:      6240
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+          FileOffset:      6230
+          Length:          32
+        - FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+          FileOffset:      6223
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__blob_size'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../yvalve/utl_proto.h'
+      FileOffset:      1065
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__edit'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../yvalve/utl_proto.h'
+      FileOffset:      1285
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__map_blobs'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../yvalve/utl_proto.h'
+      FileOffset:      1780
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''blob__display'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../yvalve/utl_proto.h'
+      FileOffset:      2325
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''blob__dump'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../yvalve/utl_proto.h'
+      FileOffset:      2510
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''blob__edit'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../yvalve/utl_proto.h'
+      FileOffset:      2690
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''blob__load'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../yvalve/utl_proto.h'
+      FileOffset:      2914
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__thread_start'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../yvalve/utl_proto.h'
+      FileOffset:      3477
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__disable_subsystem'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../yvalve/why_proto.h'
+      FileOffset:      1748
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__enable_subsystem'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../yvalve/why_proto.h'
+      FileOffset:      1795
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__transaction_cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../yvalve/why_proto.h'
+      FileOffset:      1849
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''status'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452913
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''dbName'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452933
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''attStatus'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452956
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      476
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      15361
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      15542
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_1l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      6176
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      6176
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_8l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      7430
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      7430
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_19l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      9869
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      9869
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_34l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      12591
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      12591
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_45l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      15255
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      15255
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_57l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      18333
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      18333
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_73l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      21446
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      21446
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_81l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      23014
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      23014
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-confusable-identifiers
+    DiagnosticMessage:
+      Message:         '''fb_81'' is confusable with ''fb_8l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      23058
+      Replacements:    []
+    Notes:
+      - Message:         other declaration found here
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      7430
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_90l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      24447
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      24447
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_103l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      27380
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      27380
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_110l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      28757
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      28757
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_120l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      30363
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      30363
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_127l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      31596
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      31596
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''fb_132l'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      32724
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      32724
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''DATE_LEN'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      35022
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      35022
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''MAX_TERMS'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      35497
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      35497
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      40781
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      40781
+          Length:          27
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      40781
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format-nonliteral
+    DiagnosticMessage:
+      Message:         format string is not a string literal
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      40795
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      40795
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      40826
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      40826
+          Length:          11
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      40826
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      41025
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      41025
+          Length:          26
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      41025
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      41054
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      41054
+          Length:          11
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      41054
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''D__trans'' is reserved because it contains ''__'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      44528
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''M__trans'' is reserved because it contains ''__'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      44576
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      51657
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      51657
+          Length:          23
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      51657
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      51690
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      51690
+          Length:          27
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      51690
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '10 enumeration values not explicitly handled in switch: ''FOUND_EOF'', ''CONT'', ''EXIT''...'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      52355
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      52355
+          Length:          3
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      59232
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      59232
+          Length:          29
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      59232
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      59265
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      59265
+          Length:          14
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      59265
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      62870
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      62870
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      73646
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         'enumeration values ''in_single_line_comment'', ''in_block_comment'', and ''in_double_quoted_string'' not explicitly handled in switch'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      78429
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      78429
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      78587
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      78587
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         'enumeration values ''in_single_line_comment'', ''in_block_comment'', and ''in_single_quoted_string'' not explicitly handled in switch'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      79181
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      79181
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      83769
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      83769
+          Length:          65
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      83769
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      98694
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      98694
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      99318
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      99318
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      102276
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      102276
+          Length:          15
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      102276
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''nullable'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      107231
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      107231
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''unsigned int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      115493
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      115493
+          Length:          6
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      115491
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-not-null-terminated-result
+    DiagnosticMessage:
+      Message:         'the result from calling ''memcpy'' is not null-terminated'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      115617
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          115617
+          Length:          6
+          ReplacementText: strcpy
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          115644
+          Length:          8
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''unsigned int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      116077
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      116077
+          Length:          6
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      116041
+          Length:          11
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      116300
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      116300
+          Length:          129
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      116300
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      116804
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      116804
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''SINT64'' (aka ''long long'') to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      116915
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      116915
+          Length:          1
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      116913
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-redundant-expression
+    DiagnosticMessage:
+      Message:         expression is redundant
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      124727
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''textFieldIter'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      126168
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      126168
+          Length:          13
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''nullable'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      126611
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      126611
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      128964
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      128964
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''unsigned int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      136770
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      136770
+          Length:          6
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      136768
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''unsigned int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      137340
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      137340
+          Length:          6
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      137310
+          Length:          11
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      137595
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      137595
+          Length:          129
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      137595
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      138115
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      138115
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''SINT64'' (aka ''long long'') to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      138226
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      138226
+          Length:          1
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      138224
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      141452
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      141452
+          Length:          120
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      141452
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      143536
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      143536
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      149054
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      149054
+          Length:          20
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      149054
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      149090
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      149090
+          Length:          20
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      149090
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      149276
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      149276
+          Length:          67
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      149276
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         'enumeration values ''FETCH'', ''OBJECT_NOT_FOUND'', and ''TRUNCATED'' not explicitly handled in switch'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      155726
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      155726
+          Length:          3
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '11 enumeration values not explicitly handled in switch: ''FOUND_EOF'', ''CONT'', ''EXIT''...'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      155759
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      155759
+          Length:          92
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''node'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      169747
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''node'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      170216
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      178438
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      178438
+          Length:          17
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      178436
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      178580
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      178580
+          Length:          68
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      178580
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      178933
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      178933
+          Length:          237
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      178933
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      179206
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      179206
+          Length:          233
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      179206
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      180208
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      180208
+          Length:          203
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      180208
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      180631
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      180631
+          Length:          68
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      180631
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      181154
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      181154
+          Length:          18
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      181150
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''SLONG'' (aka ''int'') to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      185051
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      185049
+          Length:          10
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      185047
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''SLONG'' (aka ''int'') to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      185132
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      185130
+          Length:          10
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      185128
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''SLONG'' (aka ''int'') to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      185213
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      185211
+          Length:          10
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      185209
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      185382
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      185382
+          Length:          230
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      185382
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      186145
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      186145
+          Length:          199
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      186145
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      186787
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      186787
+          Length:          228
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      186787
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      187099
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      187099
+          Length:          226
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      187099
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      187497
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      187497
+          Length:          226
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      187497
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''SLONG'' (aka ''int'') to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      188540
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      188538
+          Length:          10
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      188536
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      202625
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      202625
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      210712
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      210712
+          Length:          20
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      210712
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      211084
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      211084
+          Length:          20
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      211084
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tabname'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      214293
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         'enumeration value ''FETCH_PASS_OK'' not explicitly handled in switch'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      220063
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      220063
+          Length:          3
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      222404
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      222404
+          Length:          9
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      222402
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      225025
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      225025
+          Length:          49
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      225025
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      226172
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      226172
+          Length:          57
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      226172
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      226241
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      226241
+          Length:          56
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      226241
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      226647
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      226647
+          Length:          55
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      226647
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      226999
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      226999
+          Length:          116
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      226999
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''unsigned int'' but the argument has type ''ISC_LONG'' (aka ''int'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      227071
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      227071
+          Length:          21
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      227035
+          Length:          4294740263
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      227120
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      227120
+          Length:          54
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      227120
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      227271
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      227271
+          Length:          116
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      227271
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''unsigned int'' but the argument has type ''ISC_LONG'' (aka ''int'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      227343
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      227343
+          Length:          21
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      227307
+          Length:          4294739991
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      227392
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      227392
+          Length:          54
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      227392
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      227735
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      227735
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      228064
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      228064
+          Length:          44
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      228064
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-double-promotion
+    DiagnosticMessage:
+      Message:         'implicit conversion increases floating-point precision: ''float'' to ''const double'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      228568
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      228568
+          Length:          19
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      228560
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      229107
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      229107
+          Length:          75
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      229107
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion turns floating-point number into integer: ''const double'' to ''bool'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      229610
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      229610
+          Length:          5
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      229609
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      230844
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      230844
+          Length:          56
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      230844
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      231515
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      231515
+          Length:          76
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      231515
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      232158
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      232158
+          Length:          88
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      232158
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      232718
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      232718
+          Length:          94
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      232718
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      233290
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      233290
+          Length:          94
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      233290
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      233710
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      233710
+          Length:          50
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      233710
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      233909
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      233909
+          Length:          53
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      233909
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''const unsigned int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      234109
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      234104
+          Length:          12
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      234088
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      234597
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      234597
+          Length:          84
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      234597
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      234866
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      234866
+          Length:          126
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      234866
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''const unsigned int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      235180
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      235175
+          Length:          12
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      235159
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      235516
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      235516
+          Length:          201
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      235516
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      235779
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      235779
+          Length:          208
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      235779
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      236005
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      236005
+          Length:          112
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      236005
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      236130
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      236130
+          Length:          50
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      236130
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      236933
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      236933
+          Length:          139
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      236933
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      237009
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          236957
+          Length:          5
+          ReplacementText: '%4.4u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      237009
+          Length:          4
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      236957
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      237015
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          236963
+          Length:          5
+          ReplacementText: '%2.2u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      237015
+          Length:          5
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      236963
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      237022
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          236969
+          Length:          5
+          ReplacementText: '%2.2u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      237022
+          Length:          3
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      236969
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      237027
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          236975
+          Length:          5
+          ReplacementText: '%2.2u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      237027
+          Length:          5
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      236975
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      237034
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          236981
+          Length:          5
+          ReplacementText: '%2.2u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      237034
+          Length:          7
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      236981
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      237043
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          236987
+          Length:          5
+          ReplacementText: '%2.2u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      237043
+          Length:          7
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      236987
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      237052
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          236993
+          Length:          5
+          ReplacementText: '%4.4u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      237052
+          Length:          9
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      236993
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      237079
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      237079
+          Length:          50
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      237079
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      237373
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      237373
+          Length:          119
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      237373
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      237499
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      237499
+          Length:          50
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      237499
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      238209
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238209
+          Length:          103
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      238209
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      238267
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          238233
+          Length:          5
+          ReplacementText: '%2.2u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238267
+          Length:          5
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238233
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      238274
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          238239
+          Length:          5
+          ReplacementText: '%2.2u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238274
+          Length:          7
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238239
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      238283
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          238245
+          Length:          5
+          ReplacementText: '%2.2u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238283
+          Length:          7
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238245
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      238292
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          238251
+          Length:          5
+          ReplacementText: '%4.4u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238292
+          Length:          9
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238251
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      238319
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238319
+          Length:          50
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      238319
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      238532
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238532
+          Length:          104
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      238532
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      238642
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238642
+          Length:          50
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      238642
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      238861
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      238861
+          Length:          50
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      238861
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      239002
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      239002
+          Length:          49
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      239002
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      239045
+      Replacements:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          Offset:          239040
+          Length:          2
+          ReplacementText: '%u'
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      239045
+          Length:          5
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      239040
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      239056
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      239056
+          Length:          40
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      239056
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''const int'' to ''short'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      240914
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      240909
+          Length:          12
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      240907
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''const unsigned int'' to ''short'''
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      240961
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      240956
+          Length:          12
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      240954
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      243279
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      243279
+          Length:          55
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      243279
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      243453
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      243453
+          Length:          55
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      243453
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      249428
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      249428
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-fallthrough
+    DiagnosticMessage:
+      Message:         unannotated fall-through between switch labels
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      249497
+      Replacements:    []
+    Notes:
+      - Message:         'insert ''U_FALLTHROUGH;'' to silence this warning'
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      249497
+        Replacements:
+          - FilePath:        '/build/temp/Release/isql/isql.cpp'
+            Offset:          249497
+            Length:          0
+            ReplacementText: 'U_FALLTHROUGH; '
+      - Message:         'insert ''break;'' to avoid fall-through'
+        FilePath:        '/build/temp/Release/isql/isql.cpp'
+        FileOffset:      249497
+        Replacements:
+          - FilePath:        '/build/temp/Release/isql/isql.cpp'
+            Offset:          249497
+            Length:          0
+            ReplacementText: 'break; '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      253330
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      253330
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''SLONG'' (aka ''int'') to ''const SSHORT'' (aka ''const short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      254069
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      254069
+          Length:          22
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      254063
+          Length:          3
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''ISC_INT64'' (aka ''long long'') to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/temp/Release/isql/isql.cpp'
+      FileOffset:      277883
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      277883
+          Length:          26
+        - FilePath:        '/build/temp/Release/isql/isql.cpp'
+          FileOffset:      277881
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+...

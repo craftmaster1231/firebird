@@ -1,0 +1,6 @@
+/build/extern/libtommath/bn_s_mp_sub.c
+/build/extern/libtommath/bn_mp_grow.c
+/build/extern/libtommath/bn_mp_cmp_mag.c
+/build/extern/libtommath/bn_prime_tab.c
+/build/extern/libtommath/bn_s_mp_add.c
+/build/extern/libtommath/bn_mp_clamp.c

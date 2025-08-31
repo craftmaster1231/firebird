@@ -1,0 +1,8 @@
+/build/src/common/isc_sync.cpp
+/build/src/common/classes/alloc.cpp
+/build/src/common/os/posix/path_utils.cpp
+/build/src/common/ThreadStart.cpp
+/build/src/common/classes/fb_string.cpp
+/build/src/common/TimeZoneUtil.cpp
+/build/src/common/os/posix/os_utils.cpp
+/build/src/jrd/replication/Utils.cpp

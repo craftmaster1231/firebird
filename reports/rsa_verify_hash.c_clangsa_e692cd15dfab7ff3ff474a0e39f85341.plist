@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>diagnostics</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>Unused code</string>
+			<key>check_name</key>
+			<string>deadcode.DeadStores</string>
+			<key>description</key>
+			<string>Although the value stored to 'err' is used in the enclosing expression, the value is never actually read from 'err'</string>
+			<key>issue_hash_content_of_line_in_context</key>
+			<string>0a52bd773f9f435544d586219adfa9ca</string>
+			<key>location</key>
+			<dict>
+				<key>col</key>
+				<integer>12</integer>
+				<key>file</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>145</integer>
+			</dict>
+			<key>path</key>
+			<array>
+				<dict>
+					<key>depth</key>
+					<integer>0</integer>
+					<key>kind</key>
+					<string>event</string>
+					<key>location</key>
+					<dict>
+						<key>col</key>
+						<integer>12</integer>
+						<key>file</key>
+						<integer>0</integer>
+						<key>line</key>
+						<integer>145</integer>
+					</dict>
+					<key>message</key>
+					<string>Although the value stored to 'err' is used in the enclosing expression, the value is never actually read from 'err'</string>
+					<key>ranges</key>
+					<array>
+						<array>
+							<dict>
+								<key>col</key>
+								<integer>18</integer>
+								<key>file</key>
+								<integer>0</integer>
+								<key>line</key>
+								<integer>145</integer>
+							</dict>
+							<dict>
+								<key>col</key>
+								<integer>61</integer>
+								<key>file</key>
+								<integer>0</integer>
+								<key>line</key>
+								<integer>145</integer>
+							</dict>
+						</array>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>files</key>
+	<array>
+		<string>/build/extern/libtomcrypt/src/pk/rsa/rsa_verify_hash.c</string>
+	</array>
+	<key>metadata</key>
+	<dict>
+		<key>analyzer</key>
+		<dict>
+			<key>name</key>
+			<string>clangsa</string>
+		</dict>
+		<key>generated_by</key>
+		<dict>
+			<key>name</key>
+			<string>CodeChecker</string>
+			<key>version</key>
+			<string>6.24.4</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

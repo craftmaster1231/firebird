@@ -1,0 +1,3512 @@
+---
+MainSourceFile:  '/build/src/lock/print.cpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__alloc_debug'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      1743
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__alloc'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      1917
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__decode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      2080
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__encode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      2396
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__free'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      2697
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__interprete'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3058
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__interprete_a'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3113
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__log'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3189
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3234
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace_raw'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3276
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__log_status'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3340
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_close'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3406
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_format'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3448
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_lookup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3736
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_open'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3828
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_put'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3881
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4007
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix_lock'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4057
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix_msg'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4112
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__get_prefix'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4168
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__print_status'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4229
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__parse_bpb'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4286
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__parse_bpb2'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4361
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__ftof'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4483
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__print_blr'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4665
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__put_error'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4748
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__qtoq'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4794
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__register_cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4842
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__sqlcode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4905
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__sqlcode_s'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4955
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__temp_file'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5018
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__unregister_cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5111
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__validate_lib_path'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5178
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vax_integer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5260
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vtof'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5317
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vtov'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5375
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5758
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__ulstr'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5779
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__default_printer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5997
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace_printer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      6071
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IFirebirdConfImpl<Firebird::FirebirdConf, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''f'''
+      FilePath:        '/build/src/include/../common/classes/ImplementHelper.h'
+      FileOffset:      2705
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''m'''
+      FilePath:        '/build/src/include/../common/classes/ImplementHelper.h'
+      FileOffset:      3011
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCounted'' is protected and virtual'
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      1052
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+        FileOffset:      1052
+        Replacements:
+          - FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+            Offset:          1410
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''x'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2254
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2907
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2958
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      3024
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      3027
+      Replacements:
+        - FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+          Offset:          3049
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''AtomicCounter&'''
+      FilePath:        '/build/src/include/../common/classes/fb_atomic.h'
+      FileOffset:      3071
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aReason'''
+      FilePath:        '/build/src/include/../common/classes/locks.h'
+      FileOffset:      4051
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aReason'''
+      FilePath:        '/build/src/include/../common/classes/locks.h'
+      FileOffset:      5783
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/src/include/../common/classes/tree.h'
+      FileOffset:      11017
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''status'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452913
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''dbName'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452933
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''attStatus'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452956
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      476
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      15361
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      15542
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''StatusHolder&'''
+      FilePath:        '/build/src/lock/../common/StatusHolder.h'
+      FileOffset:      5951
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''status'''
+      FilePath:        '/build/src/lock/../common/StatusHolder.h'
+      FileOffset:      6594
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/lock/../jrd/../include/../common/classes/alloc.h'
+      FileOffset:      9774
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/lock/../jrd/../include/../common/classes/alloc.h'
+      FileOffset:      9900
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''hint'''
+      FilePath:        '/build/src/lock/../jrd/../include/../common/classes/alloc.h'
+      FileOffset:      12786
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''n'''
+      FilePath:        '/build/src/lock/../jrd/../include/../common/classes/alloc.h'
+      FileOffset:      12928
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-dcl58-cpp
+    DiagnosticMessage:
+      Message:         'modification of ''std'' namespace can result in undefined behavior'
+      FilePath:        '/build/src/lock/../jrd/../include/../common/classes/alloc.h'
+      FileOffset:      13743
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-new-delete-overloads
+    DiagnosticMessage:
+      Message:         'declaration of ''operator delete'' has no matching declaration of ''operator new'' at the same scope'
+      FilePath:        '/build/src/lock/../jrd/../include/fb_blk.h'
+      FileOffset:      2212
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-new-delete-overloads
+    DiagnosticMessage:
+      Message:         'declaration of ''operator delete[]'' has no matching declaration of ''operator new[]'' at the same scope'
+      FilePath:        '/build/src/lock/../jrd/../include/fb_blk.h'
+      FileOffset:      2295
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''bufferSize'''
+      FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/Uuid.h'
+      FileOffset:      1494
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/fb_string.h'
+      FileOffset:      6504
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/fb_string.h'
+        FileOffset:      6439
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/fb_string.h'
+      FileOffset:      6808
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/fb_string.h'
+        FileOffset:      6743
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move constructors should be marked noexcept
+      FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/fb_string.h'
+      FileOffset:      19816
+      Replacements:
+        - FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/fb_string.h'
+          Offset:          19845
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21083
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21153
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21254
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21841
+      Replacements:
+        - FilePath:        '/build/src/lock/../jrd/../jrd/../common/classes/fb_string.h'
+          Offset:          21869
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/lock/../jrd/../jrd/ods.h'
+      FileOffset:      5502
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/../jrd/../jrd/ods.h'
+          FileOffset:      5489
+          Length:          20
+        - FilePath:        '/build/src/lock/../jrd/../jrd/ods.h'
+          FileOffset:      5481
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''PageNumber&'''
+      FilePath:        '/build/src/lock/../jrd/pag.h'
+      FileOffset:      6890
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''ex'''
+      FilePath:        '/build/src/lock/../lock/../common/StatusArg.h'
+      FileOffset:      2045
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''ex'''
+      FilePath:        '/build/src/lock/../lock/../common/StatusArg.h'
+      FileOffset:      2101
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/lock/../lock/../common/ThreadStart.h'
+      FileOffset:      2820
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''f'''
+      FilePath:        '/build/src/lock/../lock/../common/classes/init.h'
+      FileOffset:      4055
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-non-virtual-dtor
+    DiagnosticMessage:
+      Message:         '''Firebird::IpcObject'' has virtual functions but non-virtual destructor'
+      FilePath:        '/build/src/lock/../lock/../common/isc_s_proto.h'
+      FileOffset:      4762
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''IpcObject'' is public and non-virtual'
+      FilePath:        '/build/src/lock/../lock/../common/isc_s_proto.h'
+      FileOffset:      4762
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/lock/../lock/../common/isc_s_proto.h'
+        FileOffset:      4762
+        Replacements:
+          - FilePath:        '/build/src/lock/../lock/../common/isc_s_proto.h'
+            Offset:          4781
+            Length:          0
+            ReplacementText: "\nvirtual ~IpcObject() = default;"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''f'''
+      FilePath:        '/build/src/lock/../lock/lock_proto.h'
+      FileOffset:      11148
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      5984
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      5984
+          Length:          120
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      5984
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      6116
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      6116
+          Length:          63
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      6116
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      9343
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      9343
+          Length:          23
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      9343
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      10934
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      10934
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      11056
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      11056
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      11537
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      11537
+          Length:          13
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      11535
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      11587
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      11587
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      12056
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      12056
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      12515
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      12515
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      12792
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      12792
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      12975
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      12975
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      13174
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      13174
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      13298
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      13298
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      14041
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      14041
+          Length:          51
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      14041
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''unsigned int'' but the argument has type ''int'''
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      14076
+      Replacements:
+        - FilePath:        '/build/src/lock/print.cpp'
+          Offset:          14069
+          Length:          4
+          ReplacementText: '%02x'
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      14076
+          Length:          15
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      14069
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      14235
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      14235
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      14326
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      14326
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      14987
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      14987
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      16906
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      16906
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      16985
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      16985
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      17268
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      17268
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      17550
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      17550
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      17714
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      17714
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      17843
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      17843
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      18002
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      18002
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      18254
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      18254
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      19834
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      19834
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      19898
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      19898
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      20396
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      20396
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      20439
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      20439
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      20665
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      20665
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      20880
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      20880
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      21124
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      21124
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      21343
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      21343
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion from ''FB_UINT64'' (aka ''unsigned long long'') to ''double'' may lose precision'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      21666
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      21653
+          Length:          31
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      21651
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion from ''FB_UINT64'' (aka ''unsigned long long'') to ''double'' may lose precision'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      21701
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      21688
+          Length:          25
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      21686
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      21718
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      21718
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-double-promotion
+    DiagnosticMessage:
+      Message:         'implicit conversion increases floating-point precision: ''const float'' to ''double'''
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      21762
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      21762
+          Length:          10
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      21786
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      21786
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      22757
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      22757
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      22829
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      22829
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      23116
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      23116
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      23317
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      23317
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      23490
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      23490
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      23712
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      23712
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      24375
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      24375
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      25928
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      25928
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      26025
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      26025
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      26129
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      26129
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      26247
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      26247
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      26365
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      26365
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      26459
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      26459
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      26644
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      26644
+          Length:          15
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      26644
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      26886
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      26886
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      26995
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      26995
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      27098
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      27098
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      27996
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      27996
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      28994
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      28994
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      30530
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      30530
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      31463
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      31463
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      31566
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      31566
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      31630
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      31630
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      32252
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      32252
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      32866
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      32866
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      33765
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      33765
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      34335
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      34335
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      34724
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      34724
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      34916
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      34916
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      35672
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      35672
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      35797
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      35797
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      35919
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      35919
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      36595
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      36595
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      37048
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      37048
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      37475
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      37475
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      37773
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      37773
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      38143
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      38143
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      38340
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      38340
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      38433
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      38433
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      39168
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      39168
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      39211
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      39211
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      39692
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      39692
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      39967
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      39967
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      40477
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      40477
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      40606
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      40606
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      40730
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      40730
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      40843
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      40843
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''ssize_t'' (aka ''long'') but the argument has type ''size_t'' (aka ''unsigned long'')'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      41101
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      41101
+          Length:          29
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      40896
+          Length:          4294926403
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      41175
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      41175
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      41221
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      41221
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      41287
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      41287
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      41354
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      41354
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      41422
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      41422
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      41936
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      41936
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      42958
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      42958
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      43249
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      43249
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      43371
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      43371
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      43612
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      43612
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      43764
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      43764
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      44279
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      44279
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      44306
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      44306
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      45274
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      45274
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      45649
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      45649
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      45786
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      45786
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      45920
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      45920
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      46179
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      46179
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-format-pedantic
+    DiagnosticMessage:
+      Message:         'format specifies type ''void *'' but the argument has type ''lock_ast_t'' (aka ''int (*)(void *)'')'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      46232
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      46206
+          Length:          2
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      46232
+          Length:          24
+        - FilePath:        '/build/src/lock/print.cpp'
+          FileOffset:      46206
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      46809
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      46809
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      47353
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      47353
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      47488
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      47488
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      48313
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      48313
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      48371
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      48371
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      48894
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      48894
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      48973
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      48973
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      49312
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      49312
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/lock/print.cpp'
+      FileOffset:      49341
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      49341
+        Replacements:    []
+      - Message:         'expanded from macro ''FPRINTF'''
+        FilePath:        '/build/src/lock/print.cpp'
+        FileOffset:      3762
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+...

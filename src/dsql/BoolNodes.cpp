@@ -845,7 +845,7 @@ bool ComparativeBoolNode::execute(thread_db* tdbb, Request* request) const
 	}
 
 	force_equal |= (request->req_flags & req_same_tx_upd) != 0;
-	int comparison; // while the two switch() below are in sync, no need to initialize
+	int comparison=0; // while the two switch() below are in sync, no need to initialize
 
 	switch (blrOp)
 	{
@@ -2119,8 +2119,8 @@ void RseBoolNode::pass2Boolean(thread_db* tdbb, CompilerScratch* csb, std::funct
 
 bool RseBoolNode::execute(thread_db* tdbb, Request* request) const
 {
-	USHORT* invariant_flags;
-	impure_value* impure;
+	USHORT* invariant_flags = nullptr;
+	impure_value* impure = nullptr;
 
 	if (nodFlags & FLAG_INVARIANT)
 	{

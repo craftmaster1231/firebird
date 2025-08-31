@@ -1,0 +1,8 @@
+/build/extern/editline/src/chartype.c
+/build/extern/editline/src/hist.c
+/build/extern/editline/src/tty.c
+/build/extern/editline/src/common.c
+/build/extern/editline/src/prompt.c
+/build/extern/editline/src/terminal.c
+/build/extern/editline/src/read.c
+/build/extern/editline/src/refresh.c

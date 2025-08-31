@@ -3615,7 +3615,7 @@ static bool create_relation(thread_db* tdbb, SSHORT phase, DeferredWork* work, j
  **************************************/
 	AutoCacheRequest request;
 	jrd_rel* relation;
-	USHORT rel_id, external_flag;
+	USHORT rel_id, external_flag = 0;
 	bid blob_id;
 	AutoRequest handle;
 	Lock* lock;
@@ -5359,7 +5359,7 @@ static bool find_depend_in_dfw(thread_db*	tdbb,
 	SET_TDBB(tdbb);
 	Jrd::Attachment* attachment = tdbb->getAttachment();
 
-	enum dfw_t dfw_type;
+	enum dfw_t dfw_type = dfw_delete_relation;
 
 	switch (dep_type)
 	{
@@ -5831,7 +5831,7 @@ static bool make_version(thread_db* tdbb, SSHORT phase, DeferredWork* work, jrd_
 	SET_TDBB(tdbb);
 	Jrd::Attachment* attachment = tdbb->getAttachment();
 	Database* dbb = tdbb->getDatabase();
-	bool null_view;
+	bool null_view = 0;
 
 	switch (phase)
 	{

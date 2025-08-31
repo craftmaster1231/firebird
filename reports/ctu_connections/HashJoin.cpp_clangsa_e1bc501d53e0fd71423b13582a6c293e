@@ -1,0 +1,8 @@
+/build/src/jrd/recsrc/RecordSource.cpp
+/build/src/jrd/err.cpp
+/build/src/jrd/Attachment.cpp
+/build/src/common/classes/Hash.cpp
+/build/src/jrd/jrd.cpp
+/build/src/common/classes/fb_string.cpp
+/build/src/common/TimeZoneUtil.cpp
+/build/src/dsql/ExprNodes.cpp

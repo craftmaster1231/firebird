@@ -1,0 +1,8 @@
+/build/src/common/classes/ClumpletReader.cpp
+/build/src/jrd/err.cpp
+/build/src/common/classes/alloc.cpp
+/build/src/common/classes/fb_string.cpp
+/build/src/common/TimeZoneUtil.cpp
+/build/src/dsql/ExprNodes.cpp
+/build/src/jrd/lck.cpp
+/build/src/jrd/cch.cpp

@@ -1,2 +1,2 @@
-+ *src/common/classes/*
++ *temp/Release/jrd/*
 - *

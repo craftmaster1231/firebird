@@ -1,0 +1,8 @@
+/build/extern/re2/re2/unicode_casefold.cc
+/build/extern/re2/re2/perl_groups.cc
+/build/extern/re2/re2/unicode_groups.cc
+/build/extern/re2/re2/simplify.cc
+/build/extern/re2/re2/stringpiece.cc
+/build/extern/re2/util/rune.cc
+/build/src/common/classes/alloc.cpp
+/build/extern/re2/re2/regexp.cc
