@@ -197,6 +197,10 @@ public:
 			return len;
 		}
 
+        // I'm not sure this is the correct handling of this error
+        if(!cnvt1)
+			raiseError(isc_transliteration_failed);
+
 		const ULONG len = (*cnvt1->csconvert_fn_convert)(
 			cnvt1, srcLen, src, dstLen, dst, &errCode, &errPos);
 
