@@ -1,8 +1,0 @@
-/build/src/isql/iutils.cpp
-/build/src/common/classes/alloc.cpp
-/build/temp/Release/isql/isql.cpp
-/build/src/common/classes/MsgPrint.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/yvalve/alt.cpp
-/build/src/common/utils.cpp
-/build/temp/Release/isql/show.cpp

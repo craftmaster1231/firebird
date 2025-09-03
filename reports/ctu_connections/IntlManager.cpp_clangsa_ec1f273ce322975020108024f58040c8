@@ -1,8 +1,0 @@
-/build/src/jrd/intl_builtin.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/common/CharSet.cpp
-/build/src/common/IntlUtil.cpp
-/build/src/common/unicode_util.cpp
-/build/src/common/StatusArg.cpp
-/build/src/common/fb_exception.cpp

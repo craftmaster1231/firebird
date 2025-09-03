@@ -1,8 +1,0 @@
-/build/src/common/classes/alloc.cpp
-/build/src/jrd/err.cpp
-/build/src/yvalve/gds.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/common/TimeZoneUtil.cpp
-/build/src/jrd/tra.cpp
-/build/src/jrd/blb.cpp
-/build/src/common/StatusArg.cpp

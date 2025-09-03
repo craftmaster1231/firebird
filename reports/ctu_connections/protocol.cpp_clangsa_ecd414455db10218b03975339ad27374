@@ -1,8 +1,0 @@
-/build/src/common/StatusHolder.cpp
-/build/src/common/classes/ClumpletReader.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/common/sdl.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/common/xdr.cpp
-/build/src/remote/remote.cpp
-/build/src/common/StatusArg.cpp

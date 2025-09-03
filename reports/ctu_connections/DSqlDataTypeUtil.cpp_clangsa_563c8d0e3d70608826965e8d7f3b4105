@@ -1,8 +1,0 @@
-/build/src/common/classes/alloc.cpp
-/build/src/jrd/Attachment.cpp
-/build/src/common/ThreadData.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/common/TimeZoneUtil.cpp
-/build/src/jrd/exe.cpp
-/build/temp/Release/dsql/metd.cpp
-/build/src/jrd/Statement.cpp

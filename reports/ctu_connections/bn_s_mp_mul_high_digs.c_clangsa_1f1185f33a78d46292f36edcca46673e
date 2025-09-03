@@ -1,7 +1,0 @@
-/build/extern/libtommath/bn_mp_clear.c
-/build/extern/libtommath/bn_mp_grow.c
-/build/extern/libtommath/bn_prime_tab.c
-/build/extern/libtommath/bn_fast_s_mp_mul_high_digs.c
-/build/extern/libtommath/bn_mp_exch.c
-/build/extern/libtommath/bn_mp_clamp.c
-/build/extern/libtommath/bn_mp_init_size.c

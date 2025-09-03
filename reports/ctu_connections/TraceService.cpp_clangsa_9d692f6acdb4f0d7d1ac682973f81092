@@ -1,8 +1,0 @@
-/build/src/jrd/trace/TraceConfigStorage.cpp
-/build/src/common/classes/ClumpletReader.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/jrd/svc.cpp
-/build/src/common/TimeZoneUtil.cpp
-/build/src/dsql/ExprNodes.cpp
-/build/src/jrd/trace/TraceCmdLine.cpp

@@ -1,5 +1,0 @@
-/build/extern/btyacc/main.c
-/build/extern/btyacc/mstring.c
-/build/extern/btyacc/symtab.c
-/build/extern/btyacc/error.c
-/build/extern/btyacc/output.c

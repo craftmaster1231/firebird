@@ -1,5 +1,0 @@
-/build/extern/libtommath/bn_mp_mul_2d.c
-/build/extern/libtommath/bn_mp_grow.c
-/build/extern/libtommath/bn_prime_tab.c
-/build/extern/libtommath/bn_mp_zero.c
-/build/extern/libtommath/bn_mp_clamp.c

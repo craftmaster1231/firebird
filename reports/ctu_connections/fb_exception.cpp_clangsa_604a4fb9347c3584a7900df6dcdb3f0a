@@ -1,8 +1,0 @@
-/build/src/common/StatusHolder.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/yvalve/gds.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/common/utils.cpp
-/build/src/common/DynamicStrings.cpp
-/build/src/common/StatusArg.cpp
-/build/src/common/classes/ImplementHelper.cpp
