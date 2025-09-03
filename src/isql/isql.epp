@@ -7175,7 +7175,7 @@ static unsigned print_item(TEXT** s, const IsqlVar* var, const unsigned length)
 		case SQL_LONG:
 		case SQL_INT64:
 			{
-				SINT64 value;
+				SINT64 value = 0;
 
 				switch (dtype)
 				{
@@ -9219,7 +9219,7 @@ void PerTableStats::printStats(Firebird::IAttachment* att)
 
 	s = h;
 	USHORT relId = MAX_USHORT;
-	FB_SIZE_T lenName;
+	FB_SIZE_T lenName = 0;
 	for (const auto& item : m_stat)
 	{
 		if (relId != item.relId)

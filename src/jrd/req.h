@@ -68,7 +68,7 @@ struct record_param
 	{
 	}
 
-	RecordNumber rpb_number;		// record number in relation
+	RecordNumber rpb_number{};		// record number in relation
 	TraNumber	rpb_transaction_nr;	// transaction number
 	jrd_rel*	rpb_relation;		// relation of record
 	Record*		rpb_record;			// final record block
