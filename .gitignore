@@ -30,3 +30,4 @@ extern/ttmath/release/
 /src/include/gen/autoconfig.h
 extern/libcds/lib/
 /vcpkg_installed/
+/reports/

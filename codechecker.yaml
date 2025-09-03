@@ -1,0 +1,8 @@
+analyze:
+  - --ctu
+  - --analyzers
+  - clangsa
+  - clang-tidy
+  - --disable=google-runtime-int
+  - --disable=misc-use-anonymous-namespace
+  - --disable=google-build-using-namespace

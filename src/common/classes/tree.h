@@ -625,7 +625,14 @@ public:
 			return true;
 		}
 
-	    Value& current() const { return (*this->curr)[this->curPos]; }
+	    Value& current() const 
+	    {
+		    if(!this->curr)
+		    {
+			    throw std::runtime_error("Iterator points to null container");
+		    }
+		    return (*this->curr)[this->curPos];
+	    }
 
 	private:
 		BePlusTree* tree;
