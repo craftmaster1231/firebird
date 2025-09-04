@@ -309,7 +309,7 @@ void ProfilerPlugin::init(ThrowStatusExceptionWrapper* status, IAttachment* atta
 	RefPtr<IAttachment> refAttachment(attachment);
 	RefPtr<ITransaction> refTransaction;
 	string currentRole;
-	bool roleInUse;
+	bool roleInUse = 0;
 
 	for (unsigned i = 0; i < 2; ++i)
 	{
