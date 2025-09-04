@@ -1,9 +1,0 @@
-/build/extern/libtommath/bn_mp_clear.c
-/build/extern/libtommath/bn_mp_zero.c
-/build/extern/libtommath/bn_mp_2expt.c
-/build/extern/libtommath/bn_mp_grow.c
-/build/extern/libtommath/bn_mp_init.c
-/build/extern/libtommath/bn_s_mp_sub.c
-/build/extern/libtommath/bn_mp_clamp.c
-/build/extern/libtommath/bn_prime_tab.c
-/build/extern/libtommath/bn_mp_count_bits.c

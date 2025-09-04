@@ -1,8 +1,0 @@
-/build/src/common/classes/ClumpletReader.cpp
-/build/temp/Release/jrd/Function.cpp
-/build/src/jrd/trace/TraceLog.cpp
-/build/src/common/TimeZoneUtil.cpp
-/build/src/common/classes/NoThrowTimeStamp.cpp
-/build/src/dsql/ExprNodes.cpp
-/build/src/common/os/posix/path_utils.cpp
-/build/src/common/classes/fb_string.cpp

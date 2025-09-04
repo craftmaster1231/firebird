@@ -1,8 +1,0 @@
-/build/src/common/xdr.cpp
-/build/src/common/ThreadData.cpp
-/build/src/common/sdl.cpp
-/build/src/common/DecFloat.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/yvalve/gds.cpp
-/build/src/common/fb_exception.cpp

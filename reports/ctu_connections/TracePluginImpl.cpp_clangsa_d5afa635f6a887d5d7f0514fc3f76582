@@ -1,8 +1,0 @@
-/build/src/common/classes/timestamp.cpp
-/build/src/common/os/posix/path_utils.cpp
-/build/src/common/classes/NoThrowTimeStamp.cpp
-/build/src/common/SimilarToRegex.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/common/fb_exception.cpp
-/build/src/utilities/ntrace/os/posix/platform.cpp
