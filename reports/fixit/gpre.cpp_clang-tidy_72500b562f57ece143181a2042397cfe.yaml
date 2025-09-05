@@ -1,0 +1,2631 @@
+---
+MainSourceFile:  '/build/src/gpre/gpre.cpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/../../extern/ttmath/ttmathuint.h'
+      FileOffset:      33970
+      Replacements:    []
+    Notes:
+      - Message:         'in instantiation of member function ''ttmath::UInt<2>::Div_StandardTest'' requested here'
+        FilePath:        '/build/src/gpre/../gpre/../common/../common/../../extern/ttmath/ttmathuint.h'
+        FileOffset:      35601
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::UInt<2>::Div1'' requested here'
+        FilePath:        '/build/src/gpre/../gpre/../common/../common/../../extern/ttmath/ttmathuint.h'
+        FileOffset:      33442
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::UInt<2>::Div'' requested here'
+        FilePath:        '/build/src/gpre/../gpre/../common/../common/../../extern/ttmath/ttmathint.h'
+        FileOffset:      10835
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::Int<2>::Div'' requested here'
+        FilePath:        '/build/src/gpre/../gpre/../common/../common/../../extern/ttmath/ttmathint.h'
+        FileOffset:      11062
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::Int<2>::Div'' requested here'
+        FilePath:        '/build/src/gpre/../gpre/../common/../common/Int128.h'
+        FileOffset:      8272
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion from ''uint'' (aka ''unsigned long'') to ''double'' may lose precision'
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/../../extern/ttmath/ttmathuint.h'
+      FileOffset:      62490
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/../gpre/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62490
+          Length:          8
+        - FilePath:        '/build/src/gpre/../gpre/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62488
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion from ''uint'' (aka ''unsigned long'') to ''double'' may lose precision'
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/../../extern/ttmath/ttmathuint.h'
+      FileOffset:      62599
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/../gpre/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62593
+          Length:          9
+        - FilePath:        '/build/src/gpre/../gpre/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62590
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''Decimal128&'''
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/DecFloat.h'
+      FileOffset:      5110
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''Int128&'''
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/Int128.h'
+      FileOffset:      6010
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/classes/fb_string.h'
+      FileOffset:      6504
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/gpre/../gpre/../common/../common/classes/fb_string.h'
+        FileOffset:      6439
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/classes/fb_string.h'
+      FileOffset:      6808
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/gpre/../gpre/../common/../common/classes/fb_string.h'
+        FileOffset:      6743
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move constructors should be marked noexcept
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/classes/fb_string.h'
+      FileOffset:      19816
+      Replacements:
+        - FilePath:        '/build/src/gpre/../gpre/../common/../common/classes/fb_string.h'
+          Offset:          19845
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/classes/fb_string.h'
+      FileOffset:      21083
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/classes/fb_string.h'
+      FileOffset:      21153
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/classes/fb_string.h'
+      FileOffset:      21254
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/src/gpre/../gpre/../common/../common/classes/fb_string.h'
+      FileOffset:      21841
+      Replacements:
+        - FilePath:        '/build/src/gpre/../gpre/../common/../common/classes/fb_string.h'
+          Offset:          21869
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''bufferSize'''
+      FilePath:        '/build/src/gpre/../gpre/../common/../jrd/../common/classes/Uuid.h'
+      FileOffset:      1494
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/gpre/../gpre/../common/../jrd/ods.h'
+      FileOffset:      5502
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/../gpre/../common/../jrd/ods.h'
+          FileOffset:      5489
+          Length:          20
+        - FilePath:        '/build/src/gpre/../gpre/../common/../jrd/ods.h'
+          FileOffset:      5481
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/../gpre/../common/dsc.h'
+      FileOffset:      3251
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/../gpre/../common/dsc.h'
+          FileOffset:      3241
+          Length:          32
+        - FilePath:        '/build/src/gpre/../gpre/../common/dsc.h'
+          FileOffset:      3234
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/gpre/../gpre/../common/dsc.h'
+      FileOffset:      6240
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/../gpre/../common/dsc.h'
+          FileOffset:      6230
+          Length:          32
+        - FilePath:        '/build/src/gpre/../gpre/../common/dsc.h'
+          FileOffset:      6223
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-confusable-identifiers
+    DiagnosticMessage:
+      Message:         '''IN_SW_GPRE_O'' is confusable with ''IN_SW_GPRE_0'''
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      2183
+      Replacements:    []
+    Notes:
+      - Message:         other declaration found here
+        FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+        FileOffset:      1767
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      5064
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      5155
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      5252
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      5366
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      5476
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      5584
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      5813
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      5880
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      5952
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      6025
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      6092
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      6198
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      6277
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      6385
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      6497
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      6597
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      6695
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      6804
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      7016
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      7116
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      7213
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      7283
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      7390
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      7458
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      7677
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      7798
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      7904
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      8297
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      8402
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      8607
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-missing-field-initializers
+    DiagnosticMessage:
+      Message:         'missing field ''in_sw_optype'' initializer'
+      FilePath:        '/build/src/gpre/../gpre/gpreswi.h'
+      FileOffset:      8673
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-header-include-cycle
+    DiagnosticMessage:
+      Message:         'circular header file dependency detected while including ''gpre.h'', please check the include path'
+      FilePath:        '/build/src/gpre/../gpre/parse.h'
+      FileOffset:      927
+      Replacements:    []
+    Notes:
+      - Message:         '''parse.h'' included from here'
+        FilePath:        '/build/src/gpre/../gpre/gpre.h'
+        FileOffset:      41642
+        Replacements:    []
+      - Message:         '''gpre.h'' included from here'
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      1811
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/gpre/../gpre/parse.h'
+      FileOffset:      1803
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/../gpre/parse.h'
+          FileOffset:      1803
+          Length:          2
+        - FilePath:        '/build/src/gpre/../gpre/parse.h'
+          FileOffset:      1801
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      6769
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      6769
+          Length:          23
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      6769
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      6802
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      6802
+          Length:          27
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      6802
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      9838
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      9838
+          Length:          49
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      9838
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      11220
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      11220
+          Length:          89
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      11220
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      12173
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      12173
+          Length:          74
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      12173
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      12268
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      12268
+          Length:          51
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      12268
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '19 enumeration values not explicitly handled in switch: ''IN_SW_GPRE_0'', ''IN_SW_GPRE_F'', ''IN_SW_GPRE_P''...'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      12773
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      12773
+          Length:          16
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      20355
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      20355
+          Length:          31
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      20353
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      22349
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      22349
+          Length:          78
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      22349
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      22551
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      22551
+          Length:          67
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      22551
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      23055
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      23055
+          Length:          18
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      23055
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      23104
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      23104
+          Length:          25
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      23104
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      23276
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      23276
+          Length:          30
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      23276
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      23351
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      23351
+          Length:          28
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      23351
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      23391
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      23391
+          Length:          55
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      23391
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      23475
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      23475
+          Length:          32
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      23475
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      23545
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      23545
+          Length:          30
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      23545
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      23587
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      23587
+          Length:          50
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      23587
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      24470
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      24470
+          Length:          58
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      24470
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      24949
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      24949
+          Length:          70
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      24949
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      25260
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      25260
+          Length:          18
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      25260
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      25570
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      25570
+          Length:          70
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      25570
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      26536
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      26536
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      26534
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      26562
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      26562
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      26560
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      26728
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      26728
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      26726
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''const SSHORT'' (aka ''const short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      26881
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      26881
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      26874
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      26991
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      26991
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      26989
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      28788
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      28788
+          Length:          24
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      28788
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''TEXT'' (aka ''char'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      29010
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      29010
+          Length:          16
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      29008
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      29029
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      29029
+          Length:          31
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      29029
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      29233
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      29233
+          Length:          101
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      29233
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      30172
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      30172
+          Length:          97
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      30172
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      31996
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      31996
+          Length:          32
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      31996
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      33078
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      33078
+          Length:          36
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      33078
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      33976
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      33976
+          Length:          36
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      33976
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''const USHORT'' (aka ''const unsigned short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      39312
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      39312
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      39307
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      39466
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      39466
+          Length:          25
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      39466
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      41671
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      41671
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      44298
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      44298
+          Length:          71
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      44298
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      44690
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      44690
+          Length:          81
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      44690
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      44863
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      44863
+          Length:          3
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      44861
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      45118
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      45118
+          Length:          52
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      45118
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      45925
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      45925
+          Length:          71
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      45925
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      49158
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      49158
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      49156
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      49390
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      49390
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      49388
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      49903
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      49903
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      49901
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      50126
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      50126
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      50124
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      50247
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      50247
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      50245
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      50363
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      50363
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      50361
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      50676
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      50676
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      50669
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''const USHORT'' (aka ''const unsigned short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      52010
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52010
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52003
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''const USHORT'' (aka ''const unsigned short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      52377
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52377
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52370
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      52558
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52558
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52556
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      52633
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52633
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52631
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      52744
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52744
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52742
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      52865
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52865
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      52863
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''TEXT'' (aka ''char'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      53075
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      53075
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      53073
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''TEXT'' (aka ''char'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      53246
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      53246
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      53244
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''long'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      53405
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      53403
+          Length:          36
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      53401
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''const SSHORT'' (aka ''const short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      56283
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      56283
+          Length:          20
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      56279
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      57404
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      57404
+          Length:          20
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      57404
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      57903
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      57903
+          Length:          79
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      57903
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      60012
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      60012
+          Length:          79
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      60012
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      60386
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      60386
+          Length:          141
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      60386
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      60535
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      60535
+          Length:          145
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      60535
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''comment_start_len'''
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      61416
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      61416
+          Length:          17
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      61891
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      61891
+          Length:          20
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      61889
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      62117
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      62117
+          Length:          93
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      62117
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      62228
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      62228
+          Length:          93
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      62228
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      62427
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      62427
+          Length:          26
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      62427
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '10 enumeration values not explicitly handled in switch: ''lang_undef'', ''lang_internal'', ''lang_pascal''...'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      62981
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      62981
+          Length:          20
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      63034
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      63034
+          Length:          30
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      63034
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      63070
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      63070
+          Length:          39
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      63070
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      63214
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      63214
+          Length:          30
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      63214
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      63251
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      63251
+          Length:          39
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      63251
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      63435
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      63435
+          Length:          39
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      63435
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      63747
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      63747
+          Length:          20
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      63745
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''const SSHORT'' (aka ''const short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      63969
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      63969
+          Length:          20
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      63965
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      64050
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      64050
+          Length:          38
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      64050
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      64259
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      64259
+          Length:          26
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      64259
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      64483
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      64483
+          Length:          39
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      64483
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      64832
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      64832
+          Length:          39
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      64832
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      65025
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      65025
+          Length:          38
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      65025
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      65152
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      65152
+          Length:          30
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      65152
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      65669
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      65669
+          Length:          73
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      65669
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      65786
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      65786
+          Length:          20
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      65784
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      65859
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      65859
+          Length:          97
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      65859
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      66082
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      66082
+          Length:          26
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      66082
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      66578
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      66578
+          Length:          42
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      66578
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      66772
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      66772
+          Length:          101
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      66772
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      66893
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      66893
+          Length:          65
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      66893
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      67109
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      67109
+          Length:          57
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/gpre/gpre.cpp'
+        FileOffset:      67109
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      68188
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      68188
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      68186
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''const SSHORT'' (aka ''const short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      69317
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69317
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69312
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      69397
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69397
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69395
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      69639
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69639
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69632
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      69755
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69755
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69753
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      69880
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69880
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69878
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      69910
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69910
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      69908
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''const SSHORT'' (aka ''const short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      70631
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      70631
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      70624
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/gpre/gpre.cpp'
+      FileOffset:      70725
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      70725
+          Length:          10
+        - FilePath:        '/build/src/gpre/gpre.cpp'
+          FileOffset:      70723
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__alloc_debug'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      1743
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__alloc'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      1917
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__decode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      2080
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__encode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      2396
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__free'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      2697
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__interprete'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3058
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__interprete_a'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3113
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__log'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3189
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3234
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace_raw'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3276
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__log_status'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3340
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_close'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3406
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_format'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3448
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_lookup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3736
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_open'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3828
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_put'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      3881
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4007
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix_lock'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4057
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix_msg'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4112
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__get_prefix'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4168
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__print_status'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4229
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__parse_bpb'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4286
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__parse_bpb2'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4361
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__ftof'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4483
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__print_blr'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4665
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__put_error'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4748
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__qtoq'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4794
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__register_cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4842
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__sqlcode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4905
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__sqlcode_s'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      4955
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__temp_file'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5018
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__unregister_cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5111
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__validate_lib_path'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5178
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vax_integer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5260
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vtof'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5317
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vtov'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5375
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5758
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__ulstr'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5779
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__default_printer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      5997
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace_printer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../common/../yvalve/gds_proto.h'
+      FileOffset:      6071
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''ex'''
+      FilePath:        '/build/src/include/../common/StatusArg.h'
+      FileOffset:      2045
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''ex'''
+      FilePath:        '/build/src/include/../common/StatusArg.h'
+      FileOffset:      2101
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCounted'' is protected and virtual'
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      1052
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+        FileOffset:      1052
+        Replacements:
+          - FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+            Offset:          1410
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''x'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2254
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2907
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2958
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      3024
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      3027
+      Replacements:
+        - FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+          Offset:          3049
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      9774
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      9900
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''hint'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      12786
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''n'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      12928
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-dcl58-cpp
+    DiagnosticMessage:
+      Message:         'modification of ''std'' namespace can result in undefined behavior'
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      13743
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''AtomicCounter&'''
+      FilePath:        '/build/src/include/../common/classes/fb_atomic.h'
+      FileOffset:      3071
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aReason'''
+      FilePath:        '/build/src/include/../common/classes/locks.h'
+      FileOffset:      4051
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aReason'''
+      FilePath:        '/build/src/include/../common/classes/locks.h'
+      FileOffset:      5783
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''status'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452913
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''dbName'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452933
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''attStatus'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452956
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      476
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      15361
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      15542
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+...

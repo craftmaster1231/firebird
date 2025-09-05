@@ -1,0 +1,8 @@
+/build/src/common/config/config.cpp
+/build/src/common/StatusArg.cpp
+/build/src/common/classes/alloc.cpp
+/build/src/common/classes/fb_string.cpp
+/build/src/yvalve/gds.cpp
+/build/src/common/os/posix/guid.cpp
+/build/src/common/fb_exception.cpp
+/build/src/common/os/posix/os_utils.cpp

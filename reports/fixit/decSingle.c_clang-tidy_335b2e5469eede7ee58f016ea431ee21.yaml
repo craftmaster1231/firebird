@@ -1,0 +1,141 @@
+---
+MainSourceFile:  '/build/extern/decNumber/decSingle.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         'enumeration values ''DEC_ROUND_HALF_EVEN'' and ''DEC_ROUND_MAX'' not explicitly handled in switch'
+      FilePath:        '/build/extern/decNumber/decCommon.c'
+      FileOffset:      16158
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          FileOffset:      16158
+          Length:          10
+    Level:           Warning
+    BuildDirectory:  '/build/extern/decNumber'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '5 enumeration values not explicitly handled in switch: ''DEC_ROUND_UP'', ''DEC_ROUND_HALF_UP'', ''DEC_ROUND_HALF_EVEN''...'
+      FilePath:        '/build/extern/decNumber/decCommon.c'
+      FileOffset:      20229
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          FileOffset:      20229
+          Length:          10
+    Level:           Warning
+    BuildDirectory:  '/build/extern/decNumber'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/decNumber/decCommon.c'
+      FileOffset:      54683
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          FileOffset:      54683
+          Length:          52
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/decNumber/decCommon.c'
+        FileOffset:      54683
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/decNumber'
+  - DiagnosticName:  bugprone-not-null-terminated-result
+    DiagnosticMessage:
+      Message:         'the result from calling ''memcpy'' is not null-terminated'
+      FilePath:        '/build/extern/decNumber/decCommon.c'
+      FileOffset:      64929
+      Replacements:
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          64929
+          Length:          6
+          ReplacementText: strcpy
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          64956
+          Length:          3
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/decNumber'
+  - DiagnosticName:  bugprone-not-null-terminated-result
+    DiagnosticMessage:
+      Message:         'the result from calling ''memcpy'' is not null-terminated'
+      FilePath:        '/build/extern/decNumber/decCommon.c'
+      FileOffset:      64968
+      Replacements:
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          64968
+          Length:          6
+          ReplacementText: strcpy
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          64989
+          Length:          3
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/decNumber'
+  - DiagnosticName:  bugprone-not-null-terminated-result
+    DiagnosticMessage:
+      Message:         'the result from calling ''memcpy'' is not null-terminated'
+      FilePath:        '/build/extern/decNumber/decCommon.c'
+      FileOffset:      65058
+      Replacements:
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          65058
+          Length:          6
+          ReplacementText: strcpy
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          65077
+          Length:          3
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/decNumber'
+  - DiagnosticName:  bugprone-not-null-terminated-result
+    DiagnosticMessage:
+      Message:         'the result from calling ''memcpy'' is not null-terminated'
+      FilePath:        '/build/extern/decNumber/decCommon.c'
+      FileOffset:      78439
+      Replacements:
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          78439
+          Length:          6
+          ReplacementText: strcpy
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          78466
+          Length:          3
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/decNumber'
+  - DiagnosticName:  bugprone-not-null-terminated-result
+    DiagnosticMessage:
+      Message:         'the result from calling ''memcpy'' is not null-terminated'
+      FilePath:        '/build/extern/decNumber/decCommon.c'
+      FileOffset:      78476
+      Replacements:
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          78476
+          Length:          6
+          ReplacementText: strcpy
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          78497
+          Length:          3
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/decNumber'
+  - DiagnosticName:  bugprone-not-null-terminated-result
+    DiagnosticMessage:
+      Message:         'the result from calling ''memcpy'' is not null-terminated'
+      FilePath:        '/build/extern/decNumber/decCommon.c'
+      FileOffset:      78558
+      Replacements:
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          78558
+          Length:          6
+          ReplacementText: strcpy
+        - FilePath:        '/build/extern/decNumber/decCommon.c'
+          Offset:          78577
+          Length:          3
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/decNumber'
+...

@@ -1,0 +1,3031 @@
+---
+MainSourceFile:  '/build/src/jrd/recsrc/ProcedureScan.cpp'
+Diagnostics:
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''event_counter&'''
+      FilePath:        '/build/extern/libcds/cds/algo/atomic.h'
+      FileOffset:      3749
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/clang/defs.h'
+      FileOffset:      417
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/clang/defs.h'
+      FileOffset:      477
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/gcc/compiler_macro.h'
+      FileOffset:      472
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/gcc/compiler_macro.h'
+      FileOffset:      516
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/gcc/compiler_macro.h'
+      FileOffset:      3151
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/gcc/compiler_macro.h'
+      FileOffset:      3199
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/gcc/compiler_macro.h'
+      FileOffset:      6315
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''marked_ptr&'''
+      FilePath:        '/build/extern/libcds/cds/details/marked_ptr.h'
+      FileOffset:      4147
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-dcl58-cpp
+    DiagnosticMessage:
+      Message:         'modification of ''std'' namespace can result in undefined behavior'
+      FilePath:        '/build/extern/libcds/cds/details/marked_ptr.h'
+      FileOffset:      8306
+      Replacements:    []
+    Notes:
+      - Message:         '''std'' namespace opened here'
+        FilePath:        '/build/extern/libcds/cds/details/marked_ptr.h'
+        FileOffset:      8222
+        Replacements:    []
+      - Message:         'expanded from macro ''CDS_CXX11_ATOMIC_BEGIN_NAMESPACE'''
+        FilePath:        '/build/extern/libcds/cds/algo/atomic.h'
+        FileOffset:      2797
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''atomic&'''
+      FilePath:        '/build/extern/libcds/cds/details/marked_ptr.h'
+      FileOffset:      12816
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''atomic&'''
+      FilePath:        '/build/extern/libcds/cds/details/marked_ptr.h'
+      FileOffset:      12956
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-deprecated-copy-with-user-provided-copy
+    DiagnosticMessage:
+      Message:         'definition of implicit copy constructor for ''retired_ptr'' is deprecated because it has a user-provided copy assignment operator'
+      FilePath:        '/build/extern/libcds/cds/gc/details/retired_ptr.h'
+      FileOffset:      1902
+      Replacements:    []
+    Notes:
+      - Message:         'in implicit copy constructor for ''cds::gc::details::retired_ptr'' first required here'
+        FilePath:        '/build/extern/libcds/cds/urcu/details/base.h'
+        FileOffset:      19714
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/threading/details/_common.h'
+      FileOffset:      236
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''singleton_vtbl'' is protected and virtual'
+      FilePath:        '/build/extern/libcds/cds/urcu/details/base.h'
+      FileOffset:      13342
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/libcds/cds/urcu/details/base.h'
+        FileOffset:      13342
+        Replacements:
+          - FilePath:        '/build/extern/libcds/cds/urcu/details/base.h'
+            Offset:          13398
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''gp_singleton<cds::urcu::general_buffered_tag>'' is protected and virtual'
+      FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+      FileOffset:      3498
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+        FileOffset:      3498
+        Replacements:
+          - FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+            Offset:          4022
+            Length:          13
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''gp_singleton<cds::urcu::general_instant_tag>'' is protected and virtual'
+      FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+      FileOffset:      3498
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+        FileOffset:      3498
+        Replacements:
+          - FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+            Offset:          4022
+            Length:          13
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''gp_singleton<cds::urcu::general_threaded_tag>'' is protected and virtual'
+      FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+      FileOffset:      3498
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+        FileOffset:      3498
+        Replacements:
+          - FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+            Offset:          4022
+            Length:          13
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''sh_singleton<cds::urcu::signal_buffered_tag>'' is protected and virtual'
+      FilePath:        '/build/extern/libcds/cds/urcu/details/sh_decl.h'
+      FileOffset:      3145
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/libcds/cds/urcu/details/sh_decl.h'
+        FileOffset:      3145
+        Replacements:
+          - FilePath:        '/build/extern/libcds/cds/urcu/details/sh_decl.h'
+            Offset:          3800
+            Length:          13
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''ex'''
+      FilePath:        '/build/src/include/../common/StatusArg.h'
+      FileOffset:      2045
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''ex'''
+      FilePath:        '/build/src/include/../common/StatusArg.h'
+      FileOffset:      2101
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/include/../common/ThreadStart.h'
+      FileOffset:      2820
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCounted'' is protected and virtual'
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      1052
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+        FileOffset:      1052
+        Replacements:
+          - FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+            Offset:          1410
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''x'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2254
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2907
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      2958
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''RefPtr&'''
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      3024
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+      FileOffset:      3027
+      Replacements:
+        - FilePath:        '/build/src/include/../common/classes/RefCounted.h'
+          Offset:          3049
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''f'''
+      FilePath:        '/build/src/include/../common/classes/RefMutex.h'
+      FileOffset:      2286
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''ret'''
+      FilePath:        '/build/src/include/../common/classes/SyncObject.h'
+      FileOffset:      1877
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/SyncObject.h'
+          FileOffset:      1877
+          Length:          3
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      9774
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      9900
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''hint'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      12786
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''n'''
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      12928
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-dcl58-cpp
+    DiagnosticMessage:
+      Message:         'modification of ''std'' namespace can result in undefined behavior'
+      FilePath:        '/build/src/include/../common/classes/alloc.h'
+      FileOffset:      13743
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-undefined-memory-manipulation
+    DiagnosticMessage:
+      Message:         'undefined behavior, source object type ''Jrd::MetaName'' is not TriviallyCopyable'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      4239
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-undefined-memory-manipulation
+    DiagnosticMessage:
+      Message:         'undefined behavior, source object type ''Jrd::record_param'' is not TriviallyCopyable'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      4239
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      4285
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/array.h'
+          FileOffset:      4285
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      5319
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/array.h'
+          FileOffset:      5319
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      6777
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/array.h'
+          FileOffset:      6777
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      7960
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/array.h'
+          FileOffset:      7960
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      8654
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/array.h'
+          FileOffset:      8654
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      11951
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/array.h'
+          FileOffset:      11951
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-undefined-memory-manipulation
+    DiagnosticMessage:
+      Message:         'undefined behavior, source object type ''Firebird::BaseQualifiedName<Jrd::MetaName>'' is not TriviallyCopyable'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      12010
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-undefined-memory-manipulation
+    DiagnosticMessage:
+      Message:         'undefined behavior, source object type ''Jrd::MetaName'' is not TriviallyCopyable'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      12010
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-undefined-memory-manipulation
+    DiagnosticMessage:
+      Message:         'undefined behavior, source object type ''Jrd::record_param'' is not TriviallyCopyable'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      12010
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/array.h'
+      FileOffset:      12052
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/array.h'
+          FileOffset:      12052
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''AtomicCounter&'''
+      FilePath:        '/build/src/include/../common/classes/fb_atomic.h'
+      FileOffset:      3071
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''f'''
+      FilePath:        '/build/src/include/../common/classes/init.h'
+      FileOffset:      4055
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aReason'''
+      FilePath:        '/build/src/include/../common/classes/locks.h'
+      FileOffset:      4051
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aReason'''
+      FilePath:        '/build/src/include/../common/classes/locks.h'
+      FileOffset:      5783
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/tree.h'
+      FileOffset:      3704
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/tree.h'
+          FileOffset:      3704
+          Length:          13
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/src/include/../common/classes/tree.h'
+      FileOffset:      11017
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/vector.h'
+      FileOffset:      1995
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/vector.h'
+          FileOffset:      1995
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/vector.h'
+      FileOffset:      2278
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/vector.h'
+          FileOffset:      2278
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-sizeof-expression
+    DiagnosticMessage:
+      Message:         'suspicious usage of ''sizeof(A*)'' on pointer-to-aggregate type; did you mean ''sizeof(A)''?'
+      FilePath:        '/build/src/include/../common/classes/vector.h'
+      FileOffset:      2788
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../common/classes/vector.h'
+          FileOffset:      2788
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''USHORT'' (aka ''unsigned short'') to ''UCHAR'' (aka ''unsigned char'')'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/../common/classes/BlrWriter.h'
+      FileOffset:      1520
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/../common/classes/BlrWriter.h'
+          FileOffset:      1520
+          Length:          4
+        - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/../common/classes/BlrWriter.h'
+          FileOffset:      1508
+          Length:          11
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''ULONG'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/../common/classes/BlrWriter.h'
+      FileOffset:      1604
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/../common/classes/BlrWriter.h'
+          FileOffset:      1604
+          Length:          3
+        - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/../common/classes/BlrWriter.h'
+          FileOffset:      1591
+          Length:          12
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''USHORT'' (aka ''unsigned short'') to ''UCHAR'' (aka ''unsigned char'')'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/../common/classes/BlrWriter.h'
+      FileOffset:      2167
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/../common/classes/BlrWriter.h'
+          FileOffset:      2167
+          Length:          24
+        - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/../common/classes/BlrWriter.h'
+          FileOffset:      2155
+          Length:          11
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''DsqlCompilerScratch'' is protected and virtual'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+      FileOffset:      1232
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+        FileOffset:      1232
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/DsqlCompilerScratch.h'
+            Offset:          3635
+            Length:          20
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+      FileOffset:      1985
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''traHandle'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+      FileOffset:      2001
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''inMeta'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+      FileOffset:      2042
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''inMsg'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+      FileOffset:      2063
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''outMeta'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+      FileOffset:      2100
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''flags'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+      FileOffset:      2115
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+      FileOffset:      2215
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''inMetadata'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+      FileOffset:      2249
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''parLength'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+      FileOffset:      2272
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''par'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/DsqlRequests.h'
+      FileOffset:      2296
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''DsqlCompilerScratch'' is protected and virtual'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/ddl_proto.h'
+      FileOffset:      1132
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/../dsql/ddl_proto.h'
+        FileOffset:      1132
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/DsqlCompilerScratch.h'
+            Offset:          3635
+            Length:          20
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''DsqlCompilerScratch'' is protected and virtual'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/DsqlStatements.h'
+      FileOffset:      1262
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/DsqlStatements.h'
+        FileOffset:      1262
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/DsqlCompilerScratch.h'
+            Offset:          3635
+            Length:          20
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''DsqlStatement'' is protected and virtual'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/DsqlStatements.h'
+      FileOffset:      1413
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/DsqlStatements.h'
+        FileOffset:      1413
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/DsqlStatements.h'
+            Offset:          2205
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '17 enumeration values not explicitly handled in switch: ''TYPE_INSERT'', ''TYPE_DELETE'', ''TYPE_UPDATE''...'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/DsqlStatements.h'
+      FileOffset:      2347
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/DsqlStatements.h'
+          FileOffset:      2347
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-ignored-qualifiers
+    DiagnosticMessage:
+      Message:         '''const'' type qualifier on return type has no effect'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/DsqlStatements.h'
+      FileOffset:      3657
+      Replacements:
+        - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/DsqlStatements.h'
+          Offset:          3657
+          Length:          6
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''DsqlCompilerScratch'' is protected and virtual'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/dsql.h'
+      FileOffset:      2479
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/dsql.h'
+        FileOffset:      2479
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/DsqlCompilerScratch.h'
+            Offset:          3635
+            Length:          20
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should take ''dsql_ctx const&'', ''dsql_ctx&&'' or ''dsql_ctx'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/../dsql/dsql.h'
+      FileOffset:      13285
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''DsqlCompilerScratch'' is protected and virtual'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/DsqlCompilerScratch.h'
+      FileOffset:      1868
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../dsql/../dsql/../dsql/DsqlCompilerScratch.h'
+        FileOffset:      1868
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/DsqlCompilerScratch.h'
+            Offset:          3635
+            Length:          20
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''DsqlCompilerScratch'' is protected and virtual'
+      FilePath:        '/build/src/include/../dsql/../dsql/../dsql/make_proto.h'
+      FileOffset:      1135
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../dsql/../dsql/../dsql/make_proto.h'
+        FileOffset:      1135
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../dsql/../dsql/DsqlCompilerScratch.h'
+            Offset:          3635
+            Length:          20
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''AutoTempRecord&'''
+      FilePath:        '/build/src/include/../dsql/../dsql/../jrd/../jrd/Record.h'
+      FileOffset:      4347
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''statusVector'''
+      FilePath:        '/build/src/include/../dsql/../dsql/DdlNodes.h'
+      FileOffset:      6920
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''statusVector'''
+      FilePath:        '/build/src/include/../dsql/../dsql/DdlNodes.h'
+      FileOffset:      7691
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''p'''
+      FilePath:        '/build/src/include/../dsql/../dsql/DdlNodes.h'
+      FileOffset:      36267
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''p'''
+      FilePath:        '/build/src/include/../dsql/../dsql/DdlNodes.h'
+      FileOffset:      36597
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''recordSource'''
+      FilePath:        '/build/src/include/../dsql/../dsql/NodePrinter.h'
+      FileOffset:      4069
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      2820
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''holder'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      4177
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''dsql'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      4190
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aType'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      13831
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-non-virtual-dtor
+    DiagnosticMessage:
+      Message:         '''Jrd::AggNode::Factory'' has virtual functions but non-virtual destructor'
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      23027
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''Factory'' is public and non-virtual'
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      23027
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+        FileOffset:      23027
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+            Offset:          23063
+            Length:          0
+            ReplacementText: "\nvirtual ~Factory() = default;"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''count'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      26742
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      27256
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''request'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      27271
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''desc'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      27285
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      27340
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''request'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      27355
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      34184
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''copier'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      34202
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aType'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      37075
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pool'''
+      FilePath:        '/build/src/include/../dsql/../dsql/Nodes.h'
+      FileOffset:      39365
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''status'''
+      FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+      FileOffset:      2870
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''status'''
+      FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+      FileOffset:      2975
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''Provider'' is protected and virtual'
+      FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+      FileOffset:      4229
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+        FileOffset:      4229
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+            Offset:          5733
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''Connection'' is protected and virtual'
+      FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+      FileOffset:      11773
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+        FileOffset:      11773
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+            Offset:          11994
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''Transaction'' is protected and virtual'
+      FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+      FileOffset:      16504
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+        FileOffset:      16504
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+            Offset:          16683
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''Statement'' is protected and virtual'
+      FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+      FileOffset:      18500
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+        FileOffset:      18500
+        Replacements:
+          - FilePath:        '/build/src/include/../dsql/../jrd/extds/ExtDS.h'
+            Offset:          18675
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/ExprNodes.h'
+      FileOffset:      49611
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''csb'''
+      FilePath:        '/build/src/include/../dsql/ExprNodes.h'
+      FileOffset:      49634
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/ExprNodes.h'
+      FileOffset:      49722
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''csb'''
+      FilePath:        '/build/src/include/../dsql/ExprNodes.h'
+      FileOffset:      49745
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      10218
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''csb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      10241
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      11322
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''csb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      11345
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      11419
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''csb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      11442
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      12943
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''csb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      12966
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      13040
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''csb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      13063
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''dsqlScratch'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      43656
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''dsqlScratch'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      43757
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''dsqlScratch'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      44738
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''dsqlScratch'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      58999
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      59226
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''csb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      59249
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      59327
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''csb'''
+      FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+      FileOffset:      59350
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+      FileOffset:      33970
+      Replacements:    []
+    Notes:
+      - Message:         'in instantiation of member function ''ttmath::UInt<2>::Div_StandardTest'' requested here'
+        FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+        FileOffset:      35601
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::UInt<2>::Div1'' requested here'
+        FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+        FileOffset:      33442
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::UInt<2>::Div'' requested here'
+        FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathint.h'
+        FileOffset:      10835
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::Int<2>::Div'' requested here'
+        FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathint.h'
+        FileOffset:      11062
+        Replacements:    []
+      - Message:         'in instantiation of member function ''ttmath::Int<2>::Div'' requested here'
+        FilePath:        '/build/src/include/../jrd/../common/../common/Int128.h'
+        FileOffset:      8272
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion from ''uint'' (aka ''unsigned long'') to ''double'' may lose precision'
+      FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+      FileOffset:      62490
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62490
+          Length:          8
+        - FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62488
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion from ''uint'' (aka ''unsigned long'') to ''double'' may lose precision'
+      FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+      FileOffset:      62599
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62593
+          Length:          9
+        - FilePath:        '/build/src/include/../jrd/../common/../common/../../extern/ttmath/ttmathuint.h'
+          FileOffset:      62590
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''Decimal128&'''
+      FilePath:        '/build/src/include/../jrd/../common/../common/DecFloat.h'
+      FileOffset:      5110
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''Int128&'''
+      FilePath:        '/build/src/include/../jrd/../common/../common/Int128.h'
+      FileOffset:      6010
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''bufferSize'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/Uuid.h'
+      FileOffset:      1494
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      6504
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+        FileOffset:      6439
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      6808
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+        FileOffset:      6743
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move constructors should be marked noexcept
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      19816
+      Replacements:
+        - FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+          Offset:          19845
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21083
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21153
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21254
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      21841
+      Replacements:
+        - FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+          Offset:          21869
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-use-after-move
+    DiagnosticMessage:
+      Message:         '''rhs'' used after it was forwarded'
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+      FileOffset:      22249
+      Replacements:    []
+    Notes:
+      - Message:         forward occurred here
+        FilePath:        '/build/src/include/../jrd/../common/../jrd/../common/classes/fb_string.h'
+        FileOffset:      22040
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/include/../jrd/../common/../jrd/ods.h'
+      FileOffset:      5502
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../common/../jrd/ods.h'
+          FileOffset:      5489
+          Length:          20
+        - FilePath:        '/build/src/include/../jrd/../common/../jrd/ods.h'
+          FileOffset:      5481
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__alloc_debug'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      1743
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__alloc'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      1917
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__decode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      2080
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__encode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      2396
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__free'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      2697
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__interprete'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3058
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__interprete_a'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3113
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__log'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3189
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3234
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace_raw'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3276
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__log_status'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3340
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_close'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3406
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_format'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3448
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_lookup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3736
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_open'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3828
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__msg_put'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      3881
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4007
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix_lock'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4057
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__prefix_msg'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4112
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__get_prefix'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4168
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__print_status'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4229
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__parse_bpb'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4286
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__parse_bpb2'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4361
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__ftof'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4483
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__print_blr'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4665
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__put_error'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4748
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__qtoq'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4794
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__register_cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4842
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__sqlcode'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4905
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__sqlcode_s'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      4955
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__temp_file'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5018
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__unregister_cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5111
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__validate_lib_path'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5178
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vax_integer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5260
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vtof'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5317
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__vtov'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5375
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__cleanup'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5758
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__ulstr'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5779
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__default_printer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      5997
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''gds__trace_printer'' is reserved because it contains ''__'''
+      FilePath:        '/build/src/include/../jrd/../common/../yvalve/gds_proto.h'
+      FileOffset:      6071
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''SSHORT'' (aka ''short'')'
+      FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+      FileOffset:      3251
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+          FileOffset:      3241
+          Length:          32
+        - FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+          FileOffset:      3234
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+      FileOffset:      6240
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+          FileOffset:      6230
+          Length:          32
+        - FilePath:        '/build/src/include/../jrd/../common/dsc.h'
+          FileOffset:      6223
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-integer-division
+    DiagnosticMessage:
+      Message:         'result of integer division used in a floating point context; possible loss of precision'
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/TimeZoneUtil.h'
+      FileOffset:      1874
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion from ''SINT64'' (aka ''long long'') to ''UDate'' (aka ''double'') may lose precision'
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/TimeZoneUtil.h'
+      FileOffset:      1991
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../jrd/../common/TimeZoneUtil.h'
+          FileOffset:      1874
+          Length:          157
+        - FilePath:        '/build/src/include/../jrd/../jrd/../common/TimeZoneUtil.h'
+          FileOffset:      1867
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-integer-division
+    DiagnosticMessage:
+      Message:         'result of integer division used in a floating point context; possible loss of precision'
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/TimeZoneUtil.h'
+      FileOffset:      1997
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ISC_TIME_SECONDS_PRECISION'''
+        FilePath:        '/build/src/include/firebird/impl/dsc_pub.h'
+        FileOffset:      2226
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-integer-division
+    DiagnosticMessage:
+      Message:         'result of integer division used in a floating point context; possible loss of precision'
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/TimeZoneUtil.h'
+      FileOffset:      2163
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ISC_TIME_SECONDS_PRECISION'''
+        FilePath:        '/build/src/include/firebird/impl/dsc_pub.h'
+        FileOffset:      2226
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion turns floating-point number into integer: ''UDate'' (aka ''double'') to ''SINT64'' (aka ''long long'')'
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/TimeZoneUtil.h'
+      FileOffset:      2198
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../jrd/../common/TimeZoneUtil.h'
+          FileOffset:      2152
+          Length:          128
+        - FilePath:        '/build/src/include/../jrd/../jrd/../common/TimeZoneUtil.h'
+          FileOffset:      2124
+          Length:          9
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/classes/BlrReader.h'
+      FileOffset:      3059
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/classes/BlrReader.h'
+      FileOffset:      3059
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''TriState&'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/classes/TriState.h'
+      FileOffset:      1337
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''TriState&'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/classes/TriState.h'
+      FileOffset:      1911
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/classes/sparse_bitmap.h'
+      FileOffset:      6564
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         'enumeration values ''locEqual'', ''locGreatEqual'', and ''locLessEqual'' not explicitly handled in switch'
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/classes/sparse_bitmap.h'
+      FileOffset:      6965
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../jrd/../common/classes/sparse_bitmap.h'
+          FileOffset:      6965
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         'enumeration values ''locLess'' and ''locGreat'' not explicitly handled in switch'
+      FilePath:        '/build/src/include/../jrd/../jrd/../common/classes/sparse_bitmap.h'
+      FileOffset:      7467
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../jrd/../common/classes/sparse_bitmap.h'
+          FileOffset:      7467
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-new-delete-overloads
+    DiagnosticMessage:
+      Message:         'declaration of ''operator delete'' has no matching declaration of ''operator new'' at the same scope'
+      FilePath:        '/build/src/include/../jrd/../jrd/../include/fb_blk.h'
+      FileOffset:      2212
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-new-delete-overloads
+    DiagnosticMessage:
+      Message:         'declaration of ''operator delete[]'' has no matching declaration of ''operator new[]'' at the same scope'
+      FilePath:        '/build/src/include/../jrd/../jrd/../include/fb_blk.h'
+      FileOffset:      2295
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-new-delete-overloads
+    DiagnosticMessage:
+      Message:         'declaration of ''operator delete'' has no matching declaration of ''operator new'' at the same scope'
+      FilePath:        '/build/src/include/../jrd/../jrd/../include/fb_blk.h'
+      FileOffset:      3012
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IAttachmentImpl<Jrd::JAttachment, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IBatchImpl<Jrd::JBatch, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IBlobImpl<Jrd::JBlob, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IEventsImpl<Jrd::JEvents, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IFirebirdConfImpl<Firebird::FirebirdConf, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IMessageMetadataImpl<Firebird::MsgMetadata, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IMetadataBuilderImpl<Firebird::MetadataBuilder, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IProviderImpl<Jrd::JProvider, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IReplicatorImpl<Jrd::JReplicator, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IRequestImpl<Jrd::JRequest, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IResultSetImpl<Jrd::JResultSet, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IServiceImpl<Jrd::JService, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::IStatementImpl<Jrd::JStatement, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::ITimerImpl<EDS::ConnectionsPool::IdleTimer, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::ITimerImpl<Firebird::TimerImpl, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::ITimerImpl<Jrd::ConfigStorage::TouchFile, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::ITimerImpl<Jrd::Database::Linger, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''RefCntIface<Firebird::ITransactionImpl<Jrd::JTransaction, Firebird::CheckStatusWrapper>>'' is protected and virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2133
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+        FileOffset:      2133
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+            Offset:          2399
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''f'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      2705
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''m'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/../common/classes/ImplementHelper.h'
+      FileOffset:      3011
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''StatusHolder&'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/StatusHolder.h'
+      FileOffset:      5951
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''status'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/StatusHolder.h'
+      FileOffset:      6594
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-deprecated-copy-with-user-provided-copy
+    DiagnosticMessage:
+      Message:         'definition of implicit copy assignment operator for ''BaseQualifiedName<Jrd::MetaName>'' is deprecated because it has a user-provided copy constructor'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/classes/QualifiedMetaString.h'
+      FileOffset:      1817
+      Replacements:    []
+    Notes:
+      - Message:         'in implicit copy assignment operator for ''Firebird::BaseQualifiedName<Jrd::MetaName>'' first required here'
+        FilePath:        '/build/src/include/../jrd/../jrd/Routine.h'
+        FileOffset:      3191
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/classes/QualifiedMetaString.h'
+      FileOffset:      4164
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/../common/classes/QualifiedMetaString.h'
+      FileOffset:      4164
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''ULONG'' (aka ''unsigned int'') to ''BYTE'' (aka ''unsigned char'')'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/CharSet.h'
+      FileOffset:      1552
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/CharSet.h'
+          FileOffset:      1531
+          Length:          117
+        - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/CharSet.h'
+          FileOffset:      1529
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''ULONG'' (aka ''unsigned int'') to ''BYTE'' (aka ''unsigned char'')'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/CharSet.h'
+      FileOffset:      1828
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/CharSet.h'
+          FileOffset:      1807
+          Length:          112
+        - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/CharSet.h'
+          FileOffset:      1805
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/classes/MetaString.h'
+      FileOffset:      4997
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/classes/MetaString.h'
+      FileOffset:      5076
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should always return ''*this'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../common/classes/MetaString.h'
+      FileOffset:      5171
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''desc'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../jrd/sort.h'
+      FileOffset:      6236
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-non-virtual-dtor
+    DiagnosticMessage:
+      Message:         '''Firebird::IpcObject'' has virtual functions but non-virtual destructor'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../lock/../common/isc_s_proto.h'
+      FileOffset:      4762
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''IpcObject'' is public and non-virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../lock/../common/isc_s_proto.h'
+      FileOffset:      4762
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../lock/../common/isc_s_proto.h'
+        FileOffset:      4762
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../lock/../common/isc_s_proto.h'
+            Offset:          4781
+            Length:          0
+            ReplacementText: "\nvirtual ~IpcObject() = default;"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''f'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/../lock/lock_proto.h'
+      FileOffset:      11148
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''Service'' is private and prevents using the type'
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/EngineInterface.h'
+      FileOffset:      1256
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/EngineInterface.h'
+        FileOffset:      1256
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/svc.h'
+            Offset:          7951
+            Length:          10
+            ReplacementText: "public:\n~Service() noexceptprivate:"
+      - Message:         make it protected
+        FilePath:        '/build/src/include/../jrd/../jrd/../jrd/EngineInterface.h'
+        FileOffset:      1256
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/svc.h'
+            Offset:          7951
+            Length:          10
+            ReplacementText: "protected:\n~Service() noexceptprivate:"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  bugprone-copy-constructor-init
+    DiagnosticMessage:
+      Message:         calling a base constructor other than the copy constructor
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/RuntimeStatistics.h'
+      FileOffset:      4122
+      Replacements:
+        - FilePath:        '/build/src/include/../jrd/../jrd/../jrd/RuntimeStatistics.h'
+          Offset:          4198
+          Length:          0
+          ReplacementText: other
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''printer'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/exe.h'
+      FileOffset:      4958
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''printer'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/exe.h'
+      FileOffset:      11168
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''allowEmpty'''
+      FilePath:        '/build/src/include/../jrd/../jrd/../jrd/exe.h'
+      FileOffset:      19736
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''MonitoringData'' is public and non-virtual'
+      FilePath:        '/build/src/include/../jrd/../jrd/Database.h'
+      FileOffset:      2716
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/Database.h'
+        FileOffset:      2716
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/../jrd/Monitoring.h'
+            Offset:          7254
+            Length:          0
+            ReplacementText: 'virtual '
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''Service'' is private and prevents using the type'
+      FilePath:        '/build/src/include/../jrd/../jrd/jrd_proto.h'
+      FileOffset:      1154
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../jrd/../jrd/jrd_proto.h'
+        FileOffset:      1154
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/svc.h'
+            Offset:          7951
+            Length:          10
+            ReplacementText: "public:\n~Service() noexceptprivate:"
+      - Message:         make it protected
+        FilePath:        '/build/src/include/../jrd/../jrd/jrd_proto.h'
+        FileOffset:      1154
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/svc.h'
+            Offset:          7951
+            Length:          10
+            ReplacementText: "protected:\n~Service() noexceptprivate:"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''PageNumber&'''
+      FilePath:        '/build/src/include/../jrd/../jrd/pag.h'
+      FileOffset:      6890
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''unsigned int'' to ''UCHAR'' (aka ''unsigned char'')'
+      FilePath:        '/build/src/include/../jrd/../jrd/scl.h'
+      FileOffset:      4999
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../jrd/scl.h'
+          FileOffset:      4996
+          Length:          19
+        - FilePath:        '/build/src/include/../jrd/../jrd/scl.h'
+          FileOffset:      4989
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/include/../jrd/../jrd/val.h'
+      FileOffset:      7797
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/../jrd/val.h'
+          FileOffset:      7797
+          Length:          3
+        - FilePath:        '/build/src/include/../jrd/../jrd/val.h'
+          FileOffset:      7796
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-deprecated-copy-with-user-provided-dtor
+    DiagnosticMessage:
+      Message:         'definition of implicit copy assignment operator for ''Format'' is deprecated because it has a user-provided destructor'
+      FilePath:        '/build/src/include/../jrd/../jrd/val.h'
+      FileOffset:      8100
+      Replacements:    []
+    Notes:
+      - Message:         'in implicit copy assignment operator for ''Jrd::Format'' first required here'
+        FilePath:        '/build/src/include/../dsql/StmtNodes.h'
+        FileOffset:      35453
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''printer'''
+      FilePath:        '/build/src/include/../jrd/RecordSourceNodes.h'
+      FileOffset:      1718
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''printer'''
+      FilePath:        '/build/src/include/../jrd/RecordSourceNodes.h'
+      FileOffset:      3189
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''printer'''
+      FilePath:        '/build/src/include/../jrd/RecordSourceNodes.h'
+      FileOffset:      4406
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''aDsqlName'''
+      FilePath:        '/build/src/include/../jrd/RecordSourceNodes.h'
+      FileOffset:      6391
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''tdbb'''
+      FilePath:        '/build/src/include/../jrd/RecordSourceNodes.h'
+      FileOffset:      7141
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''csb'''
+      FilePath:        '/build/src/include/../jrd/RecordSourceNodes.h'
+      FileOffset:      7164
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''visitor'''
+      FilePath:        '/build/src/include/../jrd/RecordSourceNodes.h'
+      FileOffset:      27342
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''const unsigned int'' to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/include/../jrd/exe_proto.h'
+      FileOffset:      2718
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/exe_proto.h'
+          FileOffset:      2718
+          Length:          2
+        - FilePath:        '/build/src/include/../jrd/exe_proto.h'
+          FileOffset:      2711
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reorder-ctor
+    DiagnosticMessage:
+      Message:         'field ''win_flags'' will be initialized after field ''win_scans'''
+      FilePath:        '/build/src/include/../jrd/jrd.h'
+      FileOffset:      8166
+      Replacements:
+        - FilePath:        '/build/src/include/../jrd/jrd.h'
+          Offset:          8166
+          Length:          12
+          ReplacementText: 'win_scans(0)'
+        - FilePath:        '/build/src/include/../jrd/jrd.h'
+          Offset:          8182
+          Length:          12
+          ReplacementText: 'win_flags(0)'
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reorder-ctor
+    DiagnosticMessage:
+      Message:         initializer order does not match the declaration order
+      FilePath:        '/build/src/include/../jrd/jrd.h'
+      FileOffset:      8306
+      Replacements:
+        - FilePath:        '/build/src/include/../jrd/jrd.h'
+          Offset:          8306
+          Length:          16
+          ReplacementText: 'win_buffer(nullptr)'
+        - FilePath:        '/build/src/include/../jrd/jrd.h'
+          Offset:          8326
+          Length:          19
+          ReplacementText: 'win_bdb(nullptr)'
+        - FilePath:        '/build/src/include/../jrd/jrd.h'
+          Offset:          8356
+          Length:          12
+          ReplacementText: 'win_scans(0)'
+        - FilePath:        '/build/src/include/../jrd/jrd.h'
+          Offset:          8372
+          Length:          12
+          ReplacementText: 'win_flags(0)'
+    Notes:
+      - Message:         'field ''win_bdb'' will be initialized after field ''win_buffer'''
+        FilePath:        '/build/src/include/../jrd/jrd.h'
+        FileOffset:      8306
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/build/src/include/../jrd/jrd.h'
+            FileOffset:      8306
+            Length:          16
+      - Message:         'field ''win_flags'' will be initialized after field ''win_scans'''
+        FilePath:        '/build/src/include/../jrd/jrd.h'
+        FileOffset:      8356
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/build/src/include/../jrd/jrd.h'
+            FileOffset:      8356
+            Length:          12
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion turns floating-point number into integer: ''double'' to ''bool'''
+      FilePath:        '/build/src/include/../jrd/optimizer/Optimizer.h'
+      FileOffset:      10172
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/optimizer/Optimizer.h'
+          FileOffset:      10172
+          Length:          11
+        - FilePath:        '/build/src/include/../jrd/optimizer/Optimizer.h'
+          FileOffset:      10171
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-float-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion turns floating-point number into integer: ''const double'' to ''bool'''
+      FilePath:        '/build/src/include/../jrd/optimizer/Optimizer.h'
+      FileOffset:      11099
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/optimizer/Optimizer.h'
+          FileOffset:      11099
+          Length:          11
+        - FilePath:        '/build/src/include/../jrd/optimizer/Optimizer.h'
+          FileOffset:      11111
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''ULONG'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/../jrd/../jrd/recsrc/RecordSource.h'
+      FileOffset:      33004
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/../jrd/../jrd/recsrc/RecordSource.h'
+          FileOffset:      33004
+          Length:          2
+        - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/../jrd/../jrd/recsrc/RecordSource.h'
+          FileOffset:      33003
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-non-virtual-dtor
+    DiagnosticMessage:
+      Message:         '''Jrd::SnapshotData::DumpRecord::Writer'' has virtual functions but non-virtual destructor'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/../jrd/Monitoring.h'
+      FileOffset:      2048
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''Writer'' is public and non-virtual'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/../jrd/Monitoring.h'
+      FileOffset:      2048
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/../jrd/Monitoring.h'
+        FileOffset:      2048
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/../jrd/Monitoring.h'
+            Offset:          2068
+            Length:          0
+            ReplacementText: "\nvirtual ~Writer() = default;"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''const unsigned char'''
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/../jrd/Monitoring.h'
+      FileOffset:      2385
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/../jrd/Monitoring.h'
+          FileOffset:      2385
+          Length:          6
+        - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/../jrd/Monitoring.h'
+          FileOffset:      2381
+          Length:          3
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''Service'' is private and prevents using the type'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/svc.h'
+      FileOffset:      3767
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/svc.h'
+        FileOffset:      3767
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/svc.h'
+            Offset:          7951
+            Length:          10
+            ReplacementText: "public:\n~Service() noexceptprivate:"
+      - Message:         make it protected
+        FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/svc.h'
+        FileOffset:      3767
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/svc.h'
+            Offset:          7951
+            Length:          10
+            ReplacementText: "protected:\n~Service() noexceptprivate:"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''CallerName&'''
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/tra.h'
+      FileOffset:      3326
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-non-virtual-dtor
+    DiagnosticMessage:
+      Message:         '''Jrd::TraceDescriptors'' has virtual functions but non-virtual destructor'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+      FileOffset:      8780
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''TraceDescriptors'' is public and non-virtual'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+      FileOffset:      8780
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+        FileOffset:      8780
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+            Offset:          8806
+            Length:          0
+            ReplacementText: "\nvirtual ~TraceDescriptors() = default;"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-non-virtual-dtor
+    DiagnosticMessage:
+      Message:         '''Jrd::TraceDscFromValues'' has virtual functions but non-virtual destructor'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+      FileOffset:      9286
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''TraceDscFromValues'' is public and non-virtual'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+      FileOffset:      9286
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+        FileOffset:      9286
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+            Offset:          9340
+            Length:          0
+            ReplacementText: "\nvirtual ~TraceDscFromValues() = default;"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-non-virtual-dtor
+    DiagnosticMessage:
+      Message:         '''Jrd::TraceDscFromMsg'' has virtual functions but non-virtual destructor'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+      FileOffset:      9573
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''TraceDscFromMsg'' is public and non-virtual'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+      FileOffset:      9573
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+        FileOffset:      9573
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+            Offset:          9624
+            Length:          0
+            ReplacementText: "\nvirtual ~TraceDscFromMsg() = default;"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-non-virtual-dtor
+    DiagnosticMessage:
+      Message:         '''Jrd::TraceDscFromDsc'' has virtual functions but non-virtual destructor'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+      FileOffset:      9917
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''TraceDscFromDsc'' is public and non-virtual'
+      FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+      FileOffset:      9917
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+        FileOffset:      9917
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/TraceObjects.h'
+            Offset:          9968
+            Length:          0
+            ReplacementText: "\nvirtual ~TraceDscFromDsc() = default;"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''Service'' is private and prevents using the type'
+      FilePath:        '/build/src/include/../jrd/trace/TraceManager.h'
+      FileOffset:      1520
+      Replacements:    []
+    Notes:
+      - Message:         make it public and virtual
+        FilePath:        '/build/src/include/../jrd/trace/TraceManager.h'
+        FileOffset:      1520
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/svc.h'
+            Offset:          7951
+            Length:          10
+            ReplacementText: "public:\n~Service() noexceptprivate:"
+      - Message:         make it protected
+        FilePath:        '/build/src/include/../jrd/trace/TraceManager.h'
+        FileOffset:      1520
+        Replacements:
+          - FilePath:        '/build/src/include/../jrd/trace/../../jrd/trace/../../jrd/svc.h'
+            Offset:          7951
+            Length:          10
+            ReplacementText: "protected:\n~Service() noexceptprivate:"
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''status'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452913
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''dbName'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452933
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''attStatus'''
+      FilePath:        '/build/src/include/firebird/IdlFbInterfaces.h'
+      FileOffset:      452956
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      476
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      15361
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/include/gen/autoconfig.h'
+      FileOffset:      15542
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''level'''
+      FilePath:        '/build/src/jrd/recsrc/ProcedureScan.cpp'
+      FileOffset:      7538
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''recurse'''
+      FilePath:        '/build/src/jrd/recsrc/ProcedureScan.cpp'
+      FileOffset:      7550
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+...

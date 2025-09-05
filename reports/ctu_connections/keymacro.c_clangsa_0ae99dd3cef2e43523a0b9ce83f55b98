@@ -1,0 +1,5 @@
+/build/extern/editline/src/read.c
+/build/extern/editline/src/tty.c
+/build/extern/editline/src/terminal.c
+/build/extern/editline/src/chartype.c
+/build/extern/editline/src/wcsdup.c

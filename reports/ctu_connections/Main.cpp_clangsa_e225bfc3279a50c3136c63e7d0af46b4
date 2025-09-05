@@ -1,0 +1,4 @@
+/build/src/common/classes/alloc.cpp
+/build/extern/cloop/src/cloop/Generator.cpp
+/build/extern/cloop/src/cloop/Lexer.cpp
+/build/extern/cloop/src/cloop/Parser.cpp

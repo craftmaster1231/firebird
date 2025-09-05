@@ -1,0 +1,20 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/pk/asn1/der/utf8/der_encode_utf8_string.c'
+Diagnostics:
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/utf8/der_encode_utf8_string.c'
+      FileOffset:      2200
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/utf8/der_encode_utf8_string.c'
+      FileOffset:      2200
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

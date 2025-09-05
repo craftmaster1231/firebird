@@ -1,0 +1,112 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/misc/adler32.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_adler32_base'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+      FileOffset:      501
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+  - DiagnosticName:  clang-diagnostic-implicit-fallthrough
+    DiagnosticMessage:
+      Message:         unannotated fall-through between switch labels
+      FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+      FileOffset:      1964
+      Replacements:    []
+    Notes:
+      - Message:         'insert ''__attribute__((fallthrough));'' to silence this warning'
+        FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+        FileOffset:      1964
+        Replacements:
+          - FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+            Offset:          1964
+            Length:          0
+            ReplacementText: '__attribute__((fallthrough)); '
+      - Message:         'insert ''break;'' to avoid fall-through'
+        FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+        FileOffset:      1964
+        Replacements:
+          - FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+            Offset:          1964
+            Length:          0
+            ReplacementText: 'break; '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+  - DiagnosticName:  clang-diagnostic-implicit-fallthrough
+    DiagnosticMessage:
+      Message:         unannotated fall-through between switch labels
+      FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+      FileOffset:      2047
+      Replacements:    []
+    Notes:
+      - Message:         'insert ''__attribute__((fallthrough));'' to silence this warning'
+        FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+        FileOffset:      2047
+        Replacements:
+          - FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+            Offset:          2047
+            Length:          0
+            ReplacementText: '__attribute__((fallthrough)); '
+      - Message:         'insert ''break;'' to avoid fall-through'
+        FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+        FileOffset:      2047
+        Replacements:
+          - FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+            Offset:          2047
+            Length:          0
+            ReplacementText: 'break; '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+  - DiagnosticName:  clang-diagnostic-implicit-fallthrough
+    DiagnosticMessage:
+      Message:         unannotated fall-through between switch labels
+      FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+      FileOffset:      2123
+      Replacements:    []
+    Notes:
+      - Message:         'insert ''__attribute__((fallthrough));'' to silence this warning'
+        FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+        FileOffset:      2123
+        Replacements:
+          - FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+            Offset:          2123
+            Length:          0
+            ReplacementText: '__attribute__((fallthrough)); '
+      - Message:         'insert ''break;'' to avoid fall-through'
+        FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+        FileOffset:      2123
+        Replacements:
+          - FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+            Offset:          2123
+            Length:          0
+            ReplacementText: 'break; '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+  - DiagnosticName:  clang-diagnostic-implicit-fallthrough
+    DiagnosticMessage:
+      Message:         unannotated fall-through between switch labels
+      FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+      FileOffset:      2206
+      Replacements:    []
+    Notes:
+      - Message:         'insert ''__attribute__((fallthrough));'' to silence this warning'
+        FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+        FileOffset:      2206
+        Replacements:
+          - FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+            Offset:          2206
+            Length:          0
+            ReplacementText: '__attribute__((fallthrough)); '
+      - Message:         'insert ''break;'' to avoid fall-through'
+        FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+        FileOffset:      2206
+        Replacements:
+          - FilePath:        '/build/extern/libtomcrypt/src/misc/adler32.c'
+            Offset:          2206
+            Length:          0
+            ReplacementText: 'break; '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

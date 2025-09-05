@@ -1,0 +1,232 @@
+---
+MainSourceFile:  '/build/extern/btyacc/main.c'
+Diagnostics:
+  - DiagnosticName:  bugprone-signal-handler
+    DiagnosticMessage:
+      Message:         'standard function ''fclose'' may not be asynchronous-safe; calling it from a signal handler may be dangerous'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      1771
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      1771
+          Length:          19
+    Notes:
+      - Message:         'function ''done'' called here from ''onintr'''
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      2012
+        Replacements:    []
+      - Message:         'function ''onintr'' registered here as signal handler'
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      2118
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/build/extern/btyacc/main.c'
+            FileOffset:      2118
+            Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      1771
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      1771
+          Length:          19
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      1771
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      1848
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      1848
+          Length:          17
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      1848
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      1922
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      1922
+          Length:          18
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      1922
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  bugprone-signal-handler
+    DiagnosticMessage:
+      Message:         'standard function ''exit'' may not be asynchronous-safe; calling it from a signal handler may be dangerous'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      1975
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      1975
+          Length:          7
+    Notes:
+      - Message:         'function ''done'' called here from ''onintr'''
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      2012
+        Replacements:    []
+      - Message:         'function ''onintr'' registered here as signal handler'
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      2118
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/build/extern/btyacc/main.c'
+            FileOffset:      2118
+            Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''sig'''
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      2004
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      2103
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      2103
+          Length:          22
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      2103
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      2193
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      2193
+          Length:          23
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      2193
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      2282
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      2282
+          Length:          22
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      2282
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      2333
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      2333
+          Length:          101
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      2333
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      5663
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      5663
+          Length:          57
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      5663
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      5776
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      5776
+          Length:          57
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      5776
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/main.c'
+      FileOffset:      5890
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/main.c'
+          FileOffset:      5890
+          Length:          57
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/main.c'
+        FileOffset:      5890
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+...

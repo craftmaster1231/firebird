@@ -1,0 +1,409 @@
+---
+MainSourceFile:  '/build/extern/re2/re2/dfa.cc'
+Diagnostics:
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      14617
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      14617
+          Length:          74
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      14617
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      21844
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      21844
+          Length:          74
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      21844
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '8 enumeration values not explicitly handled in switch: ''kInstAlt'', ''kInstByteRange'', ''kInstCapture''...'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      22279
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      22279
+          Length:          12
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      22852
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      22852
+          Length:          39
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      22852
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      24722
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      24722
+          Length:          34
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      24722
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      26719
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      26719
+          Length:          58
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      26719
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      27906
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      27906
+          Length:          49
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      27906
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         'enumeration values ''kInstAlt'', ''kInstFail'', and ''kNumInst'' not explicitly handled in switch'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      30402
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      30402
+          Length:          12
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         'enumeration values ''kInstAlt'' and ''kNumInst'' not explicitly handled in switch'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      33604
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      33604
+          Length:          12
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      34896
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      34896
+          Length:          126
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      34896
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      48110
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      48110
+          Length:          51
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      48110
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      48251
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      48251
+          Length:          59
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      48251
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      48719
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      48719
+          Length:          59
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      48719
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      52340
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      52340
+          Length:          75
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      52340
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      52935
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      52935
+          Length:          51
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      52935
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      54220
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      54220
+          Length:          59
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      54220
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      59812
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      59812
+          Length:          208
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      59812
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      61291
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      61291
+          Length:          68
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      61291
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      61365
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      61365
+          Length:          157
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      61365
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/re2/dfa.cc'
+      FileOffset:      62075
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/dfa.cc'
+          FileOffset:      62075
+          Length:          62
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/re2/dfa.cc'
+        FileOffset:      62075
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move constructors should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      4590
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          4620
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      4688
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          4716
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''min'''
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      8104
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''max'''
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      8113
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move constructors should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      8846
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          8877
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      9514
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          9543
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''min'''
+      FilePath:        '/build/extern/re2/re2/sparse_set.h'
+      FileOffset:      4874
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''max'''
+      FilePath:        '/build/extern/re2/re2/sparse_set.h'
+      FileOffset:      4883
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+...

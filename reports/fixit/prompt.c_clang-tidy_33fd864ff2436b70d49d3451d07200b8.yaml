@@ -1,0 +1,118 @@
+---
+MainSourceFile:  '/build/extern/editline/src/prompt.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      6945
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      7161
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      7267
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      7368
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''__ct_encode_string'' is reserved because it starts with ''__'''
+      FilePath:        '/build/extern/editline/src/chartype.h'
+      FileOffset:      6110
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ct_encode_string'''
+        FilePath:        '/build/extern/editline/src/chartype.h'
+        FileOffset:      6004
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''__ct_decode_string'' is reserved because it starts with ''__'''
+      FilePath:        '/build/extern/editline/src/chartype.h'
+      FileOffset:      6295
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ct_decode_string'''
+        FilePath:        '/build/extern/editline/src/chartype.h'
+        FileOffset:      6183
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/histedit.h'
+      FileOffset:      1904
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_el_fn_complete'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/histedit.h'
+      FileOffset:      3336
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2150
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2673
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2748
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2810
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      3469
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+...

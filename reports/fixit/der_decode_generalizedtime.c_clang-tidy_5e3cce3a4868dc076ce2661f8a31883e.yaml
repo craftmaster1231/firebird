@@ -1,0 +1,27 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/pk/asn1/der/generalizedtime/der_decode_generalizedtime.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_char_to_int'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/generalizedtime/der_decode_generalizedtime.c'
+      FileOffset:      456
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''unsigned char'''
+      FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/generalizedtime/der_decode_generalizedtime.c'
+      FileOffset:      2256
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/generalizedtime/der_decode_generalizedtime.c'
+          FileOffset:      2256
+          Length:          1
+        - FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/generalizedtime/der_decode_generalizedtime.c'
+          FileOffset:      2254
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

@@ -1,0 +1,336 @@
+---
+MainSourceFile:  '/build/extern/editline/src/readline.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      6945
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      7161
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      7267
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      7368
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''__ct_encode_string'' is reserved because it starts with ''__'''
+      FilePath:        '/build/extern/editline/src/chartype.h'
+      FileOffset:      6110
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ct_encode_string'''
+        FilePath:        '/build/extern/editline/src/chartype.h'
+        FileOffset:      6004
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''__ct_decode_string'' is reserved because it starts with ''__'''
+      FilePath:        '/build/extern/editline/src/chartype.h'
+      FileOffset:      6295
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ct_decode_string'''
+        FilePath:        '/build/extern/editline/src/chartype.h'
+        FileOffset:      6183
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/editline/readline.h'
+      FileOffset:      1589
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_hist_entry'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/editline/readline.h'
+      FileOffset:      2168
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_keymap_entry'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/editline/readline.h'
+      FileOffset:      2251
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_rl_print_completions_horizontally'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/editline/readline.h'
+      FileOffset:      4616
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_rl_abort_internal'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/editline/readline.h'
+      FileOffset:      6846
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_rl_qsort_string_compare'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/editline/readline.h'
+      FileOffset:      6878
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/filecomplete.h'
+      FileOffset:      1596
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/histedit.h'
+      FileOffset:      1904
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_el_fn_complete'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/histedit.h'
+      FileOffset:      3336
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_el_rl_complete'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      5905
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_el_rl_tstp'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      5961
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_get_prompt'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      6005
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_getc_function'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      6043
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_move_history'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      6098
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_history_expand_command'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      6131
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_rl_compat_sub'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      6213
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_rl_event_read_char'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      6293
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_rl_update_pos'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      6348
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_resize_fun'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      7011
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_default_history_file'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      7225
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_history_tmp_template'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      27532
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      28657
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/editline/src/readline.c'
+          FileOffset:      28657
+          Length:          10
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/editline/src/readline.c'
+        FileOffset:      28657
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      29813
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/editline/src/readline.c'
+          FileOffset:      29813
+          Length:          10
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/editline/src/readline.c'
+        FileOffset:      29813
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_rl_completion_append_character_function'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      37815
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  bugprone-signed-char-misuse
+    DiagnosticMessage:
+      Message:         'comparison between ''signed char'' and ''unsigned char'''
+      FilePath:        '/build/extern/editline/src/readline.c'
+      FileOffset:      41482
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2150
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2673
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2748
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2810
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      3469
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/vis.h'
+      FileOffset:      1722
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/vis.h'
+      FileOffset:      2646
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+...

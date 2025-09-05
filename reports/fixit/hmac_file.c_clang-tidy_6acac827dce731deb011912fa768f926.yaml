@@ -1,0 +1,21 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/mac/hmac/hmac_file.c'
+Diagnostics:
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/libtomcrypt/src/mac/hmac/hmac_file.c'
+      FileOffset:      1930
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/libtomcrypt/src/mac/hmac/hmac_file.c'
+          FileOffset:      1930
+          Length:          10
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/libtomcrypt/src/mac/hmac/hmac_file.c'
+        FileOffset:      1930
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

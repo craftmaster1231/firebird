@@ -1,0 +1,120 @@
+---
+MainSourceFile:  '/build/extern/re2/re2/mimics_pcre.cc'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''re'''
+      FilePath:        '/build/extern/re2/re2/mimics_pcre.cc'
+      FileOffset:      1722
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''parent_arg'''
+      FilePath:        '/build/extern/re2/re2/mimics_pcre.cc'
+      FileOffset:      2271
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pre_arg'''
+      FilePath:        '/build/extern/re2/re2/mimics_pcre.cc'
+      FileOffset:      2288
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '13 enumeration values not explicitly handled in switch: ''kRegexpNoMatch'', ''kRegexpLiteralString'', ''kRegexpConcat''...'
+      FilePath:        '/build/extern/re2/re2/mimics_pcre.cc'
+      FileOffset:      2538
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/mimics_pcre.cc'
+          FileOffset:      2538
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''re'''
+      FilePath:        '/build/extern/re2/re2/mimics_pcre.cc'
+      FileOffset:      4144
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''parent_arg'''
+      FilePath:        '/build/extern/re2/re2/mimics_pcre.cc'
+      FileOffset:      4785
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pre_arg'''
+      FilePath:        '/build/extern/re2/re2/mimics_pcre.cc'
+      FileOffset:      4802
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/extern/re2/re2/mimics_pcre.cc'
+      FileOffset:      4884
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''re'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      3811
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''stop'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      3937
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''re'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4029
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''parent_arg'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4087
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''child_args'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4217
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''nchild_args'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4285
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+...

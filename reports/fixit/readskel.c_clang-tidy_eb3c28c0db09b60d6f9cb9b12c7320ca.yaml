@@ -1,0 +1,50 @@
+---
+MainSourceFile:  '/build/extern/btyacc/readskel.c'
+Diagnostics:
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/readskel.c'
+      FileOffset:      914
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/readskel.c'
+          FileOffset:      914
+          Length:          24
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/readskel.c'
+        FileOffset:      914
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  clang-diagnostic-format-nonliteral
+    DiagnosticMessage:
+      Message:         format string is not a string literal
+      FilePath:        '/build/extern/btyacc/readskel.c'
+      FileOffset:      928
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/readskel.c'
+          FileOffset:      928
+          Length:          3
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/readskel.c'
+      FileOffset:      2307
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/readskel.c'
+          FileOffset:      2307
+          Length:          10
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/readskel.c'
+        FileOffset:      2307
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+...

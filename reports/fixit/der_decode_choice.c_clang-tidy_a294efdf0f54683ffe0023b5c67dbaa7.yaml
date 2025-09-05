@@ -1,0 +1,12 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/pk/asn1/der/choice/der_decode_choice.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/choice/der_decode_choice.c'
+      FileOffset:      1293
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

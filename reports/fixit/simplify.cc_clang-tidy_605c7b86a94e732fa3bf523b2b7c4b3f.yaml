@@ -1,0 +1,172 @@
+---
+MainSourceFile:  '/build/extern/re2/re2/simplify.cc'
+Diagnostics:
+  - DiagnosticName:  bugprone-switch-missing-default-case
+    DiagnosticMessage:
+      Message:         switching on non-enum value without default case may not cover all cases
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      1309
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      1309
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''parent_arg'''
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      7499
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''parent_arg'''
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      7804
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pre_arg'''
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      7858
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''nchild_args'''
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      7960
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '17 enumeration values not explicitly handled in switch: ''kRegexpNoMatch'', ''kRegexpEmptyMatch'', ''kRegexpLiteral''...'
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      11660
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/simplify.cc'
+          FileOffset:      11660
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '12 enumeration values not explicitly handled in switch: ''kRegexpNoMatch'', ''kRegexpEmptyMatch'', ''kRegexpConcat''...'
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      12136
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/simplify.cc'
+          FileOffset:      12136
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''parent_arg'''
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      13724
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''parent_arg'''
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      13994
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''parent_arg'''
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      14195
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''pre_arg'''
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      14249
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''nchild_args'''
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      14351
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/extern/re2/re2/simplify.cc'
+      FileOffset:      14368
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''re'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      3811
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''stop'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      3937
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''re'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4029
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''parent_arg'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4087
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''child_args'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4217
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''nchild_args'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4285
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+...

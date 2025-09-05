@@ -1,0 +1,78 @@
+---
+MainSourceFile:  '/build/extern/btyacc/mstring.c'
+Diagnostics:
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/mstring.c'
+      FileOffset:      482
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/mstring.c'
+          FileOffset:      482
+          Length:          24
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/mstring.c'
+        FileOffset:      482
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  clang-diagnostic-format-nonliteral
+    DiagnosticMessage:
+      Message:         format string is not a string literal
+      FilePath:        '/build/extern/btyacc/mstring.c'
+      FileOffset:      496
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/mstring.c'
+          FileOffset:      496
+          Length:          3
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  bugprone-suspicious-realloc-usage
+    DiagnosticMessage:
+      Message:         '''s->base'' may be set to null if ''realloc'' fails, which may result in a leak of the original buffer'
+      FilePath:        '/build/extern/btyacc/mstring.c'
+      FileOffset:      712
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/mstring.c'
+          FileOffset:      720
+          Length:          7
+        - FilePath:        '/build/extern/btyacc/mstring.c'
+          FileOffset:      702
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  bugprone-suspicious-realloc-usage
+    DiagnosticMessage:
+      Message:         '''s->base'' may be set to null if ''realloc'' fails, which may result in a leak of the original buffer'
+      FilePath:        '/build/extern/btyacc/mstring.c'
+      FileOffset:      1048
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/mstring.c'
+          FileOffset:      1056
+          Length:          7
+        - FilePath:        '/build/extern/btyacc/mstring.c'
+          FileOffset:      1038
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''char'''
+      FilePath:        '/build/extern/btyacc/mstring.c'
+      FileOffset:      1222
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/mstring.c'
+          FileOffset:      1222
+          Length:          2
+        - FilePath:        '/build/extern/btyacc/mstring.c'
+          FileOffset:      1220
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+...

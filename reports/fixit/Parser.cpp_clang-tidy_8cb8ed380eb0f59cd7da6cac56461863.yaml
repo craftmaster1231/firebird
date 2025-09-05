@@ -1,0 +1,165 @@
+---
+MainSourceFile:  '/build/extern/cloop/src/cloop/Parser.cpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-deprecated-copy-with-user-provided-dtor
+    DiagnosticMessage:
+      Message:         'definition of implicit copy constructor for ''Action'' is deprecated because it has a user-provided destructor'
+      FilePath:        '/build/extern/cloop/src/cloop/Action.h'
+      FileOffset:      1140
+      Replacements:    []
+    Notes:
+      - Message:         'in implicit copy constructor for ''Action'' first required here'
+        FilePath:        '/build/extern/cloop/src/cloop/Action.h'
+        FileOffset:      1371
+        Replacements:    []
+      - Message:         'in defaulted copy constructor for ''IfThenElseAction'' first required here'
+        FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+        FileOffset:      7156
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '26 enumeration values not explicitly handled in switch: ''TYPE_EOF'', ''TYPE_IDENTIFIER'', ''TYPE_DOUBLE_COLON''...'
+      FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+      FileOffset:      1570
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          FileOffset:      1570
+          Length:          10
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '26 enumeration values not explicitly handled in switch: ''TYPE_EOF'', ''TYPE_IDENTIFIER'', ''TYPE_DOUBLE_COLON''...'
+      FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+      FileOffset:      4865
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          FileOffset:      4865
+          Length:          10
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '27 enumeration values not explicitly handled in switch: ''TYPE_EOF'', ''TYPE_IDENTIFIER'', ''TYPE_DOUBLE_COLON''...'
+      FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+      FileOffset:      6532
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          FileOffset:      6532
+          Length:          27
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '26 enumeration values not explicitly handled in switch: ''TYPE_EOF'', ''TYPE_CONST'', ''TYPE_EXCEPTION''...'
+      FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+      FileOffset:      9295
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          FileOffset:      9295
+          Length:          10
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '20 enumeration values not explicitly handled in switch: ''TYPE_EOF'', ''TYPE_DOUBLE_COLON'', ''TYPE_BOOLEAN_LITERAL''...'
+      FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+      FileOffset:      11210
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          FileOffset:      11210
+          Length:          18
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+      FileOffset:      12015
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          FileOffset:      12015
+          Length:          121
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+        FileOffset:      12015
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+      FileOffset:      12098
+      Replacements:
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          Offset:          12052
+          Length:          2
+          ReplacementText: '%u'
+      Ranges:
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          FileOffset:      12098
+          Length:          10
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          FileOffset:      12052
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+  - DiagnosticName:  clang-diagnostic-format
+    DiagnosticMessage:
+      Message:         'format specifies type ''int'' but the argument has type ''unsigned int'''
+      FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+      FileOffset:      12110
+      Replacements:
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          Offset:          12055
+          Length:          2
+          ReplacementText: '%u'
+      Ranges:
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          FileOffset:      12110
+          Length:          12
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          FileOffset:      12055
+          Length:          2
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '28 enumeration values not explicitly handled in switch: ''TYPE_EOF'', ''TYPE_DOUBLE_COLON'', ''TYPE_BOOLEAN_LITERAL''...'
+      FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+      FileOffset:      12245
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/cloop/src/cloop/Parser.cpp'
+          FileOffset:      12245
+          Length:          10
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''BaseType'' is protected and virtual'
+      FilePath:        '/build/extern/cloop/src/cloop/Parser.h'
+      FileOffset:      970
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/cloop/src/cloop/Parser.h'
+        FileOffset:      970
+        Replacements:
+          - FilePath:        '/build/extern/cloop/src/cloop/Parser.h'
+            Offset:          1127
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+...

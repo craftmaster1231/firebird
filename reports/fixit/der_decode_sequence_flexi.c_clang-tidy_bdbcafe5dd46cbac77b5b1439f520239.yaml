@@ -1,0 +1,20 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/pk/asn1/der/sequence/der_decode_sequence_flexi.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_fetch_length'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/sequence/der_decode_sequence_flexi.c'
+      FileOffset:      456
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_new_element'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/sequence/der_decode_sequence_flexi.c'
+      FileOffset:      1167
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

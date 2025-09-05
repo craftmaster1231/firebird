@@ -1,0 +1,19 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/pk/asn1/der/ia5/der_decode_ia5_string.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''unsigned char'''
+      FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/ia5/der_decode_ia5_string.c'
+      FileOffset:      1920
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/ia5/der_decode_ia5_string.c'
+          FileOffset:      1920
+          Length:          1
+        - FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/ia5/der_decode_ia5_string.c'
+          FileOffset:      1918
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

@@ -1,0 +1,50 @@
+---
+MainSourceFile:  '/build/extern/libtommath/bn_mp_prime_next_prime.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-conditional-uninitialized
+    DiagnosticMessage:
+      Message:         'variable ''res'' may be uninitialized when used here'
+      FilePath:        '/build/extern/libtommath/bn_mp_prime_next_prime.c'
+      FileOffset:      4546
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/libtommath/bn_mp_prime_next_prime.c'
+          FileOffset:      4546
+          Length:          3
+    Notes:
+      - Message:         'initialize the variable ''res'' to silence this warning'
+        FilePath:        '/build/extern/libtommath/bn_mp_prime_next_prime.c'
+        FileOffset:      792
+        Replacements:
+          - FilePath:        '/build/extern/libtommath/bn_mp_prime_next_prime.c'
+            Offset:          792
+            Length:          0
+            ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtommath'
+  - DiagnosticName:  misc-header-include-cycle
+    DiagnosticMessage:
+      Message:         'circular header file dependency detected while including ''tommath_class.h'', please check the include path'
+      FilePath:        '/build/extern/libtommath/tommath_class.h'
+      FileOffset:      20862
+      Replacements:    []
+    Notes:
+      - Message:         '''tommath_class.h'' included from here'
+        FilePath:        '/build/extern/libtommath/tommath_class.h'
+        FileOffset:      20862
+        Replacements:    []
+      - Message:         '''tommath_class.h'' included from here'
+        FilePath:        '/build/extern/libtommath/tommath.h'
+        FileOffset:      655
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtommath'
+  - DiagnosticName:  misc-header-include-cycle
+    DiagnosticMessage:
+      Message:         'direct self-inclusion of header file ''tommath_class.h'''
+      FilePath:        '/build/extern/libtommath/tommath_class.h'
+      FileOffset:      20862
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtommath'
+...

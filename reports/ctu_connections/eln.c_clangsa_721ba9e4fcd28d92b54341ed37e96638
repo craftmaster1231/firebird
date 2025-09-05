@@ -1,0 +1,13 @@
+/build/extern/editline/src/chared.c
+/build/extern/editline/src/parse.c
+/build/extern/editline/src/el.c
+/build/extern/editline/src/prompt.c
+/build/extern/editline/src/hist.c
+/build/extern/editline/src/wcsdup.c
+/build/extern/editline/src/read.c
+/build/extern/editline/src/refresh.c
+/build/extern/editline/src/search.c
+/build/extern/editline/src/tty.c
+/build/extern/editline/src/terminal.c
+/build/extern/editline/src/chartype.c
+/build/extern/editline/src/map.c

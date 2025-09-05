@@ -1,0 +1,25 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/stream/chacha/chacha_crypt.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_chacha_block'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/libtomcrypt/src/stream/chacha/chacha_crypt.c'
+      FileOffset:      659
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''__t'' is reserved because it starts with ''__'''
+      FilePath:        '/build/extern/libtomcrypt/src/stream/chacha/chacha_crypt.c'
+      FileOffset:      1141
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''STORE32L'''
+        FilePath:        '/build/extern/libtomcrypt/src/headers/tomcrypt_macros.h'
+        FileOffset:      7296
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

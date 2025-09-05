@@ -1,0 +1,21 @@
+---
+MainSourceFile:  '/build/extern/cloop/src/cloop/Main.cpp'
+Diagnostics:
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''BaseType'' is protected and virtual'
+      FilePath:        '/build/extern/cloop/src/cloop/Parser.h'
+      FileOffset:      970
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/cloop/src/cloop/Parser.h'
+        FileOffset:      970
+        Replacements:
+          - FilePath:        '/build/extern/cloop/src/cloop/Parser.h'
+            Offset:          1127
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/cloop'
+...

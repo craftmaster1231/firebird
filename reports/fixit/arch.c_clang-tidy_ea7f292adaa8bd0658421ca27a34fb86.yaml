@@ -1,0 +1,20 @@
+---
+MainSourceFile:  '/build/extern/libcds/lib/Release/arch.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         cmake_ARCH x86_64
+      FilePath:        '/build/extern/libcds/lib/Release/arch.c'
+      FileOffset:      1196
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  '/build/extern/libcds/lib/Release/CMakeFiles/CMakeTmp'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         cmake_ARCH unknown
+      FilePath:        '/build/extern/libcds/lib/Release/arch.c'
+      FileOffset:      1664
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  '/build/extern/libcds/lib/Release/CMakeFiles/CMakeTmp'
+...

@@ -1,0 +1,8 @@
+/build/src/common/classes/ClumpletReader.cpp
+/build/src/common/classes/NoThrowTimeStamp.cpp
+/build/src/yvalve/why.cpp
+/build/src/common/os/posix/isc_ipc.cpp
+/build/src/common/classes/alloc.cpp
+/build/src/common/classes/fb_string.cpp
+/build/src/common/os/posix/os_utils.cpp
+/build/src/common/classes/ClumpletWriter.cpp

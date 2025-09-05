@@ -1,0 +1,374 @@
+---
+MainSourceFile:  '/build/gen/examples/empbuild.cpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''isc_9l'''
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      2681
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      2681
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''isc_17l'''
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      4084
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      4084
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''isc_20l'''
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      4663
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      4663
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''isc_34l'''
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      5834
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      5834
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''isc_50l'''
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      7328
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      7328
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  clang-diagnostic-unused-const-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''isc_58l'''
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      8687
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      8687
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      10061
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      10061
+          Length:          61
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      10061
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      10635
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      10635
+          Length:          59
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      10635
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      10830
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      10830
+          Length:          63
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      10830
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      11040
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      11040
+          Length:          62
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      11040
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      11251
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      11251
+          Length:          60
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      11251
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      11460
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      11460
+          Length:          61
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      11460
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      13974
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      13974
+          Length:          60
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      13974
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''short'''
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      14867
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      14867
+          Length:          9
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      14865
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      15797
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      15797
+          Length:          11
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      15797
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      18008
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      18008
+          Length:          60
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      18008
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''unsigned short'''
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      18266
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      18266
+          Length:          3
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      18264
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''short'''
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      19184
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      19184
+          Length:          9
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      19182
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      20127
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      20127
+          Length:          11
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      20127
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      22220
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      22220
+          Length:          28
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      22220
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  clang-diagnostic-implicit-int-conversion
+    DiagnosticMessage:
+      Message:         'implicit conversion loses integer precision: ''int'' to ''unsigned short'''
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      22446
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      22446
+          Length:          3
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      22444
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      24102
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      24102
+          Length:          11
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      24102
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      25439
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      25439
+          Length:          101
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      25439
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/gen/examples/empbuild.cpp'
+      FileOffset:      27215
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/gen/examples/empbuild.cpp'
+          FileOffset:      27215
+          Length:          11
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/gen/examples/empbuild.cpp'
+        FileOffset:      27215
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen/examples'
+...

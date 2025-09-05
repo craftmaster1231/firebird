@@ -1,0 +1,12 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/misc/crc32.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_CRC32_NEGL'' is reserved because it starts with ''_'' followed by a capital letter'
+      FilePath:        '/build/extern/libtomcrypt/src/misc/crc32.c'
+      FileOffset:      489
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

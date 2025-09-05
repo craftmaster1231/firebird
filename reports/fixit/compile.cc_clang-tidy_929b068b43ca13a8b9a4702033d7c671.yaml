@@ -1,0 +1,204 @@
+---
+MainSourceFile:  '/build/extern/re2/re2/compile.cc'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''arg'''
+      FilePath:        '/build/extern/re2/re2/compile.cc'
+      FileOffset:      23752
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''re'''
+      FilePath:        '/build/extern/re2/re2/compile.cc'
+      FileOffset:      24032
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''re'''
+      FilePath:        '/build/extern/re2/re2/compile.cc'
+      FileOffset:      24180
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-default
+    DiagnosticMessage:
+      Message:         '''switch'' missing ''default'' label'
+      FilePath:        '/build/extern/re2/re2/compile.cc'
+      FileOffset:      25362
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '18 enumeration values not explicitly handled in switch: ''kRegexpNoMatch'', ''kRegexpEmptyMatch'', ''kRegexpLiteral''...'
+      FilePath:        '/build/extern/re2/re2/compile.cc'
+      FileOffset:      30009
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/compile.cc'
+          FileOffset:      30009
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '18 enumeration values not explicitly handled in switch: ''kRegexpNoMatch'', ''kRegexpEmptyMatch'', ''kRegexpLiteral''...'
+      FilePath:        '/build/extern/re2/re2/compile.cc'
+      FileOffset:      31573
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/compile.cc'
+          FileOffset:      31573
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  bugprone-signed-char-misuse
+    DiagnosticMessage:
+      Message:         '''signed char'' to ''int'' conversion; consider casting to ''unsigned char'' first.'
+      FilePath:        '/build/extern/re2/re2/compile.cc'
+      FileOffset:      36098
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  bugprone-signed-char-misuse
+    DiagnosticMessage:
+      Message:         '''signed char'' to ''int'' conversion; consider casting to ''unsigned char'' first.'
+      FilePath:        '/build/extern/re2/re2/compile.cc'
+      FileOffset:      36142
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move constructors should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      4590
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          4620
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      4688
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          4716
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''min'''
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      8104
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''max'''
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      8113
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move constructors should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      8846
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          8877
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      9514
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          9543
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''min'''
+      FilePath:        '/build/extern/re2/re2/sparse_set.h'
+      FileOffset:      4874
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''max'''
+      FilePath:        '/build/extern/re2/re2/sparse_set.h'
+      FileOffset:      4883
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''re'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      3811
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''stop'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      3937
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''re'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4029
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''parent_arg'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4087
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''child_args'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4217
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''nchild_args'''
+      FilePath:        '/build/extern/re2/re2/walker-inl.h'
+      FileOffset:      4285
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+...

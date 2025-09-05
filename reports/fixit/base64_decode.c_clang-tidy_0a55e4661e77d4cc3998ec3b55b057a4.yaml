@@ -1,0 +1,12 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/misc/base64/base64_decode.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_base64_decode_internal'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/libtomcrypt/src/misc/base64/base64_decode.c'
+      FileOffset:      3329
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

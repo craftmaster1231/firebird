@@ -1,0 +1,189 @@
+---
+MainSourceFile:  '/build/extern/editline/src/read.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      6945
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      7161
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      7267
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/config.h'
+      FileOffset:      7368
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''__ct_encode_string'' is reserved because it starts with ''__'''
+      FilePath:        '/build/extern/editline/src/chartype.h'
+      FileOffset:      6110
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ct_encode_string'''
+        FilePath:        '/build/extern/editline/src/chartype.h'
+        FileOffset:      6004
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''__ct_decode_string'' is reserved because it starts with ''__'''
+      FilePath:        '/build/extern/editline/src/chartype.h'
+      FileOffset:      6295
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ct_decode_string'''
+        FilePath:        '/build/extern/editline/src/chartype.h'
+        FileOffset:      6183
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/histedit.h'
+      FileOffset:      1904
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_el_fn_complete'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/editline/src/histedit.h'
+      FileOffset:      3336
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-implicit-fallthrough
+    DiagnosticMessage:
+      Message:         unannotated fall-through between switch labels
+      FilePath:        '/build/extern/editline/src/read.c'
+      FileOffset:      7860
+      Replacements:    []
+    Notes:
+      - Message:         'insert ''__attribute__((fallthrough));'' to silence this warning'
+        FilePath:        '/build/extern/editline/src/read.c'
+        FileOffset:      7860
+        Replacements:
+          - FilePath:        '/build/extern/editline/src/read.c'
+            Offset:          7860
+            Length:          0
+            ReplacementText: '__attribute__((fallthrough)); '
+      - Message:         'insert ''break;'' to avoid fall-through'
+        FilePath:        '/build/extern/editline/src/read.c'
+        FileOffset:      7860
+        Replacements:
+          - FilePath:        '/build/extern/editline/src/read.c'
+            Offset:          7860
+            Length:          0
+            ReplacementText: 'break; '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  bugprone-inc-dec-in-conditions
+    DiagnosticMessage:
+      Message:         'incrementing and referencing a variable in a complex condition can cause unintended side-effects due to C++''s order of evaluation, consider moving the modification outside of the condition to avoid misunderstandings'
+      FilePath:        '/build/extern/editline/src/read.c'
+      FileOffset:      8605
+      Replacements:    []
+    Notes:
+      - Message:         variable is referenced here
+        FilePath:        '/build/extern/editline/src/read.c'
+        FileOffset:      8708
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  bugprone-signed-char-misuse
+    DiagnosticMessage:
+      Message:         '''signed char'' to ''wchar_t'' (aka ''int'') conversion; consider casting to ''unsigned char'' first.'
+      FilePath:        '/build/extern/editline/src/read.c'
+      FileOffset:      10049
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-implicit-fallthrough
+    DiagnosticMessage:
+      Message:         unannotated fall-through between switch labels
+      FilePath:        '/build/extern/editline/src/read.c'
+      FileOffset:      14818
+      Replacements:    []
+    Notes:
+      - Message:         'insert ''__attribute__((fallthrough));'' to silence this warning'
+        FilePath:        '/build/extern/editline/src/read.c'
+        FileOffset:      14818
+        Replacements:
+          - FilePath:        '/build/extern/editline/src/read.c'
+            Offset:          14818
+            Length:          0
+            ReplacementText: '__attribute__((fallthrough)); '
+      - Message:         'insert ''break;'' to avoid fall-through'
+        FilePath:        '/build/extern/editline/src/read.c'
+        FileOffset:      14818
+        Replacements:
+          - FilePath:        '/build/extern/editline/src/read.c'
+            Offset:          14818
+            Length:          0
+            ReplacementText: 'break; '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2150
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2673
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2748
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      2810
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/editline/src/sys.h'
+      FileOffset:      3469
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/editline/src'
+...

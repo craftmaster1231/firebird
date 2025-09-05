@@ -1,0 +1,12 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/modes/ctr/ctr_encrypt.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_ctr_encrypt'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/extern/libtomcrypt/src/modes/ctr/ctr_encrypt.c'
+      FileOffset:      617
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

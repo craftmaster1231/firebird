@@ -1,0 +1,16 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/pk/asn1/der/sequence/der_sequence_free.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         '19 enumeration values not explicitly handled in switch: ''LTC_ASN1_EOL'', ''LTC_ASN1_BOOLEAN'', ''LTC_ASN1_SHORT_INTEGER''...'
+      FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/sequence/der_sequence_free.c'
+      FileOffset:      1065
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/libtomcrypt/src/pk/asn1/der/sequence/der_sequence_free.c'
+          FileOffset:      1065
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

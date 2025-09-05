@@ -1,0 +1,582 @@
+---
+MainSourceFile:  '/build/extern/btyacc/verbose.c'
+Diagnostics:
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      212
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      212
+          Length:          29
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      212
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      400
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      400
+          Length:          81
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      400
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      487
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      487
+          Length:          75
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      487
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      637
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      637
+          Length:          51
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      637
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      758
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      758
+          Length:          53
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      758
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      860
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      860
+          Length:          45
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      860
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      912
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      912
+          Length:          40
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      912
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      1015
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      1015
+          Length:          29
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      1015
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      1133
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      1133
+          Length:          46
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      1133
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      1213
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      1213
+          Length:          48
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      1213
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      1299
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      1299
+          Length:          69
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      1299
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      1415
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      1415
+          Length:          27
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      1415
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      1476
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      1476
+          Length:          49
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      1476
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      1563
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      1563
+          Length:          70
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      1563
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      1640
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      1640
+          Length:          28
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      1640
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      1729
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      1729
+          Length:          29
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      1729
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      1839
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      1839
+          Length:          42
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      1839
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      2425
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      2425
+          Length:          108
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      2425
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      2589
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      2589
+          Length:          148
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      2589
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      2760
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      2760
+          Length:          154
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      2760
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      3283
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      3283
+          Length:          57
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      3283
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      3402
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      3402
+          Length:          46
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      3402
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      3452
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      3452
+          Length:          23
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      3452
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      3504
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      3504
+          Length:          46
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      3504
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      3567
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      3567
+          Length:          43
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      3567
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      4290
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      4290
+          Length:          72
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      4290
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      4374
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      4374
+          Length:          27
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      4374
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      4545
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      4545
+          Length:          41
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      4545
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      5183
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      5183
+          Length:          83
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      5183
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      5556
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      5556
+          Length:          37
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      5556
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      5755
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      5755
+          Length:          76
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      5755
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      5873
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      5873
+          Length:          53
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      5873
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      6075
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      6075
+          Length:          24
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      6075
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/btyacc/verbose.c'
+      FileOffset:      6268
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/btyacc/verbose.c'
+          FileOffset:      6268
+          Length:          60
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/btyacc/verbose.c'
+        FileOffset:      6268
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/btyacc'
+...

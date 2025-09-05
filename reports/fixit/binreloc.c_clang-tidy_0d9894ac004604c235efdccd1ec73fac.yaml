@@ -1,0 +1,78 @@
+---
+MainSourceFile:  '/build/src/yvalve/config/os/posix/binreloc.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/yvalve/config/os/posix/binreloc.c'
+      FileOffset:      369
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_br_find_exe'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/src/yvalve/config/os/posix/binreloc.c'
+      FileOffset:      1001
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-identifier
+    DiagnosticMessage:
+      Message:         'identifier ''_br_find_exe_for_symbol'' is reserved because it starts with ''_'' at global scope'
+      FilePath:        '/build/src/yvalve/config/os/posix/binreloc.c'
+      FileOffset:      3835
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''symbol'''
+      FilePath:        '/build/src/yvalve/config/os/posix/binreloc.c'
+      FileOffset:      3872
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/yvalve/config/os/posix/binreloc.c'
+      FileOffset:      7210
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/yvalve/config/os/posix/binreloc.c'
+          FileOffset:      7210
+          Length:          15
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/yvalve/config/os/posix/binreloc.c'
+        FileOffset:      7210
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/src/yvalve/config/os/posix/binreloc.c'
+      FileOffset:      8010
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/src/yvalve/config/os/posix/binreloc.c'
+          FileOffset:      8010
+          Length:          15
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/src/yvalve/config/os/posix/binreloc.c'
+        FileOffset:      8010
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/src/yvalve/config/os/posix/binreloc.h'
+      FileOffset:      369
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/gen'
+...

@@ -1,0 +1,45 @@
+---
+MainSourceFile:  '/build/extern/re2/util/strutil.cc'
+Diagnostics:
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/re2/util/strutil.cc'
+      FileOffset:      1882
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/util/strutil.cc'
+          FileOffset:      1882
+          Length:          37
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/re2/util/strutil.cc'
+        FileOffset:      1882
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-format-nonliteral
+    DiagnosticMessage:
+      Message:         format string is not a string literal
+      FilePath:        '/build/extern/re2/util/strutil.cc'
+      FileOffset:      3820
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/util/strutil.cc'
+          FileOffset:      3820
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-format-nonliteral
+    DiagnosticMessage:
+      Message:         format string is not a string literal
+      FilePath:        '/build/extern/re2/util/strutil.cc'
+      FileOffset:      4435
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/util/strutil.cc'
+          FileOffset:      4435
+          Length:          6
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+...

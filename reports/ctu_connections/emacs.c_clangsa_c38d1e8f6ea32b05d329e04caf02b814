@@ -1,0 +1,6 @@
+/build/extern/editline/src/chared.c
+/build/extern/editline/src/refresh.c
+/build/extern/editline/src/search.c
+/build/extern/editline/src/terminal.c
+/build/extern/editline/src/hist.c
+/build/extern/editline/src/chartype.c

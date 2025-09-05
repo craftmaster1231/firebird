@@ -1,0 +1,232 @@
+---
+MainSourceFile:  '/build/extern/libcds/src/init.cpp'
+Diagnostics:
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''event_counter&'''
+      FilePath:        '/build/extern/libcds/cds/algo/atomic.h'
+      FileOffset:      3749
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/clang/defs.h'
+      FileOffset:      417
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/clang/defs.h'
+      FileOffset:      477
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/gcc/compiler_macro.h'
+      FileOffset:      472
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/gcc/compiler_macro.h'
+      FileOffset:      516
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/gcc/compiler_macro.h'
+      FileOffset:      3151
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/gcc/compiler_macro.h'
+      FileOffset:      3199
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/compiler/gcc/compiler_macro.h'
+      FileOffset:      6315
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''marked_ptr&'''
+      FilePath:        '/build/extern/libcds/cds/details/marked_ptr.h'
+      FileOffset:      4147
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  cert-dcl58-cpp
+    DiagnosticMessage:
+      Message:         'modification of ''std'' namespace can result in undefined behavior'
+      FilePath:        '/build/extern/libcds/cds/details/marked_ptr.h'
+      FileOffset:      8306
+      Replacements:    []
+    Notes:
+      - Message:         '''std'' namespace opened here'
+        FilePath:        '/build/extern/libcds/cds/details/marked_ptr.h'
+        FileOffset:      8222
+        Replacements:    []
+      - Message:         'expanded from macro ''CDS_CXX11_ATOMIC_BEGIN_NAMESPACE'''
+        FilePath:        '/build/extern/libcds/cds/algo/atomic.h'
+        FileOffset:      2797
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''atomic&'''
+      FilePath:        '/build/extern/libcds/cds/details/marked_ptr.h'
+      FileOffset:      12816
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  misc-unconventional-assign-operator
+    DiagnosticMessage:
+      Message:         'operator=() should return ''atomic&'''
+      FilePath:        '/build/extern/libcds/cds/details/marked_ptr.h'
+      FileOffset:      12956
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  clang-diagnostic-deprecated-copy-with-user-provided-copy
+    DiagnosticMessage:
+      Message:         'definition of implicit copy constructor for ''retired_ptr'' is deprecated because it has a user-provided copy assignment operator'
+      FilePath:        '/build/extern/libcds/cds/gc/details/retired_ptr.h'
+      FileOffset:      1902
+      Replacements:    []
+    Notes:
+      - Message:         'in implicit copy constructor for ''cds::gc::details::retired_ptr'' first required here'
+        FilePath:        '/build/extern/libcds/cds/gc/details/retired_ptr.h'
+        FileOffset:      3341
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  clang-diagnostic-reserved-macro-identifier
+    DiagnosticMessage:
+      Message:         macro name is a reserved identifier
+      FilePath:        '/build/extern/libcds/cds/threading/details/_common.h'
+      FileOffset:      236
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''singleton_vtbl'' is protected and virtual'
+      FilePath:        '/build/extern/libcds/cds/urcu/details/base.h'
+      FileOffset:      13342
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/libcds/cds/urcu/details/base.h'
+        FileOffset:      13342
+        Replacements:
+          - FilePath:        '/build/extern/libcds/cds/urcu/details/base.h'
+            Offset:          13398
+            Length:          8
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''gp_singleton<cds::urcu::general_buffered_tag>'' is protected and virtual'
+      FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+      FileOffset:      3498
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+        FileOffset:      3498
+        Replacements:
+          - FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+            Offset:          4022
+            Length:          13
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''gp_singleton<cds::urcu::general_instant_tag>'' is protected and virtual'
+      FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+      FileOffset:      3498
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+        FileOffset:      3498
+        Replacements:
+          - FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+            Offset:          4022
+            Length:          13
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''gp_singleton<cds::urcu::general_threaded_tag>'' is protected and virtual'
+      FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+      FileOffset:      3498
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+        FileOffset:      3498
+        Replacements:
+          - FilePath:        '/build/extern/libcds/cds/urcu/details/gp_decl.h'
+            Offset:          4022
+            Length:          13
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  cppcoreguidelines-virtual-class-destructor
+    DiagnosticMessage:
+      Message:         'destructor of ''sh_singleton<cds::urcu::signal_buffered_tag>'' is protected and virtual'
+      FilePath:        '/build/extern/libcds/cds/urcu/details/sh_decl.h'
+      FileOffset:      3145
+      Replacements:    []
+    Notes:
+      - Message:         make it protected and non-virtual
+        FilePath:        '/build/extern/libcds/cds/urcu/details/sh_decl.h'
+        FileOffset:      3145
+        Replacements:
+          - FilePath:        '/build/extern/libcds/cds/urcu/details/sh_decl.h'
+            Offset:          3800
+            Length:          13
+            ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         'the value returned by this function should not be disregarded; neglecting it may lead to errors'
+      FilePath:        '/build/extern/libcds/src/init.cpp'
+      FileOffset:      2500
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/libcds/src/init.cpp'
+          FileOffset:      2500
+          Length:          130
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/build/extern/libcds/src/init.cpp'
+        FileOffset:      2500
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libcds/lib/Release'
+...

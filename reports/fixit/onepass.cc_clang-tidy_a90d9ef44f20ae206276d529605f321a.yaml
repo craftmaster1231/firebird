@@ -1,0 +1,96 @@
+---
+MainSourceFile:  '/build/extern/re2/re2/onepass.cc'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-switch-enum
+    DiagnosticMessage:
+      Message:         'enumeration values ''kInstAlt'' and ''kNumInst'' not explicitly handled in switch'
+      FilePath:        '/build/extern/re2/re2/onepass.cc'
+      FileOffset:      16723
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/re2/re2/onepass.cc'
+          FileOffset:      16723
+          Length:          12
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move constructors should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      4590
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          4620
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      4688
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          4716
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''min'''
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      8104
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''max'''
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      8113
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move constructors should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      8846
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          8877
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  performance-noexcept-move-constructor
+    DiagnosticMessage:
+      Message:         move assignment operators should be marked noexcept
+      FilePath:        '/build/extern/re2/re2/sparse_array.h'
+      FileOffset:      9514
+      Replacements:
+        - FilePath:        '/build/extern/re2/re2/sparse_array.h'
+          Offset:          9543
+          Length:          0
+          ReplacementText: ' noexcept '
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''min'''
+      FilePath:        '/build/extern/re2/re2/sparse_set.h'
+      FileOffset:      4874
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+  - DiagnosticName:  clang-diagnostic-unused-parameter
+    DiagnosticMessage:
+      Message:         'unused parameter ''max'''
+      FilePath:        '/build/extern/re2/re2/sparse_set.h'
+      FileOffset:      4883
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/re2'
+...

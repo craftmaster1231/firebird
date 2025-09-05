@@ -1,0 +1,17 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/misc/crypt/crypt_unregister_hash.c'
+Diagnostics:
+  - DiagnosticName:  bugprone-suspicious-memory-comparison
+    DiagnosticMessage:
+      Message:         'comparing object representation of type ''struct ltc_hash_descriptor'' which does not have a unique object representation; consider comparing the members of the object manually'
+      FilePath:        '/build/extern/libtomcrypt/src/misc/crypt/crypt_unregister_hash.c'
+      FileOffset:      721
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''XMEMCMP'''
+        FilePath:        '/build/extern/libtomcrypt/src/headers/tomcrypt_custom.h'
+        FileOffset:      1705
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...

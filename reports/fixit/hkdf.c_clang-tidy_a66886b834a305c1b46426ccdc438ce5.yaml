@@ -1,0 +1,31 @@
+---
+MainSourceFile:  '/build/extern/libtomcrypt/src/misc/hkdf/hkdf.c'
+Diagnostics:
+  - DiagnosticName:  readability-suspicious-call-argument
+    DiagnosticMessage:
+      Message:         '3rd argument ''inlen'' (passed to ''keylen'') looks like it might be swapped with the 5th, ''datlen'' (passed to ''inlen'')'
+      FilePath:        '/build/extern/libtomcrypt/src/misc/hkdf/hkdf.c'
+      FileOffset:      2795
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/build/extern/libtomcrypt/src/misc/hkdf/hkdf.c'
+          FileOffset:      2821
+          Length:          5
+        - FilePath:        '/build/extern/libtomcrypt/src/misc/hkdf/hkdf.c'
+          FileOffset:      2833
+          Length:          6
+    Notes:
+      - Message:         'in the call to ''hmac_memory'', declared here'
+        FilePath:        '/build/extern/libtomcrypt/src/headers/tomcrypt_mac.h'
+        FileOffset:      715
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/build/extern/libtomcrypt/src/headers/tomcrypt_mac.h'
+            FileOffset:      793
+            Length:          6
+          - FilePath:        '/build/extern/libtomcrypt/src/headers/tomcrypt_mac.h'
+            FileOffset:      857
+            Length:          5
+    Level:           Warning
+    BuildDirectory:  '/build/extern/libtomcrypt'
+...
