@@ -659,7 +659,7 @@ public:
 
 	MemBigHunk(MemBigHunk** top, size_t l)
 		: next(NULL), prev(NULL), length(l),
-		  block(new(((UCHAR*) this) + hdrSize()) MemBlock(MemBlock::HUGE_BLOCK, length - hdrSize()))
+		  block(new(((UCHAR*) this) + hdrSize() - sizeof(MemBlock)) MemBlock(MemBlock::HUGE_BLOCK, length - hdrSize()))
 	{
 		SemiDoubleLink::push(top, this);
 	}
