@@ -511,7 +511,7 @@ static bool execute(sdl_arg* arg)
  *
  **************************************/
 	SLONG* variable;
-	SLONG stack[64];
+	SLONG stack[64]{0};
 	SLONG value, count;
 	dsc element_desc;
 
