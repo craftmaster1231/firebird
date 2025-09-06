@@ -4357,14 +4357,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''const USHORT'' (aka ''const unsigned short'') to ''UCHAR'' (aka ''unsigned char'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      275949
+      FileOffset:      275952
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      275940
+          FileOffset:      275943
           Length:          22
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      275913
+          FileOffset:      275916
           Length:          4
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4372,14 +4372,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''ULONG'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      276867
+      FileOffset:      276870
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      276858
+          FileOffset:      276861
           Length:          147
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      276856
+          FileOffset:      276859
           Length:          1
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4387,11 +4387,11 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused variable ''tdbb'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      278488
+      FileOffset:      278491
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      278488
+          FileOffset:      278491
           Length:          4
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4399,7 +4399,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         switching on non-enum value without default case may not cover all cases
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      283360
+      FileOffset:      283363
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4407,7 +4407,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         '''switch'' missing ''default'' label'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      283360
+      FileOffset:      283363
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4415,14 +4415,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''size_type'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      295354
+      FileOffset:      295357
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      295336
+          FileOffset:      295339
           Length:          28
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      295247
+          FileOffset:      295250
           Length:          3
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4430,7 +4430,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''tdbb'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      296212
+      FileOffset:      296215
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4438,7 +4438,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''csb'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      296235
+      FileOffset:      296238
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4446,7 +4446,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''desc'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      296245
+      FileOffset:      296248
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4454,7 +4454,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''tdbb'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      296320
+      FileOffset:      296323
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4462,7 +4462,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''copier'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      296338
+      FileOffset:      296341
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4470,7 +4470,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''tdbb'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      296436
+      FileOffset:      296439
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4478,7 +4478,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''csb'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      296459
+      FileOffset:      296462
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4486,7 +4486,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''tdbb'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      296548
+      FileOffset:      296551
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4494,7 +4494,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''csb'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      296571
+      FileOffset:      296574
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4502,7 +4502,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''tdbb'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      296652
+      FileOffset:      296655
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4510,7 +4510,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''request'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      296667
+      FileOffset:      296670
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4518,14 +4518,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''ULONG'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      301707
+      FileOffset:      301710
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      301674
+          FileOffset:      301677
           Length:          61
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      301672
+          FileOffset:      301675
           Length:          1
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4533,7 +4533,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''dsqlScratch'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      303524
+      FileOffset:      303527
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4541,7 +4541,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''makeDesc'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      303565
+      FileOffset:      303568
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4549,7 +4549,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''forceVarChar'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      303580
+      FileOffset:      303583
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4557,14 +4557,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''int'' to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      328416
+      FileOffset:      328419
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      328416
+          FileOffset:      328419
           Length:          85
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      328414
+          FileOffset:      328417
           Length:          1
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4572,14 +4572,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''FB_UINT64'' (aka ''unsigned long long'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      329644
+      FileOffset:      329647
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      329644
+          FileOffset:      329647
           Length:          6
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      329642
+          FileOffset:      329645
           Length:          1
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4587,14 +4587,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''const ULONG'' (aka ''const unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      330208
+      FileOffset:      330211
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      330208
+          FileOffset:      330211
           Length:          6
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      330206
+          FileOffset:      330209
           Length:          1
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4602,14 +4602,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''ULONG'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      337152
+      FileOffset:      337155
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      337152
+          FileOffset:      337155
           Length:          10
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      337150
+          FileOffset:      337153
           Length:          1
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4617,14 +4617,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''ULONG'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      337186
+      FileOffset:      337189
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      337186
+          FileOffset:      337189
           Length:          9
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      337184
+          FileOffset:      337187
           Length:          1
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4632,14 +4632,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''ULONG'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      337816
+      FileOffset:      337819
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      337807
+          FileOffset:      337810
           Length:          116
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      337805
+          FileOffset:      337808
           Length:          1
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4647,14 +4647,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''FB_SIZE_T'' (aka ''unsigned int'') to ''const USHORT'' (aka ''const unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      339183
+      FileOffset:      339186
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      339178
+          FileOffset:      339181
           Length:          13
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      339170
+          FileOffset:      339173
           Length:          5
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4662,14 +4662,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''size_type'' (aka ''unsigned int'') to ''UCHAR'' (aka ''unsigned char'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      341048
+      FileOffset:      341051
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      341036
+          FileOffset:      341039
           Length:          22
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      341024
+          FileOffset:      341027
           Length:          11
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4677,14 +4677,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''size_type'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      350737
+      FileOffset:      350740
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      350733
+          FileOffset:      350736
           Length:          14
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      350634
+          FileOffset:      350637
           Length:          3
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4692,14 +4692,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''ULONG'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      355314
+      FileOffset:      355317
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      355314
+          FileOffset:      355317
           Length:          11
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      355305
+          FileOffset:      355308
           Length:          8
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4707,14 +4707,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''ULONG'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      355411
+      FileOffset:      355414
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      355407
+          FileOffset:      355410
           Length:          200
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      355405
+          FileOffset:      355408
           Length:          1
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4722,14 +4722,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''size_type'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      365641
+      FileOffset:      365644
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      365627
+          FileOffset:      365630
           Length:          24
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      365614
+          FileOffset:      365617
           Length:          12
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4737,14 +4737,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''size_type'' (aka ''unsigned int'') to ''USHORT'' (aka ''unsigned short'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      365845
+      FileOffset:      365848
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      365833
+          FileOffset:      365836
           Length:          22
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      365820
+          FileOffset:      365823
           Length:          12
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4752,14 +4752,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''size_type'' (aka ''unsigned int'') to ''UCHAR'' (aka ''unsigned char'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      366357
+      FileOffset:      366360
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      366345
+          FileOffset:      366348
           Length:          22
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      366333
+          FileOffset:      366336
           Length:          11
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4767,11 +4767,11 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused variable ''attachment'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      372935
+      FileOffset:      372938
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      372935
+          FileOffset:      372938
           Length:          10
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4779,7 +4779,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''blrOp'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      386498
+      FileOffset:      386501
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4787,14 +4787,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''ValueType'' (aka ''unsigned short'') to ''UCHAR'' (aka ''unsigned char'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      388903
+      FileOffset:      388906
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      388903
+          FileOffset:      388906
           Length:          14
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      388891
+          FileOffset:      388894
           Length:          11
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4802,14 +4802,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion loses integer precision: ''USHORT'' (aka ''unsigned short'') to ''UCHAR'' (aka ''unsigned char'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      388968
+      FileOffset:      388971
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      388959
+          FileOffset:      388962
           Length:          18
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      388947
+          FileOffset:      388950
           Length:          11
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4817,7 +4817,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'unused parameter ''dsqlScratch'''
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      389589
+      FileOffset:      389592
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -4825,14 +4825,14 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'implicit conversion turns floating-point number into integer: ''double'' to ''SINT64'' (aka ''long long'')'
       FilePath:        '/build/src/dsql/ExprNodes.cpp'
-      FileOffset:      394678
+      FileOffset:      394681
       Replacements:    []
       Ranges:
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      394678
+          FileOffset:      394681
           Length:          11
         - FilePath:        '/build/src/dsql/ExprNodes.cpp'
-          FileOffset:      394655
+          FileOffset:      394658
           Length:          8
     Level:           Warning
     BuildDirectory:  '/build/gen'
