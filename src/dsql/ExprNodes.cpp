@@ -10089,7 +10089,7 @@ dsc* ParameterNode::execute(thread_db* tdbb, Request* request) const
 						break;
 
 					default:
-						len = 0;
+						len = 0; //
 						break;
 				}
 

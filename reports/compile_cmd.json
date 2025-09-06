@@ -1,12 +1,12 @@
 [
   {
     "directory": "/build/extern/libcds/lib/Release/CMakeFiles/CMakeTmp",
-    "command": "/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -imultiarch x86_64-linux-gnu /build/extern/libcds/lib/Release/arch.c -quiet -dumpdir CMakeFiles/cmTC_22059.dir/ -dumpbase arch.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -fasynchronous-unwind-tables -o /tmp/ccvRcFTr.s",
+    "command": "/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -imultiarch x86_64-linux-gnu /build/extern/libcds/lib/Release/arch.c -quiet -dumpdir CMakeFiles/cmTC_77aa7.dir/ -dumpbase arch.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -fasynchronous-unwind-tables -o /tmp/cchX4pDr.s",
     "file": "/build/extern/libcds/lib/Release/arch.c"
   },
   {
     "directory": "/build/extern/libcds/lib/Release/CMakeFiles/CMakeTmp",
-    "command": "/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -imultiarch x86_64-linux-gnu /build/extern/libcds/lib/Release/arch.c -quiet -dumpdir CMakeFiles/cmTC_22059.dir/ -dumpbase arch.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -fasynchronous-unwind-tables -o /tmp/ccvRcFTr.s",
+    "command": "/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -imultiarch x86_64-linux-gnu /build/extern/libcds/lib/Release/arch.c -quiet -dumpdir CMakeFiles/cmTC_77aa7.dir/ -dumpbase arch.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -fasynchronous-unwind-tables -o /tmp/cchX4pDr.s",
     "file": "arch.c.c"
   },
   {
@@ -23,21 +23,6 @@
     "directory": "/build/gen",
     "command": "/usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -I /build/src/include/gen -I /build/src/include -I /build/extern/boost -I /build/extern/libcds -I /build/extern/libtommath -I /build/extern/libtomcrypt/src/headers -I /build/extern/re2 -imultiarch x86_64-linux-gnu -MMD /build/temp/Release/common/sdl.d -MQ /build/temp/Release/common/sdl.o -D_GNU_SOURCE -D CDS_BUILD_STATIC_LIB -D FB_SEND_FLAGS=MSG_NOSIGNAL -D LINUX -D AMD64 /build/src/common/sdl.cpp -quiet -dumpdir /build/temp/Release/common/ -dumpbase sdl.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -ggdb -O3 -Werror=delete-incomplete -Werror=return-type -Wno-invalid-offsetof -Wno-class-memaccess -std=c++20 -fPIC -fmessage-length=0 -fno-omit-frame-pointer -fno-rtti -fasynchronous-unwind-tables -o -",
     "file": "sdl.cpp"
-  },
-  {
-    "directory": "/build/gen",
-    "command": "/usr/bin/g++ -I/build/src/include/gen -I/build/src/include -I/build/extern/boost -I/build/extern/libcds -DCDS_BUILD_STATIC_LIB -I/build/extern/libtommath -I/build/extern/libtomcrypt/src/headers -I/build/extern/re2 -ggdb -DFB_SEND_FLAGS=MSG_NOSIGNAL -DLINUX -DAMD64 -pipe -MMD -fPIC -fmessage-length=0 -O3 -fno-omit-frame-pointer -fno-rtti -std=c++20 -Werror=delete-incomplete -Werror=return-type -Wno-invalid-offsetof -Wno-class-memaccess -c /build/src/dsql/ExprNodes.cpp -o /build/temp/Release/dsql/ExprNodes.o",
-    "file": "/build/src/dsql/ExprNodes.cpp"
-  },
-  {
-    "directory": "/build/gen",
-    "command": "/usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -I /build/src/include/gen -I /build/src/include -I /build/extern/boost -I /build/extern/libcds -I /build/extern/libtommath -I /build/extern/libtomcrypt/src/headers -I /build/extern/re2 -imultiarch x86_64-linux-gnu -MMD /build/temp/Release/dsql/ExprNodes.d -MQ /build/temp/Release/dsql/ExprNodes.o -D_GNU_SOURCE -D CDS_BUILD_STATIC_LIB -D FB_SEND_FLAGS=MSG_NOSIGNAL -D LINUX -D AMD64 /build/src/dsql/ExprNodes.cpp -quiet -dumpdir /build/temp/Release/dsql/ -dumpbase ExprNodes.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -ggdb -O3 -Werror=delete-incomplete -Werror=return-type -Wno-invalid-offsetof -Wno-class-memaccess -std=c++20 -fPIC -fmessage-length=0 -fno-omit-frame-pointer -fno-rtti -fasynchronous-unwind-tables -o -",
-    "file": "/build/src/dsql/ExprNodes.cpp"
-  },
-  {
-    "directory": "/build/gen",
-    "command": "/usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -I /build/src/include/gen -I /build/src/include -I /build/extern/boost -I /build/extern/libcds -I /build/extern/libtommath -I /build/extern/libtomcrypt/src/headers -I /build/extern/re2 -imultiarch x86_64-linux-gnu -MMD /build/temp/Release/dsql/ExprNodes.d -MQ /build/temp/Release/dsql/ExprNodes.o -D_GNU_SOURCE -D CDS_BUILD_STATIC_LIB -D FB_SEND_FLAGS=MSG_NOSIGNAL -D LINUX -D AMD64 /build/src/dsql/ExprNodes.cpp -quiet -dumpdir /build/temp/Release/dsql/ -dumpbase ExprNodes.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -ggdb -O3 -Werror=delete-incomplete -Werror=return-type -Wno-invalid-offsetof -Wno-class-memaccess -std=c++20 -fPIC -fmessage-length=0 -fno-omit-frame-pointer -fno-rtti -fasynchronous-unwind-tables -o -",
-    "file": "ExprNodes.cpp"
   },
   {
     "directory": "/build/gen/examples",

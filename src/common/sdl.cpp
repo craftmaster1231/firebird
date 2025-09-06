@@ -535,7 +535,7 @@ static bool execute(sdl_arg* arg)
 			*--stack_ptr = variables[*next++];
 			break;
 
-		case op_add:
+		case op_add: //
 			if (stack_ptr >= stack + FB_NELEM(stack) - 1) {
 				return false;
 			}

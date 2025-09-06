@@ -211,7 +211,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         '''signed char'' to ''SLONG'' (aka ''int'') conversion; consider casting to ''unsigned char'' first.'
       FilePath:        '/build/src/common/sdl.cpp'
-      FileOffset:      16589
+      FileOffset:      16592
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -219,7 +219,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         switching on non-enum value without default case may not cover all cases
       FilePath:        '/build/src/common/sdl.cpp'
-      FileOffset:      17119
+      FileOffset:      17122
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
@@ -227,7 +227,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         '''switch'' missing ''default'' label'
       FilePath:        '/build/src/common/sdl.cpp'
-      FileOffset:      17119
+      FileOffset:      17122
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/build/gen'
