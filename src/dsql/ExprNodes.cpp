@@ -10087,6 +10087,10 @@ dsc* ParameterNode::execute(thread_db* tdbb, Request* request) const
 						len = reinterpret_cast<const vary*>(p)->vary_length;
 						p += sizeof(USHORT);
 						break;
+
+					default:
+						len = 0;
+						break;
 				}
 
 				auto charSet = INTL_charset_lookup(tdbb, DSC_GET_CHARSET(retDesc));

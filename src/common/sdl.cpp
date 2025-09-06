@@ -536,23 +536,39 @@ static bool execute(sdl_arg* arg)
 			break;
 
 		case op_add:
-			value = *stack_ptr++;
-			*stack_ptr += value;
+			if (stack_ptr >= stack + FB_NELEM(stack) - 1) {
+				return false;
+			}
+			value = stack_ptr[0];
+			stack_ptr[1] += value;
+			stack_ptr++;
 			break;
 
 		case op_subtract:
-			value = *stack_ptr++;
-			*stack_ptr -= value;
+			if (stack_ptr >= stack + FB_NELEM(stack) - 1) {
+				return false;
+			}
+			value = stack_ptr[0];
+			stack_ptr[1] -= value;
+			stack_ptr++;
 			break;
 
 		case op_multiply:
-			value = *stack_ptr++;
-			*stack_ptr *= value;
+			if (stack_ptr >= stack + FB_NELEM(stack) - 1) {
+				return false;
+			}
+			value = stack_ptr[0];
+			stack_ptr[1] *= value;
+			stack_ptr++;
 			break;
 
 		case op_divide:
-			value = *stack_ptr++;
-			*stack_ptr /= value;
+			if (stack_ptr >= stack + FB_NELEM(stack) - 1) {
+				return false;
+			}
+			value = stack_ptr[0];
+			stack_ptr[1] /= value;
+			stack_ptr++;
 			break;
 
 		case op_goto:
