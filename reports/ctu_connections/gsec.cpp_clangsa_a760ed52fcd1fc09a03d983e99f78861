@@ -1,8 +1,0 @@
-/build/src/common/classes/ClumpletReader.cpp
-/build/src/common/classes/Switches.cpp
-/build/src/common/fb_exception.cpp
-/build/src/common/ThreadData.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/common/classes/MsgPrint.cpp
-/build/src/common/security.cpp

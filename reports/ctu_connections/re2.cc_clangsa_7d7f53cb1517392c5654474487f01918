@@ -1,8 +1,0 @@
-/build/extern/re2/re2/nfa.cc
-/build/extern/re2/re2/dfa.cc
-/build/extern/re2/util/rune.cc
-/build/extern/re2/util/strutil.cc
-/build/src/common/classes/alloc.cpp
-/build/extern/re2/re2/bitstate.cc
-/build/extern/re2/re2/stringpiece.cc
-/build/extern/re2/re2/compile.cc

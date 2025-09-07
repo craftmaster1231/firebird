@@ -1,8 +1,0 @@
-/build/src/common/StatusArg.cpp
-/build/extern/decNumber/decContext.c
-/build/src/common/DynamicStrings.cpp
-/build/src/common/DecFloat.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/common/fb_exception.cpp
-/build/src/common/utils.cpp

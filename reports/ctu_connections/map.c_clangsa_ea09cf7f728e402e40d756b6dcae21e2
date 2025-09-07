@@ -1,7 +1,0 @@
-/build/extern/editline/src/parse.c
-/build/extern/editline/src/keymacro.c
-/build/extern/editline/src/terminal.c
-/build/extern/editline/src/help.c
-/build/extern/editline/src/chartype.c
-/build/extern/editline/src/fcns.c
-/build/extern/editline/src/wcsdup.c

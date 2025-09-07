@@ -1,8 +1,0 @@
-/build/src/common/StatusArg.cpp
-/build/extern/libtommath/bn_mp_init.c
-/build/extern/libtommath/bn_mp_exptmod.c
-/build/src/common/classes/alloc.cpp
-/build/src/common/classes/fb_string.cpp
-/build/extern/libtommath/bn_mp_init_copy.c
-/build/extern/libtommath/bn_prime_tab.c
-/build/src/common/fb_exception.cpp

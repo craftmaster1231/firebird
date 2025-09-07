@@ -1,8 +1,0 @@
-/build/src/jrd/Database.cpp
-/build/src/common/TimeZoneUtil.cpp
-/build/src/common/classes/NoThrowTimeStamp.cpp
-/build/src/common/os/posix/path_utils.cpp
-/build/src/common/ThreadData.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/common/fb_exception.cpp

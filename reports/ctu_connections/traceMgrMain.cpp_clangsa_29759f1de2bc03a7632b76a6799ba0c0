@@ -1,8 +1,0 @@
-/build/src/common/utils.cpp
-/build/src/common/classes/ClumpletReader.cpp
-/build/src/common/os/posix/isc_ipc.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/common/UtilSvc.cpp
-/build/src/jrd/trace/TraceCmdLine.cpp
-/build/src/common/os/posix/os_utils.cpp

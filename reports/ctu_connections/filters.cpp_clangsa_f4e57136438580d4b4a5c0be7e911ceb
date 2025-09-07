@@ -1,8 +1,0 @@
-/build/src/jrd/err.cpp
-/build/src/common/TimeZoneUtil.cpp
-/build/src/common/classes/NoThrowTimeStamp.cpp
-/build/src/common/ThreadData.cpp
-/build/src/jrd/DebugInterface.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/yvalve/gds.cpp

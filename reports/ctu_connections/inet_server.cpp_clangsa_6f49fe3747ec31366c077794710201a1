@@ -1,8 +1,0 @@
-/build/src/common/config/config.cpp
-/build/src/common/classes/ClumpletReader.cpp
-/build/src/common/classes/ImplementHelper.cpp
-/build/src/remote/remote.cpp
-/build/src/common/os/posix/divorce.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/yvalve/gds.cpp
-/build/src/common/isc.cpp

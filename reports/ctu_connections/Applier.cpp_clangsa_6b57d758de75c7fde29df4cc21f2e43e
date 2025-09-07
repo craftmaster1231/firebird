@@ -1,8 +1,0 @@
-/build/src/jrd/Monitoring.cpp
-/build/src/common/TimeZoneUtil.cpp
-/build/src/common/classes/NoThrowTimeStamp.cpp
-/build/src/dsql/ExprNodes.cpp
-/build/src/common/classes/alloc.cpp
-/build/src/common/classes/fb_string.cpp
-/build/src/jrd/jrd.cpp
-/build/src/jrd/replication/Utils.cpp
