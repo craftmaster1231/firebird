@@ -30,3 +30,8 @@ extern/ttmath/release/
 /src/include/gen/autoconfig.h
 extern/libcds/lib/
 /vcpkg_installed/
+skipfile.txt
+codechecker.yaml
+codechecker_build.json
+reports/
+report_html/
