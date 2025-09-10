@@ -676,7 +676,7 @@ static const UCHAR* get_range(const UCHAR* sdl, array_range* arg,
  *	of array references.
  *
  **************************************/
-	SLONG n, variable, value, min1 = 0, max1 = 0, min2 = 0, max2 = 0, junk1, junk2;
+	SLONG n, variable, value, min1 = 0, max1, min2 = 0, max2, junk1, junk2;
 	sdl_info* info;
 
 	const UCHAR* p = sdl;
