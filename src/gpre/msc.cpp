@@ -62,7 +62,7 @@ static gpre_lls* free_lls;
 
 
 //____________________________________________________________
-//
+//Access to field 'spc_next' results in a dereference of a null pointer (loaded from variable 'next')
 //		Make an action and link it to a request.
 //
 
@@ -94,8 +94,12 @@ UCHAR* MSC_alloc(int size)
 	{
 		const int n = MAX(size, 4096);
 		gpre_space* next = (gpre_space*) gds__alloc((SLONG) (n + sizeof(gpre_space)));
-		if (!next)
+		if (!next) {
 			CPR_error("virtual memory exhausted");
+
+			exit(EXIT_FAILURE);
+		}
+
 #ifdef DEBUG_GDS_ALLOC
 		// For V4.0 we don't care about gpre specific memory leaks
 		gds_alloc_flag_unfreed(next);
