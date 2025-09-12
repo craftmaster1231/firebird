@@ -42,7 +42,7 @@ unsigned makeDynamicStrings(unsigned length, ISC_STATUS* const dst, const ISC_ST
 	const ISC_STATUS* end = &src[length];
 
 	// allocate space for strings
-	size_t len = 1;
+	size_t len = 0;
 	for (const ISC_STATUS* from = src; from < end; ++from)
 	{
 		const ISC_STATUS type = *from++;
@@ -87,9 +87,15 @@ unsigned makeDynamicStrings(unsigned length, ISC_STATUS* const dst, const ISC_ST
 		case isc_arg_cstring:
 			fb_assert(string);
 			*to++ = (ISC_STATUS)(IPTR) string;
-			memcpy(string, reinterpret_cast<const char*>(from[1]), from[0]);
-			string += *from++;
-			*string++ = '\0';
+
+			if ((from[0] > 0) && (from[1] != nullptr)) {
+				memcpy(string, reinterpret_cast<const char*>(from[1]), from[0]);
+				string += *from++;
+				*string++ = '\0';
+			} else {
+				*string++ = '\0';
+			}
+
 			break;
 
 		case isc_arg_string:
@@ -97,9 +103,15 @@ unsigned makeDynamicStrings(unsigned length, ISC_STATUS* const dst, const ISC_ST
 		case isc_arg_sql_state:
 			fb_assert(string);
 			*to++ = (ISC_STATUS)(IPTR) string;
-			strcpy(string, reinterpret_cast<const char*>(*from));
-			string += strlen(string);
-			string++;
+
+			if (*from != nullptr) {
+				strcpy(string, reinterpret_cast<const char*>(*from));
+				string += strlen(string);
+				string++;
+			} else {
+				*string++ = '\0';
+			}
+
 			break;
 
 		default:
