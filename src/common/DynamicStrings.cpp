@@ -42,7 +42,7 @@ unsigned makeDynamicStrings(unsigned length, ISC_STATUS* const dst, const ISC_ST
 	const ISC_STATUS* end = &src[length];
 
 	// allocate space for strings
-	size_t len = 0;
+	size_t len = 1;
 	for (const ISC_STATUS* from = src; from < end; ++from)
 	{
 		const ISC_STATUS type = *from++;
