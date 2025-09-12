@@ -88,13 +88,15 @@ unsigned makeDynamicStrings(unsigned length, ISC_STATUS* const dst, const ISC_ST
 			fb_assert(string);
 			*to++ = (ISC_STATUS)(IPTR) string;
 
-			if ((from[0] > 0) && (from[1] != nullptr)) {
+			if ((string != nullptr) && ((from[0] > 0) && (reinterpret_cast<const char*>(from[1]) != nullptr))) {
 				memcpy(string, reinterpret_cast<const char*>(from[1]), from[0]);
-				string += *from++;
+				string += from[0];
 				*string++ = '\0';
-			} else {
+			} else if (string != nullptr) {
 				*string++ = '\0';
 			}
+
+			from += 2;
 
 			break;
 
@@ -104,18 +106,22 @@ unsigned makeDynamicStrings(unsigned length, ISC_STATUS* const dst, const ISC_ST
 			fb_assert(string);
 			*to++ = (ISC_STATUS)(IPTR) string;
 
-			if (*from != nullptr) {
+			if ((string != nullptr) && (reinterpret_cast<const char*>(*from) != nullptr)) {
 				strcpy(string, reinterpret_cast<const char*>(*from));
 				string += strlen(string);
 				string++;
-			} else {
+			} else if (string != nullptr) {
 				*string++ = '\0';
 			}
+
+			from++;
 
 			break;
 
 		default:
 			*to++ = *from;
+			from++;
+
 			break;
 		}
 	}
