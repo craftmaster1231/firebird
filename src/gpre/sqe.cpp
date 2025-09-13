@@ -3780,7 +3780,6 @@ static gpre_fld* resolve(gpre_nod* node,
 		}
 	}
 
-
 	if (field && found_context)
 		*found_context = context;
 

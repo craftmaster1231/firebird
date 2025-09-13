@@ -569,8 +569,14 @@ void SQLDAMetadata::gatherData(DataBuffer& to)
 		fb_assert(data + len < result + length);
 
 		// Copy data - unless known to be NULL.
-		if (!*nullInd)
-			memcpy(data, var.sqldata, len);
+		if (!*nullInd) {
+			if (var.sqldata != nullptr) {
+				memcpy(data, var.sqldata, len);
+			} else {
+				fb_assert(false);
+				memcpy(data, 0, len);
+			}
+		}
 	}
 }
 
