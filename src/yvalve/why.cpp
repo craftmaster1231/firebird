@@ -575,7 +575,7 @@ void SQLDAMetadata::gatherData(DataBuffer& to)
 			} else {
 				fb_assert(false);
 
-				memzero(data, len);
+				memset(data, 0, len);
 			}
 		}
 	}
