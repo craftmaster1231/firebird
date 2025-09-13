@@ -62,7 +62,7 @@ static gpre_lls* free_lls;
 
 
 //____________________________________________________________
-//Access to field 'spc_next' results in a dereference of a null pointer (loaded from variable 'next')
+//
 //		Make an action and link it to a request.
 //
 
