@@ -574,7 +574,8 @@ void SQLDAMetadata::gatherData(DataBuffer& to)
 				memcpy(data, var.sqldata, len);
 			} else {
 				fb_assert(false);
-				memcpy(data, 0, len);
+
+				memzero(data, len);
 			}
 		}
 	}
