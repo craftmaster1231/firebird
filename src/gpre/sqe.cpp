@@ -3787,8 +3787,14 @@ static gpre_fld* resolve(gpre_nod* node,
 	// Check for valid array field
 	// Check dimensions
 	// Set remaining fields for slice
+
 	slc* slice;
+
 	gpre_req* slice_req = (gpre_req*) node->nod_arg[2];
+
+	if (field == NULL)
+		return NULL;
+
 	if (slice_req && (slice = slice_req->req_slice) && slice_action)
 	{
 		slice = slice_req->req_slice;
