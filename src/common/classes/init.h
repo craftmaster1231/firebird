@@ -185,7 +185,11 @@ public:
 #else
 #define FB_LOCKED_FROM NULL
 #endif
-	{ }
+	{
+#ifndef DEV_BUILD
+       		(void)f;
+#endif
+    	 }
 	void init()
 	{
 		if (!flag)
