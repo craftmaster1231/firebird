@@ -129,6 +129,7 @@ protected:
 		if (mark)
 			fprintf(stderr, "%s %p %c %d\n", mark, this, f, int(refCounter));
 #endif
+		(void)f;
 	}
 
 	AtomicCounter refCounter;
@@ -148,6 +149,9 @@ public:
 		: RefCntIface<C>(m), owner(NULL)
 #else
 		: owner(NULL)
+	{
+		(void)m;
+	}
 #endif
 	{ }
 
