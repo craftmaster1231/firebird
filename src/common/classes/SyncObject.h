@@ -30,7 +30,7 @@
  */
 
 #ifndef CLASSES_SYNCOBJECT_H
-#define CLASSES_SYNCOBJECT_Hf
+#define CLASSES_SYNCOBJECT_H
 
 #include "../../common/classes/fb_atomic.h"
 #include "../../common/classes/locks.h"
@@ -71,7 +71,6 @@ public:
 	{
 		const bool ret = lock(sync, type, from, -1);
 		fb_assert(ret);
-		(void)ret;
 	}
 
 	// timeOut is in milliseconds, -1 - wait infinite

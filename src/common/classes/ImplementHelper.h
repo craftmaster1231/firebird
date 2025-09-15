@@ -128,8 +128,6 @@ protected:
 #ifdef DEV_BUILD
 		if (mark)
 			fprintf(stderr, "%s %p %c %d\n", mark, this, f, int(refCounter));
-#else
-		(void)f;
 #endif
 	}
 
@@ -150,10 +148,8 @@ public:
 		: RefCntIface<C>(m), owner(NULL)
 #else
 		: owner(NULL)
-	{ 
-		(void)m;
-	}
 #endif
+	{ }
 
 	IReferenceCounted* getOwner() override
 	{
