@@ -140,7 +140,7 @@ inline constexpr USHORT ODS_CURRENT14	= 0;
 
 inline constexpr USHORT ENCODE_ODS(USHORT major, USHORT minor)
 {
-	return ((major << 4) | minor);
+	 return static_cast<USHORT>((major << 4) | minor);
 }
 
 inline constexpr USHORT ODS_8_0		= ENCODE_ODS(ODS_VERSION8, 0);
