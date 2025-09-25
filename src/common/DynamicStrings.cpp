@@ -87,9 +87,17 @@ unsigned makeDynamicStrings(unsigned length, ISC_STATUS* const dst, const ISC_ST
 		case isc_arg_cstring:
 			fb_assert(string);
 			*to++ = (ISC_STATUS)(IPTR) string;
-			memcpy(string, reinterpret_cast<const char*>(from[1]), from[0]);
-			string += *from++;
-			*string++ = '\0';
+
+			if ((string != nullptr) && ((from[0] > 0) && (reinterpret_cast<const char*>(from[1]) != nullptr))) {
+				memcpy(string, reinterpret_cast<const char*>(from[1]), from[0]);
+				string += from[0];
+				*string++ = '\0';
+			} else if (string != nullptr) {
+				*string++ = '\0';
+			}
+
+			from += 2;
+
 			break;
 
 		case isc_arg_string:
@@ -97,13 +105,23 @@ unsigned makeDynamicStrings(unsigned length, ISC_STATUS* const dst, const ISC_ST
 		case isc_arg_sql_state:
 			fb_assert(string);
 			*to++ = (ISC_STATUS)(IPTR) string;
-			strcpy(string, reinterpret_cast<const char*>(*from));
-			string += strlen(string);
-			string++;
+
+			if ((string != nullptr) && (reinterpret_cast<const char*>(*from) != nullptr)) {
+				strcpy(string, reinterpret_cast<const char*>(*from));
+				string += strlen(string);
+				string++;
+			} else if (string != nullptr) {
+				*string++ = '\0';
+			}
+
+			from++;
+
 			break;
 
 		default:
 			*to++ = *from;
+			from++;
+
 			break;
 		}
 	}
