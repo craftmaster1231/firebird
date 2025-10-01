@@ -177,7 +177,7 @@ private:
 	const char* from;
 #endif
 public:
-	explicit InitMutex(const char* f) noexcept
+	explicit InitMutex([[maybe_unused]] const char* f) noexcept
 		: flag(false)
 #ifdef DEV_BUILD
 			  , from(f)
@@ -185,11 +185,7 @@ public:
 #else
 #define FB_LOCKED_FROM NULL
 #endif
-	{
-#ifndef DEV_BUILD
-		(void)f;
-#endif
-       	}
+	{}
 	void init()
 	{
 		if (!flag)
