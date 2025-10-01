@@ -2810,7 +2810,14 @@ Batch::Batch(Statement* s, IMessageMetadata* inFmt, unsigned parLength, const un
 	CHECK_HANDLE(rdb, isc_bad_db_handle);
 	rem_port* port = rdb->rdb_port;
 	blobBufferSize = port->getPortConfig()->getClientBatchBuffer();
-	messageBufferSize = blobBufferSize / alignedSize;
+	if(alignedSize > 0)
+	{	
+		messageBufferSize = blobBufferSize / alignedSize;
+	}
+	else
+	{
+		messageBufferSize = 0;
+	}
 	if (!messageBufferSize)
 		messageBufferSize = 1;
 
