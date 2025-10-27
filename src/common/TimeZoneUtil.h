@@ -67,13 +67,13 @@ public:
 	static constexpr UDate timeStampToIcuDate(ISC_TIMESTAMP ts) noexcept
 	{
 		return (TimeStamp::timeStampToTicks(ts) -
-			((TimeStamp::UNIX_DATE - TimeStamp::MIN_DATE) * TimeStamp::ISC_TICKS_PER_DAY)) /
-			(ISC_TIME_SECONDS_PRECISION / 1000);
+			((TimeStamp::UNIX_DATE - TimeStamp::MIN_DATE) * TimeStamp::ISC_TICKS_PER_DAY) /
+			(ISC_TIME_SECONDS_PRECISION / 1000.0));
 	}
 
 	static constexpr ISC_TIMESTAMP icuDateToTimeStamp(UDate icuDate) noexcept
 	{
-		return TimeStamp::ticksToTimeStamp(icuDate * (ISC_TIME_SECONDS_PRECISION / 1000) +
+		return TimeStamp::ticksToTimeStamp(icuDate * (ISC_TIME_SECONDS_PRECISION / 1000.0) +
 			((TimeStamp::UNIX_DATE - TimeStamp::MIN_DATE) * TimeStamp::ISC_TICKS_PER_DAY));
 	}
 
