@@ -3667,10 +3667,10 @@ dsc* evlEncodeDecodeHex(thread_db* tdbb, bool encodeFlag, const SysFunction* fun
 
 	const unsigned BLOB_BUF = 4096;
 	UCHAR in[BLOB_BUF];
-	const UCHAR* ptr;
+	const UCHAR* ptr = nullptr;
 	unsigned len = 0;
 	HalfStaticArray<UCHAR, BLOB_BUF> out;
-	UCHAR last;
+	UCHAR last {};
 	unsigned pos = 0;
 	AutoPtr<blb> inBlob, outBlob;
 
