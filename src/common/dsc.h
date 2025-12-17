@@ -105,7 +105,7 @@ typedef struct dsc
 	UCHAR*	dsc_address = nullptr; // Used either as offset in a message or as a pointer
 
 #ifdef __cplusplus
-	SSHORT dsc_blob_ttype() const noexcept { return dsc_scale | (dsc_flags & 0xFF00);}
+	SSHORT dsc_blob_ttype() const noexcept { return static_cast<SSHORT>( static_cast<UCHAR>(dsc_scale) | (dsc_flags & 0xFF00)); }
 	SSHORT& dsc_ttype() noexcept { return dsc_sub_type;}
 	SSHORT dsc_ttype() const noexcept { return dsc_sub_type;}
 
@@ -277,7 +277,7 @@ typedef struct dsc
 		if (isBlob())
 		{
 			if (dsc_sub_type == isc_blob_text)
-				return dsc_scale | (dsc_flags & 0xFF00);
+				return static_cast<USHORT>(static_cast<UCHAR>(dsc_scale) | (dsc_flags & 0xFF00));
 
 			return CS_BINARY;
 		}

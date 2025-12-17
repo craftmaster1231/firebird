@@ -54,14 +54,14 @@ public:
 	// Cram a word into the blr buffer.
 	void appendUShort(USHORT word)
 	{
-		appendUChar(word);
-		appendUChar(word >> 8);
+		appendUChar(static_cast<UCHAR>(word));      
+		appendUChar(static_cast<UCHAR>(word >> 8));
 	}
 
 	void appendULong(ULONG val)
 	{
-		appendUShort(val);
-		appendUShort(val >> 16);
+		appendUShort(static_cast<USHORT>(val));      
+		appendUShort(static_cast<USHORT>(val >>16));
 	}
 
 	void appendUInt64(FB_UINT64 val)
@@ -89,8 +89,8 @@ public:
 		// CVC: Maybe the Release version should truncate "len" to 255?
 		fb_assert(len <= MAX_UCHAR);
 
-		appendUChar(static_cast<USHORT>(len));
-		appendBytes(reinterpret_cast<const UCHAR*>(string), static_cast<USHORT>(len));
+		appendUChar(static_cast<UCHAR>(len)); 
+    		appendBytes(reinterpret_cast<const UCHAR*>(string), static_cast<USHORT>(len));
 	}
 
 	// Write out a string valued attribute.

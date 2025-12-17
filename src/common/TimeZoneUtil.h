@@ -66,7 +66,7 @@ private:
 public:
 	static constexpr UDate timeStampToIcuDate(ISC_TIMESTAMP ts) noexcept
 	{
-		return (TimeStamp::timeStampToTicks(ts) -
+		return static_cast<UDate>(TimeStamp::timeStampToTicks(ts) -
 			((TimeStamp::UNIX_DATE - TimeStamp::MIN_DATE) * TimeStamp::ISC_TICKS_PER_DAY)) /
 			(ISC_TIME_SECONDS_PRECISION / 1000);
 	}
