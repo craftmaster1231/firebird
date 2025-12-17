@@ -64,7 +64,7 @@ public:
 	}
 
 public:
-	std::size_t extractBytes(std::uint8_t* buffer, std::size_t bufferSize) const
+	std::size_t extractBytes(std::uint8_t* buffer,[[maybe_unused]] std::size_t bufferSize) const
 	{
 		fb_assert(bufferSize >= bytes.size());
 		std::copy(bytes.begin(), bytes.end(), buffer);

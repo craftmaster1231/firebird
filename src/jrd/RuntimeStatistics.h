@@ -177,7 +177,7 @@ public:
 	}
 
 	RuntimeStatistics(const RuntimeStatistics& other)
-		: Firebird::AutoStorage(), rel_counts(getPool())
+	   	: Firebird::AutoStorage(other), rel_counts(getPool(), other.rel_counts) 
 	{
 		memcpy(values, other.values, sizeof(values));
 		rel_counts = other.rel_counts;
