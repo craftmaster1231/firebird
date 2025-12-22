@@ -5276,8 +5276,8 @@ void MET_store_dependencies(thread_db* tdbb,
 	{
 		CompilerScratch::Dependency dependency = dependencies.pop();
 
-		if (!dependency.relation && !dependency.function && !dependency.procedure &&
-			!dependency.name && !dependency.number)
+		if (!dependency.relation || !dependency.function || !dependency.procedure ||
+			!dependency.name || !dependency.number)
 		{
 			continue;
 		}
