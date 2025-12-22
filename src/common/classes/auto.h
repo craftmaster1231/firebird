@@ -42,7 +42,7 @@ class SimpleDelete
 public:
 	static void clear(What* ptr)
 	{
-		static_assert(sizeof(What) > 0, "can't delete pointer to incomplete type");
+		static_assert(sizeof(What), "can't delete pointer to incomplete type");
 		delete ptr;
 	}
 };
@@ -51,7 +51,7 @@ template <>
 inline void SimpleDelete<FILE>::clear(FILE* f)
 {
 	if (f) {
-		fclose(f);
+		(void)fclose(f);
 	}
 }
 
@@ -62,7 +62,8 @@ class ArrayDelete
 public:
 	static void clear(What* ptr)
 	{
-		static_assert(sizeof(What) > 0, "can't delete pointer to incomplete type");
+		using Element = std::remove_pointer_t<What*>;
+		static_assert(sizeof(Element), "can't delete pointer to incomplete type");
 		delete[] ptr;
 	}
 };

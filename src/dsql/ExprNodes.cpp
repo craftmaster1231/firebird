@@ -1659,7 +1659,7 @@ void ArithmeticNode::getDescDialect1(thread_db* /*tdbb*/, dsc* desc, const dsc& 
 void ArithmeticNode::getDescDialect3(thread_db* /*tdbb*/, dsc* desc, const dsc& desc1, const dsc& desc2, UCHAR blrOp,
 	SCHAR* nodScale, USHORT* nodFlags)
 {
-	USHORT dtype;
+	USHORT dtype = 0;
 
 	switch (blrOp)
 	{
@@ -5761,7 +5761,7 @@ dsc* ExtractNode::execute(thread_db* tdbb, Request* request) const
 	impure->vlu_desc.makeShort(0, &impure->vlu_misc.vlu_short);
 
 	tm times = {0};
-	int fractions;
+	int fractions = 0;
 	ISC_TIMESTAMP_TZ timeStampTz;
 
 	switch (value->dsc_dtype)
@@ -5878,7 +5878,7 @@ dsc* ExtractNode::execute(thread_db* tdbb, Request* request) const
 			break;
 	}
 
-	USHORT part;
+	USHORT part = 0;
 
 	switch (blrSubOp)
 	{
@@ -6060,7 +6060,7 @@ DmlNode* FieldNode::parse(thread_db* tdbb, MemoryPool& pool, CompilerScratch* cs
 	}
 
 	MetaName name;
-	SSHORT id;
+	SSHORT id = 0;
 	const StreamType stream = csb->csb_rpt[context].csb_stream;
 	bool is_column = false;
 	bool byId = false;
@@ -10071,7 +10071,7 @@ dsc* ParameterNode::execute(thread_db* tdbb, Request* request) const
 			if (DTYPE_IS_TEXT(retDesc->dsc_dtype))
 			{
 				const UCHAR* p = retDesc->dsc_address;
-				USHORT len;
+				USHORT len = 0;
 
 				switch (retDesc->dsc_dtype)
 				{

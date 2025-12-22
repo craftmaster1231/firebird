@@ -337,10 +337,19 @@ struct win
 	SSHORT win_scans;
 	USHORT win_flags;
 	explicit win(const PageNumber& wp) noexcept
-		: win_page(wp), win_bdb(NULL), win_flags(0)
+		: win_page(wp),
+		win_buffer(nullptr),
+	       	win_bdb(nullptr), 
+		win_flags(0),
+		win_scans(0)
+
 	{}
 	win(const USHORT pageSpaceID, const ULONG pageNum) noexcept
-		: win_page(pageSpaceID, pageNum), win_bdb(NULL), win_flags(0)
+		: win_page(pageSpaceID, pageNum),
+	       	win_bdb(nullptr),
+		win_buffer(nullptr),
+	       	win_flags(0),
+		win_scans(0)
 	{}
 };
 

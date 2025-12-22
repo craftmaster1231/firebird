@@ -872,7 +872,7 @@ public:
 	XpbBuilder(unsigned kind, const unsigned char* buf, unsigned len)
 		: pb(NULL), strVal(getPool())
 	{
-		ClumpletReader::Kind k;
+		ClumpletReader::Kind k = ClumpletReader::dpbList;
 		UCHAR tag = 0;
 		const ClumpletReader::KindList* kl = NULL;
 
