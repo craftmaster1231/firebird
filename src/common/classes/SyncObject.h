@@ -69,7 +69,7 @@ public:
 
 	void lock(Sync* sync, SyncType type, const char* from)
 	{
-		const bool ret = lock(sync, type, from, -1);
+		[[maybe_unused]] const bool ret = lock(sync, type, from, -1);
 		fb_assert(ret);
 	}
 

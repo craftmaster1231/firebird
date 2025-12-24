@@ -123,7 +123,7 @@ public:
 	}
 
 protected:
-	void refCntDPrt(char f)
+	void refCntDPrt([[maybe_unused]] char f)
 	{
 #ifdef DEV_BUILD
 		if (mark)
@@ -143,7 +143,7 @@ private:
 	IReferenceCounted* owner;
 
 public:
-	StdPlugin(const char* m = NULL)
+	StdPlugin([[maybe_unused]]const char* m = NULL)
 #ifdef DEV_BUILD
 		: RefCntIface<C>(m), owner(NULL)
 #else
