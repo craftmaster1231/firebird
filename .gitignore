@@ -29,3 +29,8 @@ extern/ttmath/release/
 /src/include/gen/autoconfig.auto
 /src/include/gen/autoconfig.h
 /vcpkg_installed/
+reports/
+report_html/
+skipfile.txt
+codechecker.yaml
+codechecker_build.json
