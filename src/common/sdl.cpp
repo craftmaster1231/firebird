@@ -511,7 +511,7 @@ static bool execute(sdl_arg* arg)
  *
  **************************************/
 	SLONG* variable;
-	SLONG stack[64];
+	SLONG stack[64]{0};
 	SLONG value, count;
 	dsc element_desc;
 
@@ -536,23 +536,39 @@ static bool execute(sdl_arg* arg)
 			break;
 
 		case op_add:
-			value = *stack_ptr++;
-			*stack_ptr += value;
+			if (stack_ptr >= stack + FB_NELEM(stack) - 1) {
+				return false;
+			}
+			value = stack_ptr[0];
+			stack_ptr[1] += value;
+			stack_ptr++;
 			break;
 
 		case op_subtract:
-			value = *stack_ptr++;
-			*stack_ptr -= value;
+			if (stack_ptr >= stack + FB_NELEM(stack) - 1) {
+				return false;
+			}
+			value = stack_ptr[0];
+			stack_ptr[1] -= value;
+			stack_ptr++;
 			break;
 
 		case op_multiply:
-			value = *stack_ptr++;
-			*stack_ptr *= value;
+			if (stack_ptr >= stack + FB_NELEM(stack) - 1) {
+				return false;
+			}
+			value = stack_ptr[0];
+			stack_ptr[1] *= value;
+			stack_ptr++;
 			break;
 
 		case op_divide:
-			value = *stack_ptr++;
-			*stack_ptr /= value;
+			if (stack_ptr >= stack + FB_NELEM(stack) - 1) {
+				return false;
+			}
+			value = stack_ptr[0];
+			stack_ptr[1] /= value;
+			stack_ptr++;
 			break;
 
 		case op_goto:
@@ -660,7 +676,7 @@ static const UCHAR* get_range(const UCHAR* sdl, array_range* arg,
  *	of array references.
  *
  **************************************/
-	SLONG n, variable, value, min1, max1, min2, max2, junk1, junk2;
+	SLONG n, variable, value, min1 = 0, max1 = 0, min2 = 0, max2 = 0, junk1, junk2;
 	sdl_info* info;
 
 	const UCHAR* p = sdl;
